@@ -1,0 +1,363 @@
+<meta name="dash-one-writer">
+<meta name="dash-form" content="freeform">
+<style>
+.iv { display: grid; gap: var(--cds-gap-xl); font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+.iv h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+.iv h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; text-wrap: balance; }
+.iv p { margin: 0; max-width: 72ch; line-height: 1.5; }
+.iv .muted { color: var(--color-fg-muted); }
+.iv .cap { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.iv .eyebrow { font-size: var(--cds-font-size-caption); letter-spacing: .06em; text-transform: uppercase; color: var(--color-fg-muted); }
+.iv section { display: grid; gap: var(--cds-gap-md); min-width: 0; }
+.iv .head { display: grid; gap: var(--cds-gap-sm); }
+.iv .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: var(--cds-gap-md); }
+.iv .card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: grid; gap: var(--cds-gap-xs); align-content: start; min-width: 0; }
+.iv .big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; line-height: 1.1; }
+.iv .chart { position: relative; min-height: 200px; min-width: 0; }
+.iv .chart svg { display: block; width: 100%; height: auto; }
+.iv .chart text { font-family: var(--font-anthropic-sans); }
+.iv .tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); box-shadow: var(--cds-shadow-popover); border-radius: var(--cds-radius); padding: 8px 10px; font-size: var(--cds-font-size-caption); line-height: 1.45; min-width: 180px; z-index: 2; }
+.iv .tip b { display: block; font-weight: var(--cds-font-weight-medium); }
+.iv .tablewrap { overflow-x: auto; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); }
+.iv table { border-collapse: collapse; width: 100%; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+.iv th, .iv td { padding: 7px 10px; text-align: right; border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+.iv th:first-child, .iv td:first-child { text-align: left; }
+.iv thead th { color: var(--color-fg-muted); font-weight: var(--cds-font-weight-medium); background: var(--color-panel); }
+.iv tbody tr:last-child td { border-bottom: 0; }
+.iv tr.total td { font-weight: var(--cds-font-weight-medium); }
+.iv .split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--cds-gap-lg); align-items: start; }
+@media (max-width: 760px) { .iv .split { grid-template-columns: minmax(0, 1fr); } }
+.iv .case { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--cds-gap-md); }
+.iv .case .card.hl { border-color: var(--color-fg); }
+.iv .pill { display: inline-block; font-size: var(--cds-font-size-caption); padding: 2px 8px; border-radius: 999px; border: 1px solid var(--color-border-line); color: var(--color-fg-muted); width: fit-content; }
+.iv ul { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; max-width: 76ch; line-height: 1.5; }
+.iv details summary { cursor: pointer; color: var(--color-fg-muted); }
+.iv details[open] { display: grid; gap: var(--cds-gap-sm); }
+</style>
+
+<div class="iv">
+  <header class="head" id="topo">
+    <div class="eyebrow">Uso interno · Monteiro e Monteiro Advogados Associados</div>
+    <h1>Informativo de Valores: Reforma Tributária nos municípios</h1>
+    <p data-read lang="pt-BR">Preços praticados em <span data-draw="n" data-source="destaques" data-field="contratacoes" data-row="0" data-fmt="int" class="dash-skeleton">—</span> contratações municipais publicadas no PNCP desde 2024 cujo objeto cita expressamente a Reforma Tributária. Um serviço técnico (consultoria, novo Código Tributário ou assessoria jurídica) sai por <span data-draw="n" data-source="destaques" data-field="mediana_servicos" data-row="0" data-fmt="brl" class="dash-skeleton">—</span> na mediana; metade dos contratos fica entre <span data-draw="n" data-source="stats_tipo" data-field="q1" data-where="tipo=Servi%C3%A7os%20t%C3%A9cnicos" data-fmt="brl" class="dash-skeleton">—</span> e <span data-draw="n" data-source="stats_tipo" data-field="q3" data-where="tipo=Servi%C3%A7os%20t%C3%A9cnicos" data-fmt="brl" class="dash-skeleton">—</span>.</p>
+  </header>
+
+  <section class="kpis" id="destaques" aria-label="Destaques">
+    <div class="card"><span class="cap">Contratações analisadas</span><span class="big" data-draw="n" data-source="destaques" data-field="contratacoes" data-row="0" data-fmt="int">—</span><span class="cap"><span data-draw="n" data-source="destaques" data-field="municipios" data-row="0" data-fmt="int">—</span> municípios</span></div>
+    <div class="card"><span class="cap">Valor total contratado</span><span class="big" data-draw="n" data-source="destaques" data-field="valor_total" data-row="0" data-fmt="brl">—</span><span class="cap">homologado ou estimado</span></div>
+    <div class="card"><span class="cap">Ticket mediano, serviços técnicos</span><span class="big" data-draw="n" data-source="destaques" data-field="mediana_servicos" data-row="0" data-fmt="brl">—</span><span class="cap">consultoria, CTM e assessoria jurídica</span></div>
+    <div class="card"><span class="cap">Ticket mediano, capacitação</span><span class="big" data-draw="n" data-source="destaques" data-field="mediana_capacitacao" data-row="0" data-fmt="brl">—</span><span class="cap">em geral inscrições individuais</span></div>
+    <div class="card"><span class="cap">Serviços por inexigibilidade</span><span class="big" data-draw="n" data-source="destaques" data-field="pct_inex" data-row="0" data-fmt="pct">—</span><span class="cap">contratação direta por notória especialização</span></div>
+  </section>
+
+  <section id="tipo">
+    <div class="head">
+      <h2>Faixa de preço por tipo de contrato</h2>
+      <p class="muted">A barra vai do 1º ao 3º quartil (metade central dos contratos) e o traço marca a mediana. Escala logarítmica, porque cursos e consultorias diferem em duas ordens de grandeza.</p>
+    </div>
+    <div class="chart" id="faixas-tipo" data-draw="faixas" data-source="stats_tipo"></div>
+    <div class="tablewrap">
+      <table data-source="stats_tipo" data-row-key="tipo">
+        <thead><tr><th data-field="tipo">Tipo de contrato</th><th data-field="contratos">Contratos com valor</th><th data-field="minimo">Mínimo</th><th data-field="q1">1º quartil</th><th data-field="mediana">Mediana</th><th data-field="q3">3º quartil</th><th data-field="maximo">Máximo</th><th data-field="media">Média</th></tr></thead>
+        <tbody data-draw="tab-tipo"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="porte">
+    <div class="head">
+      <h2>Serviços técnicos por porte do município</h2>
+      <p class="muted">Até 50 mil habitantes a mediana fica perto de <span data-draw="n" data-source="stats_porte" data-field="mediana" data-where="porte=20%20a%2050%20mil" data-fmt="brl">—</span>; o preço sobe nos municípios maiores. População IBGE usada pelo Tesouro Nacional.</p>
+    </div>
+    <div class="split">
+      <div class="chart" id="barras-porte" data-draw="porte" data-source="stats_porte"></div>
+      <div class="tablewrap">
+        <table data-source="stats_porte" data-row-key="porte">
+          <thead><tr><th data-field="porte">Porte (habitantes)</th><th data-field="contratos">Contratos</th><th data-field="q1">1º quartil</th><th data-field="mediana">Mediana</th><th data-field="q3">3º quartil</th></tr></thead>
+          <tbody data-draw="tab-porte"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="modalidade-pr">
+    <div class="split">
+      <div class="head">
+        <h2>Por modalidade</h2>
+        <p class="muted">Serviços técnicos, exceto capacitação.</p>
+        <div class="tablewrap">
+          <table data-source="stats_modalidade" data-row-key="modalidade">
+            <thead><tr><th data-field="modalidade">Modalidade</th><th data-field="contratos">Contratos</th><th data-field="pct">% dos serviços</th><th data-field="mediana">Mediana</th></tr></thead>
+            <tbody data-draw="tab-mod"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="head">
+        <h2>Paraná e Brasil</h2>
+        <p class="muted">Serviços técnicos. O recorte do Paraná tem poucos contratos.</p>
+        <div class="tablewrap">
+          <table data-source="stats_pr" data-row-key="recorte">
+            <thead><tr><th data-field="recorte">Recorte</th><th data-field="contratos">Contratos</th><th data-field="q1">1º quartil</th><th data-field="mediana">Mediana</th><th data-field="q3">3º quartil</th></tr></thead>
+            <tbody data-draw="tab-pr"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="caso">
+    <div class="head">
+      <div class="eyebrow">Caso prático</div>
+      <h2>Rosário do Ivaí/PR: proposta de 26/11/2026</h2>
+      <p class="muted">Honorários da proposta: 0,5% do FPM anual (projeto), 0,4% do repasse mensal (acompanhamento) e R$ 15.000 por turma de capacitação, com 1 turma no 1º ano. FPM de out/2025 a set/2026, Tesouro Transparente.</p>
+    </div>
+    <div class="case">
+      <div class="card"><span class="cap">FPM anual</span><span class="big" data-draw="n" data-source="rosario" data-field="fpm_anual" data-row="0" data-fmt="brl">—</span><span class="cap">média de <span data-draw="n" data-source="rosario" data-field="fpm_mensal" data-row="0" data-fmt="brl">—</span> por mês</span></div>
+      <div class="card"><span class="cap">Honorário fixo (0,5%)</span><span class="big" data-draw="n" data-source="rosario" data-field="fixo" data-row="0" data-fmt="brl">—</span><span class="cap">diagnóstico, adequação jurídica e operacional</span></div>
+      <div class="card"><span class="cap">Honorário mensal (0,4%)</span><span class="big" data-draw="n" data-source="rosario" data-field="mensal" data-row="0" data-fmt="brl">—</span><span class="cap">entre <span data-draw="n" data-source="rosario" data-field="mensal_min" data-row="0" data-fmt="brl">—</span> e <span data-draw="n" data-source="rosario" data-field="mensal_max" data-row="0" data-fmt="brl">—</span> conforme o repasse</span></div>
+      <div class="card hl"><span class="cap">Total estimado no 1º ano</span><span class="big" data-draw="n" data-source="rosario" data-field="total_ano1" data-row="0" data-fmt="brl">—</span><span class="cap"><span data-draw="n" data-source="rosario" data-field="pct_fpm" data-row="0" data-fmt="pct2">—</span> do FPM anual</span></div>
+    </div>
+    <div class="chart" id="comparativo-rosario" data-draw="rosario" data-source="rosario" style="min-height:170px"></div>
+    <p class="cap">Referências: mediana de serviços em municípios até 10 mil habitantes, mediana no Paraná até 10 mil (amostra pequena) e mediana de capacitação em turma (contratos a partir de R$ 10 mil).</p>
+  </section>
+
+  <section id="uso">
+    <h2>Como usar estes números</h2>
+    <ul>
+      <li>Pelo Tema 309/STF, a justificativa de preço em inexigibilidade considera o valor médio cobrado pelo próprio escritório em casos similares. Os números de mercado complementam essa referência.</li>
+      <li>A faixa entre o 1º e o 3º quartil é o intervalo mais defensável perante os Tribunais de Contas. Acima do 3º quartil, descreva bem o escopo e as entregas.</li>
+      <li>Recortes com poucos contratos oscilam muito. Confira a quantidade antes de comparar.</li>
+      <li>Contratos por êxito aparecem no PNCP com valor simbólico (R$ 0,20 a R$ 1) e ficam fora das estatísticas.</li>
+    </ul>
+  </section>
+
+  <details id="metodo">
+    <summary>Como os números foram calculados</summary>
+    <p class="cap">Base: contratações de prefeituras, câmaras e autarquias municipais publicadas no PNCP de 01/01/2024 a 26/11/2026 cujo objeto cita expressamente a Reforma Tributária (reforma tributária, EC 132/2023, LC 214/2025, IBS/CBS, IVA dual, Comitê Gestor, imposto seletivo, NFAg). Valor = total homologado ou, sem homologação, o estimado. Estatísticas consideram apenas valores a partir de R$ 100. Quartis pelo método inclusivo (o mesmo do QUARTILE do Excel). População: estimativa IBGE usada pelo Tesouro (SICONFI 2026).</p>
+  </details>
+</div>
+
+<script>
+const CAPAC = 'Capacitação';
+const num = (v) => (v === null || v === undefined || v === '' ? NaN : +v);
+const ok = (r) => Number.isFinite(num(r.valor)) && num(r.valor) >= 100;
+function resumo(rows) {
+  const v = rows.filter(ok).map((r) => num(r.valor)).sort(d3.ascending);
+  if (!v.length) return { contratos: 0, minimo: null, q1: null, mediana: null, q3: null, maximo: null, media: null };
+  return { contratos: v.length, minimo: v[0], q1: Math.round(d3.quantileSorted(v, 0.25)), mediana: Math.round(d3.quantileSorted(v, 0.5)), q3: Math.round(d3.quantileSorted(v, 0.75)), maximo: v[v.length - 1], media: Math.round(d3.mean(v)) };
+}
+window.ivResumo = resumo;
+
+dash.calc('destaques', {
+  title: 'Destaques',
+  description: 'Totais do levantamento: contratações, municípios, valor total, medianas e participação da inexigibilidade nos serviços.',
+  inputs: ['contratacoes'],
+  fn: (contratacoes) => {
+    const srv = contratacoes.filter((r) => r.servico === 'sim');
+    const med = (rows) => { const v = rows.filter((r) => Number.isFinite(+r.valor) && +r.valor >= 100).map((r) => +r.valor).sort(d3.ascending); return Math.round(d3.quantileSorted(v, 0.5)); };
+    return [{
+      contratacoes: contratacoes.length,
+      municipios: new Set(contratacoes.map((r) => r.uf + '|' + r.municipio)).size,
+      valor_total: Math.round(d3.sum(contratacoes, (r) => +r.valor || 0)),
+      mediana_servicos: med(srv),
+      mediana_capacitacao: med(contratacoes.filter((r) => r.servico !== 'sim')),
+      pct_inex: srv.filter((r) => r.modalidade === 'Inexigibilidade').length / srv.length,
+    }];
+  },
+});
+
+dash.calc('stats_tipo', {
+  title: 'Faixa de preço por tipo',
+  description: 'Mínimo, quartis, mediana, máximo e média por tipo de contrato (valores a partir de R$ 100).',
+  inputs: ['contratacoes'],
+  fn: (contratacoes) => {
+    const q = (rows) => { const v = rows.filter((r) => Number.isFinite(+r.valor) && +r.valor >= 100).map((r) => +r.valor).sort(d3.ascending);
+      return { contratos: v.length, minimo: v[0], q1: Math.round(d3.quantileSorted(v, 0.25)), mediana: Math.round(d3.quantileSorted(v, 0.5)), q3: Math.round(d3.quantileSorted(v, 0.75)), maximo: v[v.length - 1], media: Math.round(d3.mean(v)) }; };
+    const tipos = ['Código Tributário', 'Consultoria', 'Assessoria jurídica', 'Capacitação'];
+    return tipos.map((t) => ({ tipo: t, ...q(contratacoes.filter((r) => r.categoria === t)) }))
+      .concat([{ tipo: 'Serviços técnicos', ...q(contratacoes.filter((r) => r.servico === 'sim')) }]);
+  },
+});
+
+dash.calc('stats_porte', {
+  title: 'Serviços técnicos por porte',
+  description: 'Quartis e mediana dos serviços técnicos por faixa de população do município.',
+  inputs: ['contratacoes'],
+  fn: (contratacoes) => {
+    const q = (rows) => { const v = rows.filter((r) => Number.isFinite(+r.valor) && +r.valor >= 100).map((r) => +r.valor).sort(d3.ascending);
+      return v.length ? { contratos: v.length, q1: Math.round(d3.quantileSorted(v, 0.25)), mediana: Math.round(d3.quantileSorted(v, 0.5)), q3: Math.round(d3.quantileSorted(v, 0.75)) } : { contratos: 0, q1: null, mediana: null, q3: null }; };
+    const srv = contratacoes.filter((r) => r.servico === 'sim');
+    const faixas = [['Até 5 mil', 0, 5000], ['5 a 10 mil', 5000, 10188], ['10 a 20 mil', 10188, 20000], ['20 a 50 mil', 20000, 50000], ['50 a 100 mil', 50000, 100000], ['Acima de 100 mil', 100000, Infinity], ['Até 10 mil', 0, 10188]];
+    return faixas.map(([porte, lo, hi]) => ({ porte, ...q(srv.filter((r) => +r.populacao > lo && +r.populacao <= hi)) }));
+  },
+});
+
+dash.calc('stats_modalidade', {
+  title: 'Serviços técnicos por modalidade',
+  description: 'Quantidade, participação e mediana dos serviços técnicos por modalidade de contratação.',
+  inputs: ['contratacoes'],
+  fn: (contratacoes) => {
+    const srv = contratacoes.filter((r) => r.servico === 'sim');
+    return ['Inexigibilidade', 'Dispensa', 'Pregão Eletrônico', 'Concorrência Eletrônica'].map((m) => {
+      const rows = srv.filter((r) => r.modalidade === m);
+      const v = rows.filter((r) => Number.isFinite(+r.valor) && +r.valor >= 100).map((r) => +r.valor).sort(d3.ascending);
+      return { modalidade: m, contratos: rows.length, pct: rows.length / srv.length, mediana: v.length ? Math.round(d3.quantileSorted(v, 0.5)) : null };
+    });
+  },
+});
+
+dash.calc('stats_pr', {
+  title: 'Paraná e Brasil',
+  description: 'Quartis e mediana dos serviços técnicos no Paraná, no Paraná até 10 mil habitantes e no Brasil.',
+  inputs: ['contratacoes'],
+  fn: (contratacoes) => {
+    const q = (rows) => { const v = rows.filter((r) => Number.isFinite(+r.valor) && +r.valor >= 100).map((r) => +r.valor).sort(d3.ascending);
+      return { contratos: v.length, q1: Math.round(d3.quantileSorted(v, 0.25)), mediana: Math.round(d3.quantileSorted(v, 0.5)), q3: Math.round(d3.quantileSorted(v, 0.75)) }; };
+    const srv = contratacoes.filter((r) => r.servico === 'sim');
+    return [
+      { recorte: 'Paraná', ...q(srv.filter((r) => r.uf === 'PR')) },
+      { recorte: 'Paraná até 10 mil hab.', ...q(srv.filter((r) => r.uf === 'PR' && +r.populacao > 0 && +r.populacao <= 10188)) },
+      { recorte: 'Brasil', ...q(srv) },
+    ];
+  },
+});
+
+dash.calc('rosario', {
+  title: 'Caso Rosário do Ivaí',
+  description: 'FPM de 12 meses de Rosário do Ivaí, honorários da proposta (0,5% fixo, 0,4% mensal, R$ 15 mil por turma, 1 turma) e referências de mercado.',
+  inputs: ['fpm_rosario', 'stats_porte', 'stats_pr', 'contratacoes'],
+  fn: (fpm_rosario, stats_porte, stats_pr, contratacoes) => {
+    const PCT_FIXO = 0.005, PCT_MENSAL = 0.004, TURMA = 15000, TURMAS = 1;
+    const meses = fpm_rosario.map((r) => +r.fpm);
+    const anual = d3.sum(meses);
+    const fixo = anual * PCT_FIXO, mensal = (anual / 12) * PCT_MENSAL;
+    const total = fixo + 12 * mensal + TURMAS * TURMA;
+    const cap = contratacoes.filter((r) => r.servico !== 'sim' && +r.valor >= 10000).map((r) => +r.valor).sort(d3.ascending);
+    return [{
+      fpm_anual: Math.round(anual), fpm_mensal: Math.round(anual / 12),
+      fixo: Math.round(fixo), mensal: Math.round(mensal),
+      mensal_min: Math.round(d3.min(meses) * PCT_MENSAL), mensal_max: Math.round(d3.max(meses) * PCT_MENSAL),
+      total_ano1: Math.round(total), pct_fpm: total / anual,
+      ref_ate10: stats_porte.find((r) => r.porte === 'Até 10 mil').mediana,
+      ref_pr10: stats_pr.find((r) => r.recorte === 'Paraná até 10 mil hab.').mediana,
+      ref_turma: Math.round(d3.quantileSorted(cap, 0.5)),
+      turma: TURMA,
+    }];
+  },
+});
+
+const brl = (v) => {
+  if (v === null || v === undefined || !Number.isFinite(+v)) return '–';
+  v = +v;
+  if (Math.abs(v) >= 1e6) return 'R$ ' + (v / 1e6).toLocaleString('pt-BR', { maximumFractionDigits: 1 }) + ' mi';
+  if (Math.abs(v) >= 1e4) return 'R$ ' + (v / 1e3).toLocaleString('pt-BR', { maximumFractionDigits: 1 }) + ' mil';
+  return 'R$ ' + v.toLocaleString('pt-BR', { maximumFractionDigits: 0 });
+};
+const brlFull = (v) => (v === null || v === undefined || !Number.isFinite(+v) ? '–' : 'R$ ' + Math.round(+v).toLocaleString('pt-BR'));
+const int = (v) => (v === null || !Number.isFinite(+v) ? '–' : (+v).toLocaleString('pt-BR'));
+const pct = (v) => (v === null || !Number.isFinite(+v) ? '–' : (+v * 100).toLocaleString('pt-BR', { maximumFractionDigits: 1 }) + '%');
+const pct2 = (v) => (v === null || !Number.isFinite(+v) ? '–' : (+v * 100).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '%');
+const FMT = { int, brl, pct, pct2 };
+
+function rowOf(el, d) {
+  if (el.dataset.row !== undefined) return d[+el.dataset.row];
+  const [k, val] = el.dataset.where.split('=').map(decodeURIComponent);
+  return d.find((r) => String(r[k]) === val);
+}
+
+dash.draw('n', (el) => {
+  const s = dash.data(el.dataset.source);
+  if (s.status !== 'ok' || !s.data || !s.data.length) { if (s.status !== 'loading') el.classList.remove('dash-skeleton'); el.textContent = '—'; return; }
+  el.classList.remove('dash-skeleton');
+  const r = rowOf(el, s.data);
+  el.textContent = r ? FMT[el.dataset.fmt || 'int'](r[el.dataset.field]) : '—';
+});
+
+function fillTable(tb, id, cols, totalKey) {
+  const s = dash.data(id);
+  if (s.status !== 'ok') { tb.replaceChildren(); return; }
+  tb.replaceChildren(...s.data.map((r) => {
+    const tr = document.createElement('tr');
+    if (totalKey && totalKey(r)) tr.className = 'total';
+    cols.forEach(([k, f]) => { const td = document.createElement('td'); td.textContent = f(r[k]); tr.append(td); });
+    return tr;
+  }));
+}
+const txt = (v) => v;
+dash.draw('tab-tipo', (tb) => fillTable(tb, 'stats_tipo', [['tipo', txt], ['contratos', int], ['minimo', brlFull], ['q1', brlFull], ['mediana', brlFull], ['q3', brlFull], ['maximo', brlFull], ['media', brlFull]], (r) => r.tipo === 'Serviços técnicos'));
+dash.draw('tab-porte', (tb) => fillTable(tb, 'stats_porte', [['porte', txt], ['contratos', int], ['q1', brlFull], ['mediana', brlFull], ['q3', brlFull]], (r) => r.porte === 'Até 10 mil'));
+dash.draw('tab-mod', (tb) => fillTable(tb, 'stats_modalidade', [['modalidade', txt], ['contratos', int], ['pct', pct], ['mediana', brlFull]]));
+dash.draw('tab-pr', (tb) => fillTable(tb, 'stats_pr', [['recorte', txt], ['contratos', int], ['q1', brlFull], ['mediana', brlFull], ['q3', brlFull]], (r) => r.recorte === 'Brasil'));
+
+function tipShow(tip, el, ev, title, lines) {
+  tip.replaceChildren();
+  const b = document.createElement('b'); b.textContent = title; tip.append(b);
+  lines.forEach((l) => { const d = document.createElement('div'); d.textContent = l; tip.append(d); });
+  tip.hidden = false;
+  const [x, y] = d3.pointer(ev, el);
+  tip.style.left = Math.max(0, Math.min(x + 12, el.clientWidth - 200)) + 'px'; tip.style.top = (y + 12) + 'px';
+}
+
+dash.draw('faixas', (el) => {
+  const s = dash.data('stats_tipo');
+  if (s.status !== 'ok') { el.textContent = s.status === 'error' ? 'Não foi possível carregar os valores.' : ''; return; }
+  el.replaceChildren();
+  const data = s.data;
+  const W = el.clientWidth || 360, lw = Math.min(150, W * 0.34), top = 6, rowH = 38, H = top + data.length * rowH + 24, right = 18;
+  const x = d3.scaleLog().domain([500, 500000]).range([lw, W - right]).clamp(true);
+  const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Faixa entre 1º e 3º quartil e mediana por tipo de contrato');
+  const ticks = [1000, 5000, 20000, 100000, 500000].filter((t) => W > 420 || t !== 5000);
+  svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', x).attr('x2', x).attr('y1', top).attr('y2', H - 20).style('stroke', 'var(--cds-chart-grid)');
+  svg.append('g').selectAll('text').data(ticks).join('text').attr('x', x).attr('y', H - 5).attr('text-anchor', 'middle').style('font-size', '11px').style('fill', 'var(--cds-text-secondary)').text((t) => brl(t).replace('R$ ', ''));
+  const tip = document.createElement('div'); tip.className = 'tip'; tip.hidden = true; el.append(tip);
+  const g = svg.selectAll('g.r').data(data).join('g').attr('class', 'r').attr('transform', (d, i) => `translate(0,${top + i * rowH})`);
+  g.append('text').attr('x', 0).attr('y', 20).style('font-size', '12px').style('font-weight', (d) => (d.tipo === 'Serviços técnicos' ? 600 : 400)).style('fill', 'var(--color-fg)').text((d) => d.tipo);
+  g.append('rect').attr('x', (d) => x(d.q1)).attr('y', 9).attr('height', 16).attr('rx', 3).attr('width', (d) => Math.max(2, x(d.q3) - x(d.q1))).style('fill', (d, i) => dash.colors[i % dash.colors.length]).style('fill-opacity', 0.35);
+  g.append('rect').attr('x', (d) => x(d.mediana) - 1.5).attr('y', 5).attr('width', 3).attr('height', 24).style('fill', (d, i) => dash.colors[i % dash.colors.length]);
+  g.append('text').attr('x', (d) => Math.min(x(d.q3) + 6, W - 64)).attr('y', 21).style('font-size', '11px').style('fill', 'var(--cds-text-secondary)').text((d) => brl(d.mediana));
+  g.append('rect').attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH).style('fill', 'transparent')
+    .on('pointermove', (ev, d) => tipShow(tip, el, ev, d.tipo, [`Contratos com valor: ${int(d.contratos)}`, `1º quartil: ${brlFull(d.q1)}`, `Mediana: ${brlFull(d.mediana)}`, `3º quartil: ${brlFull(d.q3)}`, `Média: ${brlFull(d.media)}`]))
+    .on('pointerleave', () => { tip.hidden = true; });
+});
+
+dash.draw('porte', (el) => {
+  const s = dash.data('stats_porte');
+  if (s.status !== 'ok') { el.textContent = s.status === 'error' ? 'Não foi possível carregar os valores por porte.' : ''; return; }
+  el.replaceChildren();
+  const data = s.data.filter((d) => d.porte !== 'Até 10 mil' && d.mediana !== null);
+  const W = el.clientWidth || 360, lw = 104, vw = 74, rowH = 30, top = 4, H = top + data.length * rowH + 4;
+  const x = d3.scaleLinear().domain([0, d3.max(data, (d) => d.mediana)]).range([0, Math.max(40, W - lw - vw)]);
+  const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Mediana de serviços técnicos por porte do município');
+  const tip = document.createElement('div'); tip.className = 'tip'; tip.hidden = true; el.append(tip);
+  const g = svg.selectAll('g').data(data).join('g').attr('transform', (d, i) => `translate(0,${top + i * rowH})`);
+  g.append('text').attr('x', 0).attr('y', 18).style('font-size', '12px').style('fill', 'var(--color-fg)').text((d) => d.porte);
+  g.append('rect').attr('x', lw).attr('y', 6).attr('height', 16).attr('rx', 2).attr('width', (d) => Math.max(1, x(d.mediana))).style('fill', dash.colors[0]);
+  g.append('text').attr('x', (d) => lw + x(d.mediana) + 6).attr('y', 18).style('font-size', '11px').style('fill', 'var(--cds-text-secondary)').text((d) => brl(d.mediana));
+  g.append('rect').attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH).style('fill', 'transparent')
+    .on('pointermove', (ev, d) => tipShow(tip, el, ev, d.porte + ' habitantes', [`Contratos: ${int(d.contratos)}`, `1º quartil: ${brlFull(d.q1)}`, `Mediana: ${brlFull(d.mediana)}`, `3º quartil: ${brlFull(d.q3)}`]))
+    .on('pointerleave', () => { tip.hidden = true; });
+});
+
+dash.draw('rosario', (el) => {
+  const s = dash.data('rosario');
+  if (s.status !== 'ok' || !s.data || !s.data.length) { el.textContent = s.status === 'error' ? 'Não foi possível calcular o caso.' : ''; return; }
+  el.replaceChildren();
+  const r = s.data[0];
+  const items = [
+    { k: 'Proposta: honorário fixo', v: r.fixo, own: true },
+    { k: 'Mediana até 10 mil hab.', v: r.ref_ate10 },
+    { k: 'Mediana PR até 10 mil hab.', v: r.ref_pr10 },
+    { k: 'Proposta: mensal × 12', v: r.mensal * 12, own: true },
+    { k: 'Proposta: 1 turma', v: r.turma, own: true },
+    { k: 'Mediana de turma', v: r.ref_turma },
+  ];
+  const W = el.clientWidth || 360, lw = Math.min(190, W * 0.45), vw = 78, rowH = 26, H = items.length * rowH + 6;
+  const x = d3.scaleLinear().domain([0, d3.max(items, (d) => d.v)]).range([0, Math.max(40, W - lw - vw)]);
+  const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Honorários propostos para Rosário do Ivaí comparados com medianas de mercado');
+  const g = svg.selectAll('g').data(items).join('g').attr('transform', (d, i) => `translate(0,${i * rowH + 3})`);
+  g.append('text').attr('x', 0).attr('y', 15).style('font-size', '12px').style('fill', (d) => (d.own ? 'var(--color-fg)' : 'var(--cds-text-secondary)')).style('font-weight', (d) => (d.own ? 600 : 400)).text((d) => d.k);
+  g.append('rect').attr('x', lw).attr('y', 4).attr('height', 14).attr('rx', 2).attr('width', (d) => Math.max(1, x(d.v)))
+    .style('fill', (d) => (d.own ? dash.colors[0] : 'var(--cds-chart-muted)'));
+  g.append('text').attr('x', (d) => lw + x(d.v) + 6).attr('y', 15).style('font-size', '11px').style('fill', 'var(--cds-text-secondary)').text((d) => brl(d.v));
+});
+</script>

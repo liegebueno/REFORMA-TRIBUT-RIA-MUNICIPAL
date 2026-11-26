@@ -1,0 +1,1188 @@
+item,uf,municipio,categoria,servico,modalidade,data,valor,populacao,controle_pncp
+1,SP,Araraquara,Capacitação,nao,Não informado,2025-11-28,1299.9,253474,45276128000110-1-003938/2025
+2,SP,Araraquara,Capacitação,nao,Não informado,2025-09-10,1093.7,253474,45276128000110-1-003015/2025
+3,SC,Ipumirim,Código Tributário,sim,Inexigibilidade,2026-06-17,43935,8121,82814575000102-1-000099/2026
+4,ES,Guarapari,Capacitação,nao,Não informado,2025-11-06,130000,136311,27165190000153-1-000057/2025
+5,GO,Alexânia,Capacitação,nao,Não informado,2025-10-17,14580,28244,01298975000100-1-000193/2025
+6,GO,Trindade,Consultoria,sim,Inexigibilidade,2026-04-09,267600,153560,01217538000115-1-000050/2026
+7,GO,Trindade,Capacitação,nao,Inexigibilidade,2026-01-13,24000,153560,01217538000115-1-000004/2026
+8,ES,Jerônimo Monteiro,Capacitação,nao,Não informado,2025-07-07,24990,12108,27165653000187-1-000141/2025
+9,BA,Morro do Chapéu,Capacitação,nao,Não informado,2025-11-07,1300,35235,13717517000148-1-000130/2025
+10,SC,São Joaquim,Capacitação,nao,Não informado,2026-08-28,5600,26982,82561093000198-1-000146/2026
+11,SP,Mongaguá,Consultoria,sim,Inexigibilidade,2026-06-24,601000,64845,46578506000183-1-000031/2026
+12,SP,Auriflama,Código Tributário,sim,Dispensa,2025-12-01,35000,13856,45660594000103-1-000145/2025
+13,SP,Auriflama,Consultoria,sim,Dispensa,2025-12-01,36000,13856,45660594000103-1-000146/2025
+14,SC,São Bento do Sul,Consultoria,sim,Inexigibilidade,2026-05-29,60000,87661,86051398000100-1-000089/2026
+15,PR,Boa Ventura de São Roque,Consultoria,sim,Inexigibilidade,2026-04-29,396000,6241,01612906000120-1-000040/2026
+16,PR,Chopinzinho,Consultoria,sim,Pregão Eletrônico,2026-04-02,56148,21604,76995414000160-1-000066/2026
+17,PR,Chopinzinho,Consultoria,sim,Pregão Eletrônico,2026-04-06,,21604,76995414000160-1-000067/2026
+18,PR,Cascavel,Consultoria,sim,Inexigibilidade,2025-12-09,120000,368195,76208867000107-1-000605/2025
+19,RS,São José do Norte,Código Tributário,sim,Inexigibilidade,2026-09-04,35000,26248,88568902000170-1-000160/2026
+20,PR,Ubiratã,Capacitação,nao,Inexigibilidade,2026-07-13,54000,25732,76950096000110-1-000152/2026
+21,MG,Frei Lagonegro,Consultoria,sim,Dispensa,2025-02-14,,3481,01615008000125-1-000006/2025
+22,PR,Mandaguari,Capacitação,nao,Inexigibilidade,2024-11-21,3800,38313,76285345000109-1-000099/2024
+23,MG,Monte Sião,Consultoria,sim,Inexigibilidade,2026-08-07,881000,25107,22646525000131-1-000106/2026
+24,PR,Bom Sucesso do Sul,Assessoria jurídica,sim,Inexigibilidade,2026-05-29,120000,3244,80874100000186-1-000074/2026
+25,BA,Lajedinho,Consultoria,sim,Inexigibilidade,2026-07-06,60000,3610,13810544000160-1-000085/2026
+26,MG,São José do Alegre,Consultoria,sim,Dispensa,2026-07-24,64999.92,4252,18025999000199-1-000085/2026
+27,SC,Barra Velha,Consultoria,sim,Inexigibilidade,2026-07-22,72000,52860,83102830000157-1-000160/2026
+28,GO,Jaupaci,Consultoria,sim,Dispensa,2026-04-01,1000,2939,01767342000102-1-000016/2026
+29,SC,Marema,Consultoria,sim,Inexigibilidade,2026-05-03,8125,2218,78509072000156-1-000047/2026
+30,GO,Formosa,Consultoria,sim,Inexigibilidade,2026-08-25,338400,121559,01738780000134-1-000091/2026
+31,RS,Lajeado,Consultoria,sim,Inexigibilidade,2025-10-09,41900,96879,87297982000103-1-000212/2025
+32,RO,Jaru,Consultoria,sim,Inexigibilidade,2026-03-10,226800,55682,04279238000159-1-000055/2026
+33,MG,Pompéu,Consultoria,sim,Inexigibilidade,2026-06-18,107520,32441,18296681000142-1-000132/2026
+34,SP,Arujá,Consultoria,sim,Inexigibilidade,2026-08-21,219600,90273,56901275000150-1-000344/2026
+35,GO,Jataí,Consultoria,sim,Inexigibilidade,2025-10-06,144000,111634,01165729000180-1-000324/2025
+36,SC,Arvoredo,Consultoria,sim,Concorrência Eletrônica,2025-04-24,53199.96,2623,95995247000100-1-000040/2025
+37,PR,Nova Esperança do Sudoeste,Capacitação,nao,Inexigibilidade,2026-03-11,1700,5783,95589289000132-1-000022/2026
+38,BA,Valente,Capacitação,nao,Inexigibilidade,2026-02-02,1800,25132,13845896000151-1-000009/2026
+39,MG,Ubá,Capacitação,nao,Inexigibilidade,2025-06-30,3570,107423,18128207000101-1-000219/2025
+40,MG,Cordisburgo,Capacitação,nao,Dispensa,2026-07-07,300,7535,18116137000171-1-000129/2026
+41,MG,Cordisburgo,Capacitação,nao,Dispensa,2025-10-23,15000,7535,18116137000171-1-000207/2025
+42,PR,Quatro Pontes,Capacitação,nao,Inexigibilidade,2026-05-29,3000,4672,95719381000170-1-000018/2026
+43,MG,Belo Horizonte,Capacitação,nao,Dispensa,2026-08-11,2977.63,2415872,18715383000140-1-000554/2026
+44,PR,Nova Aurora,Capacitação,nao,Inexigibilidade,2025-10-28,6224,14331,76208859000152-1-000129/2025
+45,PE,Belo Jardim,Capacitação,nao,Inexigibilidade,2026-09-09,4200,84033,10260222000105-1-000408/2026
+46,SP,Inúbia Paulista,Capacitação,nao,Inexigibilidade,2025-12-22,1290,3671,44919611000103-1-000135/2025
+47,MT,Várzea Grande,Consultoria,sim,Inexigibilidade,2025-07-08,59900,318922,03507548000110-1-000008/2025
+48,RN,Serra do Mel,Assessoria jurídica,sim,Inexigibilidade,2026-03-27,168000,13819,12755971000120-1-000024/2026
+49,SE,Nossa Senhora do Socorro,Consultoria,sim,Inexigibilidade,2026-08-05,300000,204081,13128814000158-1-000131/2026
+50,SP,Taquaritinga,Consultoria,sim,Inexigibilidade,2026-01-14,144000,53264,72130818000130-1-000232/2025
+51,RS,Igrejinha,Código Tributário,sim,Inexigibilidade,2026-08-25,89700,34776,88379763000136-1-000124/2026
+52,GO,Aragarças,Consultoria,sim,Dispensa,2025-12-18,28500,18601,02125227000199-1-000133/2025
+53,SC,Porto Belo,Capacitação,nao,Inexigibilidade,2026-06-09,7160,31557,82575812000120-1-000250/2026
+54,RS,Lagoa Vermelha,Consultoria,sim,Inexigibilidade,2026-08-04,36000,28622,87613626000151-1-000330/2026
+55,SP,Cabrália Paulista,Consultoria,sim,Dispensa,2026-09-17,60000,4360,46137469000178-1-000045/2026
+56,MA,Balsas,Assessoria jurídica,sim,Inexigibilidade,2026-09-01,450000,105974,06441430000125-1-000109/2026
+57,RS,Dom Pedrito,Código Tributário,sim,Inexigibilidade,2025-04-16,25000,38080,87482535000124-1-000420/2025
+58,SP,Iepê,Código Tributário,sim,Dispensa,2026-06-25,46861.41,7739,49345911000140-1-000023/2026
+59,SP,Castilho,Assessoria jurídica,sim,Dispensa,2026-09-08,35000,20485,45663556000104-1-000094/2026
+60,MG,Uruana de Minas,Código Tributário,sim,Dispensa,2026-09-10,10657.64,3365,01609942000134-1-000037/2026
+61,SP,Pedreira,Código Tributário,sim,Dispensa,2025-10-22,59991,44385,46410775000136-1-001069/2025
+62,MG,São Geraldo da Piedade,Consultoria,sim,Inexigibilidade,2025-11-14,38400,3200,18307470000168-1-000094/2025
+63,SC,Taió,Capacitação,nao,Inexigibilidade,2026-05-20,1704.08,18909,82765488000102-1-000093/2026
+64,GO,Petrolina de Goiás,Consultoria,sim,Dispensa,2026-02-03,31500,9519,01825413000178-1-000022/2026
+65,BA,Salinas da Margarida,Consultoria,sim,Dispensa,2026-07-07,55599.96,15629,13743281000114-1-000066/2026
+66,BA,Lapão,Consultoria,sim,Inexigibilidade,2026-07-10,36000,27014,13891528000140-1-000096/2026
+67,BA,Lapão,Consultoria,sim,Inexigibilidade,2026-01-22,24000,27014,13891528000140-1-000020/2026
+68,SP,Ibitinga,Consultoria,sim,Inexigibilidade,2026-08-03,380000,62143,45321460000150-1-000184/2026
+69,SP,Borebi,Consultoria,sim,Dispensa,2026-07-06,33400,2801,54724802000173-1-000067/2026
+70,RS,Estância Velha,Assessoria jurídica,sim,Inexigibilidade,2026-06-09,63000,49499,88254883000107-1-000091/2026
+71,RS,Arroio do Sal,Capacitação,nao,Inexigibilidade,2026-05-14,1398,11418,91103093000135-1-000106/2026
+72,GO,Campo Limpo de Goiás,Consultoria,sim,Inexigibilidade,2026-09-11,22500,8579,04216593000189-1-000621/2026
+73,RN,Caicó,Assessoria jurídica,sim,Inexigibilidade,2026-04-24,120000,63338,08096570000139-1-000040/2026
+74,MT,Confresa,Capacitação,nao,Inexigibilidade,2026-02-02,6097,38460,37465358000108-1-000004/2026
+75,RS,Caxias do Sul,Capacitação,nao,Inexigibilidade,2026-09-22,699,479599,88892393000136-1-000029/2026
+76,MS,Laguna Carapã,Capacitação,nao,Inexigibilidade,2026-09-22,12300,7037,01989839000167-1-000022/2026
+77,RS,Rio Grande,Capacitação,nao,Inexigibilidade,2026-09-22,699,198935,88566872000162-1-000528/2026
+78,RS,Gramado,Capacitação,nao,Inexigibilidade,2026-09-23,1398,41705,88847082000155-1-000271/2026
+79,RS,Alvorada,Capacitação,nao,Inexigibilidade,2026-09-24,1398,194062,88000906000157-1-000378/2026
+80,RS,Canela,Capacitação,nao,Inexigibilidade,2026-09-24,860,50715,02587506000174-1-000030/2026
+81,SP,Elias Fausto,Consultoria,sim,Inexigibilidade,2026-09-25,701000,18168,44723740000121-1-000082/2026
+82,RS,Torres,Código Tributário,sim,Inexigibilidade,2026-09-28,89845,43344,87876801000101-1-000280/2026
+83,SC,Caibi,Capacitação,nao,Dispensa,2026-09-29,2580,6441,82940776000156-1-000783/2026
+84,SP,Pedro de Toledo,Capacitação,nao,Inexigibilidade,2026-09-30,13960,11617,46578530000112-1-000071/2026
+85,RS,Derrubadas,Consultoria,sim,Inexigibilidade,2026-10-01,96940,2793,94442282000120-1-000072/2026
+86,SC,Penha,Capacitação,nao,Inexigibilidade,2026-10-01,1590,36995,83551515000107-1-000139/2026
+87,CE,Independência,Código Tributário,sim,Dispensa,2026-10-02,40000,24463,07982028000110-1-000062/2026
+88,SC,Jaraguá do Sul,Capacitação,nao,Inexigibilidade,2026-10-08,1832,199519,83539643000135-1-000058/2026
+89,PB,Solânea,Assessoria jurídica,sim,Inexigibilidade,2026-10-08,54000,27748,08787236000121-1-000138/2026
+90,MG,Crucilândia,Assessoria jurídica,sim,Inexigibilidade,2026-10-09,5833.33,5674,18313007000129-1-000093/2026
+91,RS,Dom Pedrito,Capacitação,nao,Inexigibilidade,2026-10-09,699,38080,87482535000124-1-001835/2026
+92,MG,Pintópolis,Consultoria,sim,Inexigibilidade,2026-10-09,81000,7228,01612481000159-1-000011/2026
+93,SC,Vargeão,Capacitação,nao,Inexigibilidade,2026-10-14,1900,3726,83009928000164-1-000070/2026
+94,RS,Venâncio Aires,Capacitação,nao,Inexigibilidade,2026-10-14,916,70842,07251534000130-1-000100/2026
+95,MG,Verdelândia,Consultoria,sim,Inexigibilidade,2026-10-15,120000,7737,01612505000170-1-000063/2026
+96,SC,Lindóia do Sul,Capacitação,nao,Inexigibilidade,2026-10-16,5700,4604,78510112000180-1-000112/2026
+97,RS,Osório,Código Tributário,sim,Inexigibilidade,2026-10-20,79000,48999,88814181000130-1-000506/2026
+98,RO,Porto Velho,Capacitação,nao,Inexigibilidade,2026-10-20,54000,517709,05903125000145-1-000296/2026
+99,BA,Jequié,Capacitação,nao,Inexigibilidade,2026-10-21,9030,169201,13894878000160-1-000141/2026
+100,RS,Palmares do Sul,Capacitação,nao,Inexigibilidade,2026-10-22,2980,13189,02442324000105-1-000037/2026
+101,PR,Céu Azul,Capacitação,nao,Inexigibilidade,2026-11-04,3870,11255,76206473000101-1-000237/2026
+102,SP,São Carlos,Consultoria,sim,Pregão Eletrônico,2026-11-05,144000,266427,45359973000150-1-000232/2026
+103,RS,Rio Grande,Capacitação,nao,Inexigibilidade,2026-11-06,1250,198935,88566872000162-1-000640/2026
+104,RN,São José de Mipibu,Capacitação,nao,Inexigibilidade,2026-11-06,1215,50053,08365850000103-1-000142/2026
+105,ES,Iconha,Capacitação,nao,Inexigibilidade,2026-11-09,1800,12790,03251599000124-1-000038/2026
+106,ES,Iconha,Capacitação,nao,Inexigibilidade,2026-11-09,1800,12790,03251599000124-1-000037/2026
+107,RS,Ijuí,Consultoria,sim,Inexigibilidade,2026-11-10,96000,87848,90738196000109-1-001064/2026
+108,SP,São Bernardo do Campo,Capacitação,nao,Inexigibilidade,2026-11-10,2970,841154,59108100000189-1-000050/2026
+109,SP,São Paulo,Capacitação,nao,Inexigibilidade,2026-11-10,29940,11904961,49269244000163-1-001236/2026
+110,RS,Gramado,Capacitação,nao,Inexigibilidade,2026-11-12,4330,41705,88847082000155-1-000321/2026
+111,RS,Piratini,Capacitação,nao,Inexigibilidade,2026-11-15,916,17770,88861448000140-1-000583/2026
+112,PA,Belterra,Capacitação,nao,Inexigibilidade,2026-11-16,12570,19075,29578965000148-1-000009/2026
+113,RS,Torres,Capacitação,nao,Inexigibilidade,2026-11-16,5070,43344,87876801000101-1-000334/2026
+114,RJ,Campos dos Goytacazes,Capacitação,nao,Inexigibilidade,2026-11-17,11560,519259,29116894000161-1-000075/2026
+115,PR,Cruzeiro do Iguaçu,Consultoria,sim,Inexigibilidade,2026-11-17,84000,4129,95589230000144-1-000146/2026
+116,PR,Cruzeiro do Oeste,Capacitação,nao,Inexigibilidade,2026-11-17,8970,24859,00949401000192-1-000031/2026
+117,SP,Cubatão,Capacitação,nao,Inexigibilidade,2026-11-17,84000,114870,51642635000123-1-000049/2026
+118,SP,Descalvado,Consultoria,sim,Pregão Eletrônico,2026-11-17,63900,32663,46732442000123-1-000130/2026
+119,SC,Mondaí,Capacitação,nao,Inexigibilidade,2026-11-17,2890,10206,83028415000109-1-000170/2026
+120,RS,Rio Grande,Capacitação,nao,Inexigibilidade,2026-11-17,17610,198935,88566872000162-1-000672/2026
+121,RS,Viamão,Capacitação,nao,Inexigibilidade,2026-11-17,1720,231996,00550694000130-1-000074/2026
+122,SC,Balneário Camboriú,Capacitação,nao,Inexigibilidade,2026-11-18,5100,151674,07854402000100-1-000081/2026
+123,RS,Guaporé,Capacitação,nao,Inexigibilidade,2026-11-18,644,26168,87862397000109-1-000996/2026
+124,RS,Guaporé,Capacitação,nao,Inexigibilidade,2026-11-18,1288,26168,87862397000109-1-000994/2026
+125,SE,Itabaiana,Capacitação,nao,Inexigibilidade,2026-11-18,20720,109250,13104740000110-1-000167/2026
+126,PA,Igarapé-Miri,Capacitação,nao,Inexigibilidade,2026-11-19,41900,69446,05191333000169-1-000090/2026
+127,RN,Jandaíra,Capacitação,nao,Inexigibilidade,2026-11-19,450,6752,08309239000150-1-000123/2026
+128,SC,Palhoça,Capacitação,nao,Inexigibilidade,2026-11-19,7780,253469,04816835000175-1-000061/2026
+129,BA,Camaçari,Capacitação,nao,Inexigibilidade,2026-11-23,400,321636,14109763000180-1-000303/2026
+130,CE,Fortaleza,Capacitação,nao,Inexigibilidade,2026-11-23,63600,2578483,07954605000160-1-001155/2026
+131,SP,Ribeirão Preto,Capacitação,nao,Inexigibilidade,2026-11-23,4330,731639,56024581000156-1-000526/2026
+132,SP,Sorocaba,Capacitação,nao,Inexigibilidade,2026-11-23,12000,762172,67366310000103-1-000130/2026
+133,RS,Triunfo,Capacitação,nao,Inexigibilidade,2026-11-23,860,28435,91900886000185-1-000031/2026
+134,SC,Vargeão,Capacitação,nao,Inexigibilidade,2026-11-23,2100,3726,04532979000108-1-000020/2026
+135,RS,Alvorada,Capacitação,nao,Inexigibilidade,2026-11-24,690,194062,88000906000157-1-000462/2026
+136,BA,Amargosa,Capacitação,nao,Inexigibilidade,2026-11-24,200,38585,13825484000150-1-000309/2026
+137,RS,Capão da Canoa,Capacitação,nao,Inexigibilidade,2026-11-24,1590,66234,05082233000102-1-000106/2026
+138,MG,Gonçalves,Capacitação,nao,Dispensa,2026-11-24,1200,4922,18025932000154-1-000189/2026
+139,MS,Rio Brilhante,Capacitação,nao,Inexigibilidade,2026-11-24,12870,40419,15469471000110-1-000041/2026
+140,PR,São Miguel do Iguaçu,Capacitação,nao,Inexigibilidade,2026-11-24,120000,30416,76206499000150-1-000232/2026
+141,RJ,Angra dos Reis,Capacitação,nao,Inexigibilidade,2026-11-25,6400,179142,29172467000109-1-000652/2026
+142,ES,Aracruz,Capacitação,nao,Inexigibilidade,2026-11-25,500,103363,27108141000189-1-000065/2026
+143,SP,Borborema,Código Tributário,sim,Inexigibilidade,2026-11-25,35000,14405,46737219000179-1-000170/2026
+144,BA,Glória,Capacitação,nao,Inexigibilidade,2026-11-25,600,16107,14217335000170-1-000105/2026
+145,MA,Jatobá,Capacitação,nao,Inexigibilidade,2026-11-25,16760,7593,01616678000166-1-000024/2026
+146,MS,Laguna Carapã,Capacitação,nao,Inexigibilidade,2026-11-25,4950,7037,01989839000167-1-000038/2026
+147,SP,Mogi Mirim,Consultoria,sim,Dispensa,2026-11-25,64800,95742,46711362000191-1-000114/2026
+148,MG,Pirapora,Capacitação,nao,Inexigibilidade,2026-11-25,1890,57713,23535271000147-1-000061/2026
+149,MA,São Luís,Capacitação,nao,Inexigibilidade,2026-11-25,40000,1089215,06307102000130-1-000590/2026
+150,SC,Videira,Capacitação,nao,Inexigibilidade,2026-11-25,1990,59074,83039842000184-1-000361/2026
+151,SC,Concórdia,Capacitação,nao,Inexigibilidade,2026-11-26,3781,87206,83024257000100-1-000539/2026
+152,SP,Mongaguá,Capacitação,nao,Inexigibilidade,2026-11-26,28000,64845,46578506000183-1-000101/2026
+153,RS,Nova Petrópolis,Capacitação,nao,Inexigibilidade,2026-11-26,2576,23934,88572748000100-1-000447/2026
+154,PR,Luiziana,Capacitação,nao,Inexigibilidade,2024-01-23,1890,6659,80888712000128-1-000002/2024
+155,MT,Pontes e Lacerda,Capacitação,nao,Dispensa,2024-02-09,1890,55762,15023989000126-1-000025/2024
+156,RO,Ariquemes,Capacitação,nao,Inexigibilidade,2024-02-16,7990,109170,04104816000116-1-000026/2024
+157,PR,Campo Mourão,Capacitação,nao,Inexigibilidade,2024-02-26,2800,104122,79869772000114-1-000007/2024
+158,BA,Amargosa,Capacitação,nao,Inexigibilidade,2024-02-28,1850,38585,13825484000150-1-000037/2024
+159,SP,Iguape,Capacitação,nao,Dispensa,2024-02-28,5183.64,29891,45550167000164-1-000040/2024
+160,RS,Venâncio Aires,Capacitação,nao,Inexigibilidade,2024-02-29,700,70842,87334918000155-1-000021/2024
+161,SP,São João da Boa Vista,Capacitação,nao,Dispensa,2024-03-05,1600,96080,46429379000150-1-000011/2024
+162,TO,Pedro Afonso,Capacitação,nao,Inexigibilidade,2024-03-06,5970,14895,02070589000120-1-000038/2024
+163,PR,Pinhais,Capacitação,nao,Inexigibilidade,2024-03-13,2100,131255,95423000000100-1-000070/2024
+164,MG,João Pinheiro,Capacitação,nao,Inexigibilidade,2024-03-15,1890,48725,16930299000113-1-000063/2024
+165,ES,Venda Nova do Imigrante,Capacitação,nao,Inexigibilidade,2024-03-18,5990,25395,31723497000108-1-000018/2024
+166,MT,Várzea Grande,Capacitação,nao,Inexigibilidade,2024-03-21,13190,318922,03507548000110-1-000003/2024
+167,MT,Ipiranga do Norte,Capacitação,nao,Inexigibilidade,2024-03-22,5990,8658,07209245000172-1-000036/2024
+168,SC,São João do Oeste,Capacitação,nao,Inexigibilidade,2024-03-22,500,6467,80911936000103-1-000024/2024
+169,PR,Cruzeiro do Oeste,Capacitação,nao,Inexigibilidade,2024-03-26,6360,24859,00949401000192-1-000002/2024
+170,PR,Cascavel,Capacitação,nao,Inexigibilidade,2024-03-28,3180,368195,77865632000142-1-000002/2024
+171,MG,Itabira,Capacitação,nao,Inexigibilidade,2024-04-02,5780,118053,16845679000150-1-000017/2024
+172,PR,Matelândia,Capacitação,nao,Inexigibilidade,2024-04-03,3180,19223,01732032000144-1-000012/2024
+173,SC,São Miguel do Oeste,Capacitação,nao,Dispensa,2024-04-05,500,47724,82821174000180-1-000203/2024
+174,SC,São Miguel do Oeste,Capacitação,nao,Dispensa,2024-04-08,250,47724,82821174000180-1-000210/2024
+175,PR,Toledo,Capacitação,nao,Inexigibilidade,2024-04-15,5340,160701,76205806000188-1-000053/2024
+176,PR,Candói,Capacitação,nao,Inexigibilidade,2024-04-17,5070,15174,95684486000130-1-000009/2024
+177,MG,Carmo de Minas,Capacitação,nao,Inexigibilidade,2024-04-18,1890,14125,18188243000160-1-000024/2024
+178,PR,Céu Azul,Capacitação,nao,Inexigibilidade,2024-04-18,3780,11255,76206473000101-1-000045/2024
+179,PR,Marechal Cândido Rondon,Capacitação,nao,Inexigibilidade,2024-04-22,7990,58734,76205814000124-1-000089/2024
+180,MG,Barão de Cocais,Capacitação,nao,Inexigibilidade,2024-04-23,3780,32264,18317685000160-1-000022/2024
+181,SP,Piracicaba,Capacitação,nao,Dispensa,2024-04-23,7840,440835,46341038000129-1-000675/2024
+182,MT,Sorriso,Capacitação,nao,Inexigibilidade,2024-04-30,17590,124665,03239076000162-1-000021/2024
+183,SC,Descanso,Capacitação,nao,Dispensa,2024-05-15,250,8652,83026138000197-1-000034/2024
+184,SC,Descanso,Capacitação,nao,Dispensa,2024-05-15,250,8652,83026138000197-1-000033/2024
+185,SP,Araçariguama,Capacitação,nao,Dispensa,2024-05-16,3384,22314,58993577000121-1-000027/2024
+186,RS,Carazinho,Capacitação,nao,Inexigibilidade,2024-05-16,4500,63670,87613535000116-1-000350/2024
+187,SP,Itapetininga,Capacitação,nao,Inexigibilidade,2024-05-20,11320,164256,46634291000170-1-000377/2024
+188,MG,Sete Lagoas,Capacitação,nao,Inexigibilidade,2024-05-24,890,238909,24996969000122-1-000037/2024
+189,GO,Ivolândia,Capacitação,nao,Inexigibilidade,2024-05-29,2000,2731,02321891000103-1-000141/2024
+190,SP,Coronel Macedo,Capacitação,nao,Inexigibilidade,2024-06-07,1226,4271,46634192000199-1-000045/2024
+191,MG,Boa Esperança,Capacitação,nao,Dispensa,2024-06-11,1890,41443,18239590000175-1-000094/2024
+192,SC,Bom Retiro,Capacitação,nao,Dispensa,2024-06-18,1440,8422,82777343000121-1-000217/2024
+193,SC,Itapiranga,Capacitação,nao,Inexigibilidade,2024-06-18,1300,17268,82821208000136-1-000129/2024
+194,MT,Sapezal,Capacitação,nao,Inexigibilidade,2024-06-18,1350,32514,01614225000109-1-000556/2024
+195,MT,Sapezal,Capacitação,nao,Inexigibilidade,2024-06-18,1350,32514,01614225000109-1-000555/2024
+196,MT,Sapezal,Capacitação,nao,Inexigibilidade,2024-06-18,2700,32514,01614225000109-1-000554/2024
+197,SC,Videira,Capacitação,nao,Inexigibilidade,2024-06-18,1850,59074,83039842000184-1-000138/2024
+198,SC,Timbó,Capacitação,nao,Dispensa,2024-06-20,400,49768,83102764000115-1-000281/2024
+199,SC,Barra Bonita,Capacitação,nao,Dispensa,2024-06-24,1950,1642,01612527000130-1-000089/2024
+200,SC,São João do Oeste,Capacitação,nao,Inexigibilidade,2024-06-26,650,6467,80911936000103-1-000076/2024
+201,SC,Paraíso,Capacitação,nao,Inexigibilidade,2024-07-02,650,4394,80912009000108-1-000057/2024
+202,SP,Roseira,Capacitação,nao,Dispensa,2024-07-05,1590,11137,45212008000150-1-000803/2024
+203,SC,São Francisco do Sul,Capacitação,nao,Inexigibilidade,2024-07-12,1690,56726,86132156000141-1-000004/2024
+204,PR,Mamborê,Capacitação,nao,Inexigibilidade,2024-07-15,1990,13551,75776278000154-1-000031/2024
+205,SC,Fraiburgo,Capacitação,nao,Inexigibilidade,2024-07-18,5673.92,34065,82947979000174-1-000145/2024
+206,PR,Mamborê,Capacitação,nao,Inexigibilidade,2024-07-23,3980,13551,75368928000122-1-000106/2024
+207,PR,Telêmaco Borba,Capacitação,nao,Inexigibilidade,2024-07-23,7200,77479,76170240000104-1-000244/2024
+208,SC,Paraíso,Capacitação,nao,Inexigibilidade,2024-07-24,650,4394,80912009000108-1-000075/2024
+209,RO,Jaru,Capacitação,nao,Inexigibilidade,2024-08-02,890,55682,05705900000158-1-000036/2024
+210,RO,Nova Mamoré,Capacitação,nao,Inexigibilidade,2024-08-05,4450,28701,04393492000183-1-000037/2024
+211,SC,São Miguel do Oeste,Capacitação,nao,Dispensa,2024-08-05,650,47724,82821174000180-1-000420/2024
+212,RS,Esteio,Capacitação,nao,Dispensa,2024-08-06,500,78144,88150495000186-1-000354/2024
+213,AL,Maceió,Capacitação,nao,Inexigibilidade,2024-08-15,43200,994952,18325503000100-1-000009/2024
+214,PR,Campo Mourão,Capacitação,nao,Inexigibilidade,2024-08-26,7000,104122,75904524000106-1-000359/2024
+215,AL,Maceió,Capacitação,nao,Inexigibilidade,2024-08-28,43200,994952,18325503000100-1-000010/2024
+216,PR,Palmeira,Capacitação,nao,Inexigibilidade,2024-08-30,6900,34948,76179829000165-1-000224/2024
+217,PR,Bocaiúva do Sul,Capacitação,nao,Inexigibilidade,2024-09-02,1200,13405,76105592000178-1-000175/2024
+218,MG,Itabirito,Capacitação,nao,Dispensa,2024-09-02,21850,56369,18307835000154-1-000074/2024
+219,PR,Paranavaí,Capacitação,nao,Inexigibilidade,2024-09-04,25600,96209,76977768000181-1-000136/2024
+220,SC,Maravilha,Capacitação,nao,Dispensa,2024-09-05,799.9,30743,82821190000172-1-003258/2024
+221,SP,Conchal,Capacitação,nao,Dispensa,2024-09-06,3384,29132,45331188000199-1-000390/2024
+222,MG,Boa Esperança,Capacitação,nao,Dispensa,2024-09-12,1890,41443,18239590000175-1-000242/2024
+223,SC,Itapiranga,Capacitação,nao,Inexigibilidade,2024-09-24,1490,17268,82821208000136-1-000214/2024
+224,SP,Bastos,Capacitação,nao,Dispensa,2024-09-25,1320,21936,45547403000193-1-000177/2024
+225,SC,Itapema,Capacitação,nao,Inexigibilidade,2024-10-01,3600,86116,82572207000103-1-000071/2024
+226,SC,Fraiburgo,Capacitação,nao,Inexigibilidade,2024-10-09,4000,34065,82947979000174-1-000218/2024
+227,SP,Coronel Macedo,Capacitação,nao,Inexigibilidade,2024-10-10,1400,4271,46634192000199-1-000102/2024
+228,MT,Ipiranga do Norte,Código Tributário,sim,Inexigibilidade,2024-10-14,59898,8658,07209245000172-1-000113/2024
+229,RO,Buritis,Capacitação,nao,Inexigibilidade,2024-10-16,9960,30649,01266058000144-1-000094/2024
+230,PR,Santo Antônio da Platina,Capacitação,nao,Inexigibilidade,2024-10-24,7000,45628,76968627000100-1-000345/2024
+231,PR,Chopinzinho,Capacitação,nao,Inexigibilidade,2024-10-25,2360,21604,76995414000160-1-000173/2024
+232,RO,Ministro Andreazza,Capacitação,nao,Inexigibilidade,2024-10-31,9960,6519,63762074000185-1-000145/2024
+233,PR,Palmeira,Capacitação,nao,Inexigibilidade,2024-10-31,2390,34948,77780252000105-1-000052/2024
+234,SC,Videira,Capacitação,nao,Inexigibilidade,2024-11-01,4380,59074,83039842000184-1-000247/2024
+235,PR,Mamborê,Capacitação,nao,Inexigibilidade,2024-11-04,5370,13551,75368928000122-1-000184/2024
+236,PR,Medianeira,Capacitação,nao,Inexigibilidade,2024-11-04,3700,57910,76206481000158-1-000203/2024
+237,PR,Nova Esperança,Capacitação,nao,Inexigibilidade,2024-11-06,1890,27142,75730994000109-1-000257/2024
+238,PR,Dois Vizinhos,Capacitação,nao,Inexigibilidade,2024-11-07,5370,47589,76205640000108-1-000195/2024
+239,PR,Toledo,Capacitação,nao,Inexigibilidade,2024-11-08,41250,160701,76205806000188-1-000262/2024
+240,PR,Santa Helena,Capacitação,nao,Inexigibilidade,2024-11-12,3780,26461,76206457000119-1-000305/2024
+241,RS,Alvorada,Capacitação,nao,Inexigibilidade,2024-11-14,1550,194062,88000906000157-1-000321/2024
+242,PR,Mandaguari,Capacitação,nao,Inexigibilidade,2024-11-19,5370,38313,76285345000109-1-000098/2024
+243,GO,Porangatu,Capacitação,nao,Inexigibilidade,2024-11-22,3188,45512,00824730000107-1-000013/2024
+244,PR,Goioerê,Capacitação,nao,Inexigibilidade,2024-11-25,4850,28931,78198975000163-1-000228/2024
+245,SP,Piracicaba,Capacitação,nao,Dispensa,2024-11-26,4900,440835,46341038000129-1-002022/2024
+246,MG,Belo Horizonte,Capacitação,nao,Inexigibilidade,2024-12-05,2700,2415872,18715383000140-1-001092/2024
+247,SP,Juquiá,Capacitação,nao,Inexigibilidade,2025-01-24,499,17184,46585964000140-1-000006/2025
+248,RS,Venâncio Aires,Capacitação,nao,Inexigibilidade,2025-01-28,800,70842,87334918000155-1-000010/2025
+249,RO,Cacoal,Capacitação,nao,Inexigibilidade,2025-02-05,8800,98280,04092714000128-1-000029/2025
+250,MT,Tangará da Serra,Capacitação,nao,Inexigibilidade,2025-02-06,17550,114603,03788239000166-1-000029/2025
+251,SP,Tambaú,Capacitação,nao,Inexigibilidade,2025-02-10,4320,21650,46373445000118-1-000021/2025
+252,SP,Holambra,Capacitação,nao,Dispensa,2025-02-14,7500,15718,67172437000183-1-000248/2025
+253,RS,Ipê,Capacitação,nao,Dispensa,2025-02-18,4300,5490,90544511000167-1-000386/2025
+254,SC,Guaraciaba,Capacitação,nao,Inexigibilidade,2025-02-28,350,11071,82821216000182-1-000053/2025
+255,PR,Mamborê,Capacitação,nao,Inexigibilidade,2025-03-06,2490,13551,75776278000154-1-000004/2025
+256,SP,São José dos Campos,Capacitação,nao,Inexigibilidade,2025-03-07,55960,727078,50448935000103-1-000071/2025
+257,RO,Cacoal,Capacitação,nao,Inexigibilidade,2025-03-10,7470,98280,04092714000128-1-000047/2025
+258,MG,Itabirito,Capacitação,nao,Inexigibilidade,2025-03-10,2490,56369,18366963000179-1-000022/2025
+259,RO,Jaru,Capacitação,nao,Inexigibilidade,2025-03-10,12450,55682,04279238000159-1-000057/2025
+260,GO,Rio Verde,Capacitação,nao,Inexigibilidade,2025-03-11,950,241494,02056729000105-1-000236/2025
+261,SP,Jundiaí,Capacitação,nao,Inexigibilidade,2025-03-12,7200,463039,14602175000183-1-000018/2025
+262,MT,Mirassol d'Oeste,Capacitação,nao,Inexigibilidade,2025-03-14,15990,27637,03755477000175-1-000023/2025
+263,GO,Buritinópolis,Capacitação,nao,Inexigibilidade,2025-03-17,302500,3140,24856569000111-1-000034/2025
+264,SC,Princesa,Capacitação,nao,Inexigibilidade,2025-03-19,350,3073,01612836000100-1-000030/2025
+265,PR,Piên,Capacitação,nao,Inexigibilidade,2025-03-21,990,14409,76002666000140-1-000076/2025
+266,MT,Sorriso,Capacitação,nao,Inexigibilidade,2025-03-25,17590,124665,03239076000162-1-000023/2025
+267,RO,Pimenta Bueno,Capacitação,nao,Inexigibilidade,2025-03-26,7470,39220,04092680000171-1-000042/2025
+268,GO,Jataí,Capacitação,nao,Inexigibilidade,2025-03-27,5000,111634,01165729000180-1-000079/2025
+269,RS,Nova Petrópolis,Capacitação,nao,Inexigibilidade,2025-03-27,800,23934,88572748000100-1-000140/2025
+270,PR,Quatro Barras,Capacitação,nao,Inexigibilidade,2025-03-27,7560,25397,76105568000139-1-000038/2025
+271,SP,São Roque,Capacitação,nao,Dispensa,2025-03-28,2000,81366,70946009000175-1-000095/2025
+272,RO,Cacoal,Capacitação,nao,Inexigibilidade,2025-04-01,9960,98280,04092714000128-1-000070/2025
+273,ES,Serra,Consultoria,sim,Dispensa,2025-04-01,380000,579720,27174093000127-1-000369/2024
+274,SP,Caieiras,Capacitação,nao,Dispensa,2025-04-03,1060,98549,49762792000120-1-000007/2025
+275,PR,Mandaguari,Capacitação,nao,Inexigibilidade,2025-04-03,14950,38313,76285345000109-1-000065/2025
+276,BA,Santa Rita de Cássia,Capacitação,nao,Inexigibilidade,2025-04-03,6591,28890,13880711000140-1-000024/2025
+277,RO,Colorado do Oeste,Capacitação,nao,Inexigibilidade,2025-04-04,11950,16508,04391512000187-1-000029/2025
+278,SP,Paulínia,Capacitação,nao,Inexigibilidade,2025-04-04,8500,116674,45751435000106-1-000080/2025
+279,RS,Venâncio Aires,Capacitação,nao,Inexigibilidade,2025-04-09,1798.2,70842,87334918000155-1-000107/2025
+280,SC,São Joaquim,Capacitação,nao,Inexigibilidade,2025-04-10,990,26982,82561093000198-1-000121/2025
+281,SC,Tijucas,Código Tributário,sim,Inexigibilidade,2025-04-10,95400,58695,82577636000165-1-000033/2025
+282,RS,Carazinho,Capacitação,nao,Inexigibilidade,2025-04-11,666,63670,87613535000116-1-000209/2025
+283,RO,Chupinguaia,Capacitação,nao,Inexigibilidade,2025-04-11,3900,10191,01587887000129-1-000104/2025
+284,RO,Buritis,Capacitação,nao,Inexigibilidade,2025-04-14,6000,30649,01266058000144-1-000056/2025
+285,SP,Paranapanema,Assessoria jurídica,sim,Inexigibilidade,2025-04-17,90000,19853,46634309000134-1-000043/2025
+286,SC,Bombinhas,Código Tributário,sim,Inexigibilidade,2025-04-22,54000,28738,95815379000102-1-000022/2025
+287,RO,Nova Brasilândia D'Oeste,Capacitação,nao,Inexigibilidade,2025-04-22,11950,16374,15884109000106-1-000028/2025
+288,ES,Aracruz,Consultoria,sim,Dispensa,2025-04-24,330000,103363,27142702000166-1-000122/2025
+289,PR,Wenceslau Braz,Capacitação,nao,Inexigibilidade,2025-04-24,3000,19398,76920800000192-1-000056/2025
+290,PR,Castro,Capacitação,nao,Inexigibilidade,2025-04-25,3000,75644,77001311000108-1-000141/2025
+291,MT,Juína,Capacitação,nao,Inexigibilidade,2025-04-25,5370,48396,15359219000159-1-000014/2025
+292,SC,Araquari,Capacitação,nao,Inexigibilidade,2025-04-30,10760,52079,83545285000173-1-000049/2025
+293,PR,Goioerê,Capacitação,nao,Inexigibilidade,2025-05-05,3000,28931,78198975000163-1-000055/2025
+294,MG,Ouro Preto,Capacitação,nao,Inexigibilidade,2025-05-07,6600,77914,18295295000136-1-000066/2025
+295,MG,Santana de Cataguases,Capacitação,nao,Inexigibilidade,2025-05-07,5028,3548,17702515000136-1-000049/2025
+296,RS,Canela,Capacitação,nao,Inexigibilidade,2025-05-08,1798.2,50715,88585518000185-1-000316/2025
+297,MG,Itabirito,Capacitação,nao,Inexigibilidade,2025-05-09,8070,56369,18366963000179-1-000040/2025
+298,PR,Matelândia,Capacitação,nao,Inexigibilidade,2025-05-09,10190.8,19223,01732032000144-1-000011/2025
+299,RO,Cacoal,Capacitação,nao,Inexigibilidade,2025-05-12,13450,98280,04092714000128-1-000111/2025
+300,RS,Alvorada,Capacitação,nao,Inexigibilidade,2025-05-13,2997,194062,88000906000157-1-000108/2025
+301,PR,Corbélia,Capacitação,nao,Inexigibilidade,2025-05-13,9960,17933,78680121000119-1-000014/2025
+302,ES,Serra,Capacitação,nao,Inexigibilidade,2025-05-13,3200,579720,27174093000127-1-000151/2025
+303,RO,Jaru,Capacitação,nao,Inexigibilidade,2025-05-14,8070,55682,04279238000159-1-000104/2025
+304,SC,Araquari,Capacitação,nao,Inexigibilidade,2025-05-16,13450,52079,83545285000173-1-000055/2025
+305,RO,Cacoal,Capacitação,nao,Inexigibilidade,2025-05-16,43040,98280,04092714000128-1-000120/2025
+306,PR,Quarto Centenário,Capacitação,nao,Inexigibilidade,2025-05-16,6380,4127,01619104000141-1-000070/2025
+307,RS,Canela,Capacitação,nao,Inexigibilidade,2025-05-19,599.4,50715,88585518000185-1-000349/2025
+308,BA,Salvador,Consultoria,sim,Pregão Eletrônico,2025-05-19,1800000,2564204,13927801000149-1-000096/2025
+309,RS,Sapucaia do Sul,Capacitação,nao,Inexigibilidade,2025-05-19,2997,136572,88185020000125-1-000082/2025
+310,PR,Medianeira,Capacitação,nao,Inexigibilidade,2025-05-20,9960,57910,77814820000141-1-000007/2025
+311,RJ,Duque de Caxias,Capacitação,nao,Inexigibilidade,2025-05-21,9540,866225,29138328000150-1-000076/2025
+312,RO,Nova Mamoré,Capacitação,nao,Inexigibilidade,2025-05-21,11250,28701,22855183000160-1-000058/2025
+313,RO,Chupinguaia,Capacitação,nao,Inexigibilidade,2025-05-23,4500,10191,01587887000129-1-000151/2025
+314,RO,Jaru,Capacitação,nao,Inexigibilidade,2025-05-23,11920,55682,04279238000159-1-000111/2025
+315,RO,Rio Crespo,Capacitação,nao,Inexigibilidade,2025-05-26,4000,3767,63762918000198-1-000008/2025
+316,RJ,Volta Redonda,Capacitação,nao,Inexigibilidade,2025-05-26,53632,279971,32512501000143-1-000151/2025
+317,ES,Aracruz,Capacitação,nao,Inexigibilidade,2025-05-30,3500,103363,27142702000166-1-000147/2025
+318,MG,Itabirito,Capacitação,nao,Inexigibilidade,2025-05-30,16140,56369,18366963000179-1-000045/2025
+319,RO,Vale do Anari,Capacitação,nao,Inexigibilidade,2025-06-03,2300,8220,01649263000199-1-000019/2025
+320,ES,Anchieta,Capacitação,nao,Inexigibilidade,2025-06-04,14760,33017,27142694000158-1-000122/2025
+321,SP,Indaiatuba,Capacitação,nao,Dispensa,2025-06-05,8000,269657,44733608000109-1-000475/2025
+322,PR,Rio Branco do Sul,Capacitação,nao,Inexigibilidade,2025-06-05,2200,40308,76105576000185-1-000083/2025
+323,RS,Santo Ângelo,Capacitação,nao,Inexigibilidade,2025-06-06,3815.1,79146,87613071000148-1-000258/2025
+324,RS,Venâncio Aires,Capacitação,nao,Inexigibilidade,2025-06-06,471,70842,87334918000155-1-000204/2025
+325,SC,Santa Rosa do Sul,Capacitação,nao,Inexigibilidade,2025-06-09,990,10450,80989965000198-1-000050/2025
+326,MG,Governador Valadares,Capacitação,nao,Inexigibilidade,2025-06-11,30960,266561,20622890000180-1-000046/2025
+327,PR,Nova Esperança,Capacitação,nao,Inexigibilidade,2025-06-11,3000,27142,75730994000109-1-000128/2025
+328,RS,Dom Pedrito,Capacitação,nao,Inexigibilidade,2025-06-12,1695.6,38080,87482535000124-1-000716/2025
+329,RS,São Pedro da Serra,Capacitação,nao,Inexigibilidade,2025-06-13,442.74,3618,93235968000188-1-000125/2025
+330,RS,Canguçu,Capacitação,nao,Dispensa,2025-06-16,885.48,50968,88861430000149-1-000689/2025
+331,MG,Lagoa da Prata,Capacitação,nao,Dispensa,2025-06-17,600,53927,18318618000160-1-000090/2025
+332,RS,Porto Vera Cruz,Capacitação,nao,Inexigibilidade,2025-06-17,471,1582,91105452000193-1-000202/2025
+333,MG,Lagoa da Prata,Capacitação,nao,Dispensa,2025-06-18,3000,53927,18318618000160-1-000091/2025
+334,ES,Anchieta,Capacitação,nao,Inexigibilidade,2025-06-23,11070,33017,27142694000158-1-000142/2025
+335,MT,Sorriso,Código Tributário,sim,Inexigibilidade,2025-06-23,35181,124665,03239076000162-1-000115/2025
+336,MT,Sapezal,Capacitação,nao,Inexigibilidade,2025-06-25,52250,32514,01614225000109-1-000165/2025
+337,ES,Cachoeiro de Itapemirim,Capacitação,nao,Inexigibilidade,2025-07-01,4790,198342,31723265000141-1-000065/2025
+338,MG,Campanha,Capacitação,nao,Inexigibilidade,2025-07-01,3000,16372,18712174000142-1-000093/2025
+339,MG,Lima Duarte,Capacitação,nao,Inexigibilidade,2025-07-01,2190,17782,20434122000101-1-000023/2025
+340,PR,Mandaguaçu,Capacitação,nao,Inexigibilidade,2025-07-01,3000,34521,76285329000108-1-000095/2025
+341,PR,Campo Mourão,Capacitação,nao,Inexigibilidade,2025-07-03,3000,104122,75904524000106-1-000257/2025
+342,MG,Curvelo,Capacitação,nao,Inexigibilidade,2025-07-03,4800,84297,17695024000105-1-000060/2025
+343,MG,Guaxupé,Capacitação,nao,Inexigibilidade,2025-07-03,2400,52744,18663401000197-1-000199/2025
+344,SC,Xavantina,Capacitação,nao,Inexigibilidade,2025-07-04,400,3583,83009878000115-1-000072/2025
+345,ES,Anchieta,Capacitação,nao,Inexigibilidade,2025-07-07,3690,33017,27142694000158-1-000150/2025
+346,RS,Bossoroca,Capacitação,nao,Inexigibilidade,2025-07-07,471,5978,87613014000169-1-000500/2025
+347,MG,Cordisburgo,Capacitação,nao,Dispensa,2025-07-07,600,7535,18116137000171-1-000136/2025
+348,ES,Vargem Alta,Capacitação,nao,Inexigibilidade,2025-07-07,12780,20390,31723570000133-1-000084/2025
+349,ES,Cariacica,Capacitação,nao,Inexigibilidade,2025-07-08,17000,376200,27150549000119-1-000126/2025
+350,SC,Ipumirim,Capacitação,nao,Inexigibilidade,2025-07-08,4380,8121,82814575000102-1-000067/2025
+351,MT,Querência,Capacitação,nao,Inexigibilidade,2025-07-08,8950,31100,37465002000166-1-000046/2025
+352,ES,Vitória,Capacitação,nao,Inexigibilidade,2025-07-08,11070,343378,27142058000126-1-000354/2025
+353,MG,Igaratinga,Capacitação,nao,Dispensa,2025-07-09,11160,11345,18313825000121-1-000093/2025
+354,MA,Açailândia,Capacitação,nao,Inexigibilidade,2025-07-10,7560,110611,07000268000172-1-000066/2025
+355,RS,Carazinho,Capacitação,nao,Inexigibilidade,2025-07-10,942,63670,87613535000116-1-000439/2025
+356,MG,Itatiaiuçu,Código Tributário,sim,Inexigibilidade,2025-07-11,61200,13779,18691766000125-1-000080/2025
+357,MG,Extrema,Capacitação,nao,Inexigibilidade,2025-07-14,6570,59336,19038603000100-1-000071/2025
+358,MG,Cordisburgo,Capacitação,nao,Dispensa,2025-07-16,600,7535,18116137000171-1-000138/2025
+359,RS,Osório,Capacitação,nao,Inexigibilidade,2025-07-16,626.04,48999,88814181000130-1-000442/2025
+360,MG,Barão de Cocais,Capacitação,nao,Inexigibilidade,2025-07-18,1600,32264,18317685000160-1-000092/2025
+361,MG,Viçosa,Capacitação,nao,Inexigibilidade,2025-07-18,2190,79517,26120956000110-1-000054/2025
+362,MG,São Bento Abade,Capacitação,nao,Inexigibilidade,2025-07-21,5160,4846,25641408000173-1-000016/2025
+363,MG,Extrema,Capacitação,nao,Inexigibilidade,2025-07-22,2190,59336,19038603000100-1-000076/2025
+364,PR,Palmeira,Capacitação,nao,Inexigibilidade,2025-07-22,9750,34948,76179829000165-1-000167/2025
+365,RS,Alvorada,Capacitação,nao,Inexigibilidade,2025-07-23,2397.6,194062,88000906000157-1-000196/2025
+366,PR,Araucária,Capacitação,nao,Inexigibilidade,2025-07-23,21600,162247,76105535000199-1-000172/2025
+367,RS,Canela,Capacitação,nao,Inexigibilidade,2025-07-24,2397.6,50715,88585518000185-1-000603/2025
+368,RS,Pinheiro Machado,Capacitação,nao,Inexigibilidade,2025-07-24,3596.4,11395,88084942000146-1-000281/2025
+369,BA,Salvador,Capacitação,nao,Inexigibilidade,2025-07-24,38.4,2564204,13927801000815-1-000005/2025
+370,MG,Itajubá,Capacitação,nao,Inexigibilidade,2025-07-25,1200,96855,18025940000109-1-000146/2025
+371,RS,São Jerônimo,Capacitação,nao,Inexigibilidade,2025-07-25,16110,21412,90893439000183-1-000073/2025
+372,MG,Alterosa,Capacitação,nao,Inexigibilidade,2025-07-28,9950,14272,02902626000119-1-000032/2025
+373,MG,Sete Lagoas,Capacitação,nao,Inexigibilidade,2025-07-29,1600,238909,24996969000122-1-000182/2025
+374,SP,Inúbia Paulista,Capacitação,nao,Inexigibilidade,2025-07-30,990,3671,44919611000103-1-000082/2025
+375,MG,Oliveira,Consultoria,sim,Inexigibilidade,2025-07-30,84900,40576,16854531000181-1-000106/2025
+376,RJ,Pinheiral,Capacitação,nao,Inexigibilidade,2025-07-30,2400,25096,01612981000190-1-000063/2025
+377,PR,Serranópolis do Iguaçu,Capacitação,nao,Inexigibilidade,2025-07-30,2190,5161,01613052000104-1-000111/2025
+378,MG,São Brás do Suaçuí,Capacitação,nao,Inexigibilidade,2025-07-30,5970,4161,20356754000196-1-000084/2025
+379,SP,Vinhedo,Código Tributário,sim,Dispensa,2025-07-30,59991,79089,46446696000185-1-000246/2025
+380,SC,Timbó,Capacitação,nao,Dispensa,2025-07-31,600,49768,83102764000115-1-000271/2025
+381,SC,Passo de Torres,Capacitação,nao,Inexigibilidade,2025-08-04,1744,14859,95782793000154-1-000069/2025
+382,PR,São Miguel do Iguaçu,Capacitação,nao,Inexigibilidade,2025-08-04,11940,30416,76206499000150-1-000212/2025
+383,PR,Medianeira,Capacitação,nao,Inexigibilidade,2025-08-07,3980,57910,76206481000158-1-000126/2025
+384,PR,Palmeira,Capacitação,nao,Inexigibilidade,2025-08-07,1950,34948,76179829000165-1-000194/2025
+385,BA,Pojuca,Capacitação,nao,Inexigibilidade,2025-08-07,8000,33573,13806237000106-1-000158/2025
+386,SP,Santa Cruz do Rio Pardo,Capacitação,nao,Inexigibilidade,2025-08-07,2370,47759,46231890000143-1-000382/2025
+387,SC,Água Doce,Capacitação,nao,Inexigibilidade,2025-08-07,1450,6587,82939398000190-1-000086/2025
+388,PB,Campina Grande,Capacitação,nao,Inexigibilidade,2025-08-08,7000,443911,08993917000146-1-000030/2026
+389,RJ,Volta Redonda,Capacitação,nao,Inexigibilidade,2025-08-08,1425,279971,32504706000187-1-000082/2025
+390,RS,Cachoeirinha,Capacitação,nao,Inexigibilidade,2025-08-11,1252.08,141503,87990800000185-1-000345/2025
+391,PR,Toledo,Capacitação,nao,Inexigibilidade,2025-08-11,11250,160701,76205806000188-1-000163/2025
+392,RO,Vilhena,Capacitação,nao,Inexigibilidade,2025-08-11,13600,109651,04092706000181-1-000201/2025
+393,RS,Carazinho,Capacitação,nao,Inexigibilidade,2025-08-12,1332,63670,87613535000116-1-000489/2025
+394,SP,Jumirim,Capacitação,nao,Dispensa,2025-08-12,3400,3132,01612150000119-1-000316/2025
+395,PR,Pato Branco,Capacitação,nao,Inexigibilidade,2025-08-12,4200,97821,76995448000154-1-000084/2025
+396,MT,Lucas do Rio Verde,Consultoria,sim,Inexigibilidade,2025-08-14,121123.2,95792,24772246000140-1-000081/2025
+397,PR,Mandaguari,Capacitação,nao,Inexigibilidade,2025-08-14,9950,38313,76285345000109-1-000196/2025
+398,RS,São Jerônimo,Capacitação,nao,Inexigibilidade,2025-08-14,4380,21412,88117700000101-1-000306/2025
+399,PR,Campo Mourão,Capacitação,nao,Inexigibilidade,2025-08-15,13230,104122,75904524000106-1-000346/2025
+400,SP,Itaberá,Capacitação,nao,Inexigibilidade,2025-08-15,5281.2,18263,46634374000160-1-000121/2025
+401,RS,São Francisco de Paula,Capacitação,nao,Inexigibilidade,2025-08-15,356,22388,88756879000147-1-000337/2025
+402,BA,Salvador,Capacitação,nao,Inexigibilidade,2025-08-18,5060,2564204,13927801000815-1-000006/2025
+403,MA,São Luís,Capacitação,nao,Inexigibilidade,2025-08-18,28764,1089215,06307102000130-1-000676/2025
+404,SC,Videira,Capacitação,nao,Inexigibilidade,2025-08-18,600,59074,83039842000184-1-000139/2025
+405,RS,Canguçu,Capacitação,nao,Dispensa,2025-08-19,666,50968,88861430000149-1-000987/2025
+406,RS,Carazinho,Capacitação,nao,Inexigibilidade,2025-08-19,1332,63670,87613535000116-1-000499/2025
+407,PR,Pato Branco,Capacitação,nao,Inexigibilidade,2025-08-19,2100,97821,76898196000145-1-000033/2025
+408,RN,Riacho da Cruz,Capacitação,nao,Inexigibilidade,2025-08-19,1000,2724,08153454000104-1-000053/2025
+409,PR,Alto Paraíso,Capacitação,nao,Inexigibilidade,2025-08-20,4580,3067,95640744000187-1-000027/2025
+410,PR,Entre Rios do Oeste,Capacitação,nao,Inexigibilidade,2025-08-20,9160,4770,95719530000109-1-000017/2025
+411,SP,Matão,Capacitação,nao,Inexigibilidade,2025-08-22,5868,81075,64925092000101-1-000087/2025
+412,RS,São Gabriel,Capacitação,nao,Inexigibilidade,2025-08-22,1798.2,60090,88768080000170-1-000859/2025
+413,RS,São Gabriel,Capacitação,nao,Inexigibilidade,2025-08-22,1798.2,60090,88768080000170-1-000858/2025
+414,SP,Borebi,Consultoria,sim,Dispensa,2025-08-25,60750,2801,54724802000173-1-000102/2025
+415,MG,Além Paraíba,Capacitação,nao,Inexigibilidade,2025-08-26,1380,31159,19774744000191-1-000047/2025
+416,SC,Itajaí,Capacitação,nao,Inexigibilidade,2025-08-26,3600,294850,83102277000152-1-000304/2025
+417,BA,Jequié,Capacitação,nao,Inexigibilidade,2025-08-28,9600,169201,13894878000160-1-000167/2025
+418,RS,Eldorado do Sul,Capacitação,nao,Inexigibilidade,2025-09-02,1850,41012,93203966000107-1-000203/2025
+419,RS,Eldorado do Sul,Capacitação,nao,Inexigibilidade,2025-09-02,12950,41012,93203966000107-1-000200/2025
+420,RS,Novo Cabrais,Capacitação,nao,Inexigibilidade,2025-09-02,6060.6,3633,01601856000185-1-000367/2025
+421,MG,Pirapora,Capacitação,nao,Inexigibilidade,2025-09-02,4000,57713,23535271000147-1-000066/2025
+422,PA,Barcarena,Capacitação,nao,Inexigibilidade,2025-09-03,21750,139076,05058458000115-1-000105/2025
+423,SC,Canoinhas,Capacitação,nao,Inexigibilidade,2025-09-03,2000,56948,83528620000125-1-000008/2025
+424,RO,Itapuã do Oeste,Capacitação,nao,Inexigibilidade,2025-09-05,13800,9228,63761936000155-1-000037/2025
+425,PR,Jandaia do Sul,Capacitação,nao,Inexigibilidade,2025-09-05,1500,21930,75771204000125-1-000091/2025
+426,RS,Giruá,Capacitação,nao,Inexigibilidade,2025-09-08,590,16273,87613048000153-1-000249/2025
+427,PR,Maringá,Capacitação,nao,Inexigibilidade,2025-09-08,7799.4,429660,76282656000106-1-000328/2025
+428,PR,Santa Terezinha de Itaipu,Capacitação,nao,Inexigibilidade,2025-09-08,7960,25300,75425314000135-1-000141/2025
+429,SC,Bom Retiro,Capacitação,nao,Inexigibilidade,2025-09-09,419.9,8422,82777343000121-1-000211/2025
+430,SC,Três Barras,Capacitação,nao,Inexigibilidade,2025-09-09,3188,20525,83102400000135-1-000175/2025
+431,RS,Canela,Consultoria,sim,Inexigibilidade,2025-09-10,34900,50715,88585518000185-1-000746/2025
+432,MG,Gonçalves,Capacitação,nao,Dispensa,2025-09-10,300,4922,18025932000154-1-000258/2025
+433,SP,Leme,Capacitação,nao,Dispensa,2025-09-10,3980,101537,46362661000168-1-001958/2025
+434,MG,Nanuque,Capacitação,nao,Inexigibilidade,2025-09-12,1150,35263,21224936000176-1-000041/2025
+435,SC,Paraíso,Capacitação,nao,Inexigibilidade,2025-09-12,1990,4394,10568101000117-1-000037/2025
+436,SC,Seara,Capacitação,nao,Inexigibilidade,2025-09-12,6664,19399,83024505000113-1-000424/2025
+437,RJ,São Gonçalo,Capacitação,nao,Inexigibilidade,2025-09-12,38250,960196,28636579000100-1-000045/2025
+438,MA,Barra do Corda,Capacitação,nao,Inexigibilidade,2025-09-16,1990,87757,06769798000117-1-000131/2025
+439,MG,Campanha,Capacitação,nao,Inexigibilidade,2025-09-16,600,16372,18712174000142-1-000137/2025
+440,SC,Palhoça,Capacitação,nao,Inexigibilidade,2025-09-16,3000,253469,82892316000108-1-000212/2025
+441,PR,Goioerê,Capacitação,nao,Inexigibilidade,2025-09-17,3000,28931,78198975000163-1-000159/2025
+442,SC,Itapiranga,Capacitação,nao,Inexigibilidade,2025-09-17,4380,17268,82821208000136-1-000171/2025
+443,SC,Tubarão,Capacitação,nao,Inexigibilidade,2025-09-17,6500,116725,82928656000133-1-000151/2025
+444,RS,Caxias do Sul,Capacitação,nao,Inexigibilidade,2025-09-18,15120,479599,88659313000105-1-000194/2025
+445,PR,Maringá,Capacitação,nao,Inexigibilidade,2025-09-18,17000,429660,76282656000106-1-000364/2025
+446,BA,Salvador,Capacitação,nao,Inexigibilidade,2025-09-18,58560,2564204,13927801000491-1-000022/2025
+447,MG,Cordisburgo,Capacitação,nao,Dispensa,2025-09-19,1200,7535,18116137000171-1-000178/2025
+448,MA,Imperatriz,Capacitação,nao,Inexigibilidade,2025-09-19,6000,285806,06158455000116-1-000127/2025
+449,SC,Mondaí,Capacitação,nao,Inexigibilidade,2025-09-19,1990,10206,78483856000152-1-000006/2025
+450,SC,São Bonifácio,Capacitação,nao,Inexigibilidade,2025-09-19,1000,2982,82892340000139-1-000100/2025
+451,MS,Campo Grande,Capacitação,nao,Inexigibilidade,2025-09-23,6000,962883,03514106000100-1-000025/2025
+452,RS,Porto Vera Cruz,Capacitação,nao,Inexigibilidade,2025-09-29,666,1582,91105452000193-1-000323/2025
+453,MG,São Tiago,Capacitação,nao,Dispensa,2025-09-29,600,11559,17749904000117-1-000158/2025
+454,RO,Ariquemes,Capacitação,nao,Inexigibilidade,2025-09-30,2990,109170,04104816000116-1-000241/2025
+455,MG,Campo Belo,Capacitação,nao,Inexigibilidade,2025-09-30,600,54027,20929212000165-1-000070/2025
+456,SC,Irani,Capacitação,nao,Inexigibilidade,2025-09-30,4998,10560,82939455000131-1-000159/2025
+457,BA,Irecê,Capacitação,nao,Inexigibilidade,2025-10-01,20000,78781,13715891000104-1-000270/2025
+458,SC,Itajaí,Consultoria,sim,Inexigibilidade,2025-10-01,20000,294850,83102277000152-1-000383/2025
+459,SC,Lindóia do Sul,Capacitação,nao,Inexigibilidade,2025-10-01,4998,4604,78510112000180-1-000140/2025
+460,SC,Cerro Negro,Capacitação,nao,Inexigibilidade,2025-10-02,790,3303,95991097000158-1-000153/2025
+461,PR,Curitiba,Capacitação,nao,Inexigibilidade,2025-10-02,20364,1830795,76417005000186-1-000254/2025
+462,SC,Jaraguá do Sul,Capacitação,nao,Inexigibilidade,2025-10-02,1180,199519,84438381000185-1-000276/2025
+463,MG,Formiga,Capacitação,nao,Inexigibilidade,2025-10-03,300,70897,16784720000125-1-000327/2025
+464,SP,Amparo,Capacitação,nao,Dispensa,2025-10-06,15000,69792,43465459000173-1-001544/2025
+465,SC,Biguaçu,Capacitação,nao,Inexigibilidade,2025-10-06,400,83756,82892308000153-1-000185/2025
+466,MG,Bocaiúva,Capacitação,nao,Inexigibilidade,2025-10-06,2000,49797,66451014000130-1-000073/2025
+467,RJ,Bom Jesus do Itabapoana,Capacitação,nao,Inexigibilidade,2025-10-06,7406,37176,29112760000172-1-000177/2025
+468,PR,Guarapuava,Capacitação,nao,Inexigibilidade,2025-10-06,185075,189630,76178037000176-1-000157/2025
+469,MG,Três Pontas,Capacitação,nao,Inexigibilidade,2025-10-06,800,57209,25660713000102-1-000051/2025
+470,MG,Cambuí,Capacitação,nao,Dispensa,2025-10-07,600,31066,18675975000185-1-000138/2025
+471,PR,Ponta Grossa,Capacitação,nao,Inexigibilidade,2025-10-07,5160,375632,76175884000187-1-000278/2025
+472,SC,Barra Bonita,Capacitação,nao,Inexigibilidade,2025-10-08,,1642,01612527000130-1-000116/2025
+473,MG,Itabira,Código Tributário,sim,Inexigibilidade,2025-10-08,53991,118053,18299446000124-1-000127/2025
+474,MG,Curvelo,Capacitação,nao,Inexigibilidade,2025-10-09,2100,84297,17695024000105-1-000111/2025
+475,SP,Juquiá,Capacitação,nao,Inexigibilidade,2025-10-14,1512,17184,46585964000140-1-000230/2025
+476,GO,Petrolina de Goiás,Capacitação,nao,Dispensa,2025-10-14,2500,9519,01825413000178-1-000127/2025
+477,RO,Cacaulândia,Capacitação,nao,Inexigibilidade,2025-10-15,8073,4292,63762058000192-1-000058/2025
+478,MS,Campo Grande,Capacitação,nao,Inexigibilidade,2025-10-15,6000,962883,03501509000106-1-000130/2025
+479,SC,Caçador,Capacitação,nao,Inexigibilidade,2025-10-15,3000,76298,00284689000123-1-000109/2025
+480,MG,Caeté,Capacitação,nao,Dispensa,2025-10-16,900,39775,18302299000102-1-000125/2025
+481,SC,Jaraguá do Sul,Capacitação,nao,Inexigibilidade,2025-10-17,14300,199519,83102459000123-1-001545/2025
+482,SP,Sete Barras,Capacitação,nao,Inexigibilidade,2025-10-17,3360,12903,46587275000174-1-000741/2025
+483,PR,Jacarezinho,Capacitação,nao,Inexigibilidade,2025-10-20,7470,41493,01510404000198-1-000080/2025
+484,GO,Jesúpolis,Capacitação,nao,Dispensa,2025-10-20,4000,2112,37623501000134-1-000111/2025
+485,SC,Ipumirim,Capacitação,nao,Inexigibilidade,2025-10-21,4998,8121,82814575000102-1-000119/2025
+486,RS,Porto Alegre,Capacitação,nao,Inexigibilidade,2025-10-21,18900,1388794,92963560000160-1-000864/2025
+487,SC,Navegantes,Capacitação,nao,Inexigibilidade,2025-10-22,13388,96046,83102855000150-1-000176/2025
+488,MT,Sapezal,Capacitação,nao,Inexigibilidade,2025-10-22,6570,32514,01639708000150-1-000174/2025
+489,ES,Aracruz,Capacitação,nao,Inexigibilidade,2025-10-24,2580,103363,27142702000166-1-000329/2025
+490,RS,Bento Gonçalves,Capacitação,nao,Inexigibilidade,2025-10-24,11940,127977,87849923000109-1-000591/2025
+491,GO,Jataí,Capacitação,nao,Inexigibilidade,2025-10-24,1700,111634,24858805000139-1-000141/2025
+492,SC,Navegantes,Capacitação,nao,Inexigibilidade,2025-10-25,730,96046,83102855000150-1-000181/2025
+493,PR,Ivaiporã,Capacitação,nao,Inexigibilidade,2025-10-27,945,33566,77774578000120-1-000042/2025
+494,GO,Carmo do Rio Verde,Capacitação,nao,Inexigibilidade,2025-10-28,1800,9988,02542538000153-1-000100/2025
+495,GO,Itarumã,Capacitação,nao,Inexigibilidade,2025-10-29,5130,6124,01067271000127-1-000422/2025
+496,TO,Pedro Afonso,Capacitação,nao,Inexigibilidade,2025-10-29,12950,14895,02070589000120-1-000107/2025
+497,GO,Colinas do Sul,Capacitação,nao,Inexigibilidade,2025-10-31,5130,4188,25105255000140-1-000094/2025
+498,SC,Tijucas,Capacitação,nao,Inexigibilidade,2025-10-31,1180,58695,82577636000165-1-000202/2025
+499,GO,Uirapuru,Capacitação,nao,Inexigibilidade,2025-10-31,3000,2798,37622164000160-1-000262/2025
+500,RS,Caxias do Sul,Capacitação,nao,Inexigibilidade,2025-11-03,1990,479599,01404511000131-1-000089/2025
+501,SP,Piracicaba,Capacitação,nao,Dispensa,2025-11-04,11670,440835,50853555000154-1-000301/2025
+502,SC,Canoinhas,Capacitação,nao,Inexigibilidade,2025-11-05,2700,56948,83528620000125-1-000012/2025
+503,RN,Natal,Capacitação,nao,Inexigibilidade,2025-11-05,6450,784249,08241747000658-1-000008/2025
+504,SC,Urussanga,Capacitação,nao,Dispensa,2025-11-05,4380,21464,82930181000110-1-000518/2025
+505,SC,Balneário Camboriú,Capacitação,nao,Inexigibilidade,2025-11-06,1299.9,151674,83102285000107-1-000479/2025
+506,GO,Bonópolis,Capacitação,nao,Inexigibilidade,2025-11-06,3000,3289,01634272000106-1-000289/2025
+507,MT,Confresa,Capacitação,nao,Inexigibilidade,2025-11-06,4704,38460,37465358000108-1-000048/2025
+508,GO,Crixás,Capacitação,nao,Inexigibilidade,2025-11-06,1000,17532,02382067000163-1-000839/2025
+509,MG,Ponte Nova,Capacitação,nao,Inexigibilidade,2025-11-06,1800,59638,23804149000129-1-000147/2025
+510,MG,Cristais,Capacitação,nao,Inexigibilidade,2025-11-07,3000,12634,17888082000155-1-000269/2025
+511,PR,São Miguel do Iguaçu,Capacitação,nao,Inexigibilidade,2025-11-07,8000,30416,76206499000150-1-000313/2025
+512,GO,Uruaçu,Capacitação,nao,Inexigibilidade,2025-11-10,11000,44533,01219807000182-1-000211/2025
+513,SP,Inúbia Paulista,Capacitação,nao,Inexigibilidade,2025-11-11,998.5,3671,44919611000103-1-000124/2025
+514,PR,São Mateus do Sul,Capacitação,nao,Inexigibilidade,2025-11-11,8400,43490,40216665000151-1-000016/2025
+515,GO,Mundo Novo,Capacitação,nao,Inexigibilidade,2025-11-12,3060,6202,00163055000112-1-000190/2025
+516,PA,Novo Progresso,Consultoria,sim,Inexigibilidade,2025-11-13,45000,37054,10221786000120-1-000094/2025
+517,RS,Viamão,Capacitação,nao,Inexigibilidade,2025-11-17,1332,231996,88000914000101-1-000350/2025
+518,MG,Bambuí,Capacitação,nao,Inexigibilidade,2025-11-18,2300,24203,00259997000107-1-000114/2025
+519,PR,Castro,Capacitação,nao,Inexigibilidade,2025-11-19,5500,75644,77001311000108-1-000669/2025
+520,GO,Flores de Goiás,Capacitação,nao,Dispensa,2025-11-20,1200,14273,01740497000147-1-000076/2025
+521,BA,Eunápolis,Capacitação,nao,Inexigibilidade,2025-11-24,2080,121067,16233439000102-1-000144/2025
+522,RJ,Rio de Janeiro,Capacitação,nao,Inexigibilidade,2025-11-24,2200,6730729,42498733000148-1-002396/2025
+523,RS,Bento Gonçalves,Capacitação,nao,Inexigibilidade,2025-11-25,1750,127977,87849923000109-1-000691/2025
+524,PR,Joaquim Távora,Capacitação,nao,Inexigibilidade,2025-11-25,2800,12341,76966845000106-1-000236/2025
+525,MG,Lagoa Santa,Capacitação,nao,Inexigibilidade,2025-11-25,38250,81299,73357469000156-1-000126/2025
+526,RS,Três Passos,Capacitação,nao,Inexigibilidade,2025-11-25,1835,26304,87613188000121-1-000335/2025
+527,SP,Holambra,Capacitação,nao,Dispensa,2025-11-26,1200,15718,67172437000183-1-002184/2025
+528,BA,Ituberá,Capacitação,nao,Inexigibilidade,2025-11-26,3120,22154,14195333000128-1-000169/2025
+529,MG,Extrema,Capacitação,nao,Inexigibilidade,2025-11-27,3300,59336,19038603000100-1-000143/2025
+530,PR,Toledo,Capacitação,nao,Inexigibilidade,2025-11-27,7560,160701,77402196000175-1-000052/2025
+531,SP,Votuporanga,Capacitação,nao,Inexigibilidade,2025-11-27,3980,100568,72962806000171-1-000116/2025
+532,MG,Conceição do Mato Dentro,Capacitação,nao,Inexigibilidade,2025-11-28,16900,24559,02430067000191-1-000080/2025
+533,PR,Carambeí,Capacitação,nao,Inexigibilidade,2025-12-01,1890,24469,01613766000104-1-000042/2025
+534,MG,Extrema,Capacitação,nao,Inexigibilidade,2025-12-01,5370,59336,19038603000100-1-000144/2025
+535,PR,Munhoz de Melo,Capacitação,nao,Inexigibilidade,2025-12-01,4980,4057,73835423000103-1-000024/2025
+536,MG,Viçosa,Capacitação,nao,Inexigibilidade,2025-12-01,3380,79517,26120956000110-1-000083/2025
+537,PR,Céu Azul,Capacitação,nao,Inexigibilidade,2025-12-02,5600,11255,76206473000101-1-000223/2025
+538,PR,Luiziana,Capacitação,nao,Inexigibilidade,2025-12-02,16730,6659,80888712000128-1-000053/2025
+539,PE,Recife,Capacitação,nao,Inexigibilidade,2025-12-02,2250,1588376,05244336000113-1-000035/2025
+540,RS,São Jerônimo,Capacitação,nao,Inexigibilidade,2025-12-02,7160,21412,90893439000183-1-000112/2025
+541,SC,Três Barras,Capacitação,nao,Inexigibilidade,2025-12-02,3580,20525,83528646000173-1-000030/2025
+542,SC,Guaraciaba,Capacitação,nao,Inexigibilidade,2025-12-03,1790,11071,02606335000183-1-000022/2025
+543,PR,Curitiba,Capacitação,nao,Inexigibilidade,2025-12-04,3280,1830795,76417005000186-1-000372/2025
+544,MG,Montes Claros,Capacitação,nao,Inexigibilidade,2025-12-04,6360,437601,25218645000126-1-000066/2025
+545,SP,São José dos Campos,Capacitação,nao,Dispensa,2025-12-04,195,727078,46643466000106-1-000797/2025
+546,BA,Ilhéus,Capacitação,nao,Inexigibilidade,2025-12-05,7740,189149,13672597000162-1-000094/2025
+547,RN,Mossoró,Capacitação,nao,Inexigibilidade,2025-12-05,22000,278587,44681619000184-1-000001/2025
+548,MS,Naviraí,Capacitação,nao,Inexigibilidade,2025-12-05,8000,53014,03155934000190-1-000183/2025
+549,RO,Pimenta Bueno,Capacitação,nao,Inexigibilidade,2025-12-05,10500,39220,84568872000140-1-000051/2025
+550,RN,Mossoró,Capacitação,nao,Inexigibilidade,2025-12-09,16250,278587,44681619000184-1-000002/2024
+551,MG,Barão de Cocais,Capacitação,nao,Inexigibilidade,2025-12-10,5950,32264,18317685000160-1-000162/2025
+552,PR,Cornélio Procópio,Capacitação,nao,Inexigibilidade,2025-12-10,699,45720,76331941000170-1-000584/2025
+553,PR,Engenheiro Beltrão,Código Tributário,sim,Dispensa,2025-12-10,18000,12347,76950039000131-1-000221/2025
+554,GO,Marzagão,Capacitação,nao,Dispensa,2025-12-10,1200,2942,01174580000104-1-000188/2025
+555,GO,Marzagão,Capacitação,nao,Dispensa,2025-12-10,2400,2942,01174580000104-1-000187/2025
+556,SP,Pitangueiras,Capacitação,nao,Dispensa,2025-12-11,800,34361,45370707000128-1-000183/2025
+557,MG,Brumadinho,Capacitação,nao,Inexigibilidade,2025-12-12,1190,41090,18363929000140-1-000174/2025
+558,ES,Vitória,Capacitação,nao,Inexigibilidade,2025-12-12,15300,343378,27142058000126-1-000717/2025
+559,BA,Araci,Capacitação,nao,Inexigibilidade,2025-12-17,2080,50308,14232086000192-1-000616/2025
+560,MS,Inocência,Capacitação,nao,Inexigibilidade,2025-12-17,4450,8764,15905003000141-1-000014/2025
+561,RS,Arroio do Sal,Capacitação,nao,Inexigibilidade,2025-12-18,1137,11418,91103093000135-1-000322/2025
+562,RS,Arroio do Sal,Capacitação,nao,Inexigibilidade,2025-12-18,471,11418,91103093000135-1-000260/2025
+563,MA,São Luís,Capacitação,nao,Inexigibilidade,2025-12-26,62000,1089215,06307102000130-1-001069/2025
+564,RN,Santana do Matos,Capacitação,nao,Inexigibilidade,2025-12-30,300,12722,08110439000189-1-000106/2025
+565,SC,Água Doce,Capacitação,nao,Inexigibilidade,2025-12-30,3580,6587,04405472000185-1-000029/2025
+566,SP,Itatinga,Capacitação,nao,Dispensa,2026-01-06,1590,19462,46634127000163-1-002322/2025
+567,PR,Piên,Capacitação,nao,Inexigibilidade,2026-01-14,4380,14409,76002666000140-1-000006/2026
+568,MG,Carmo de Minas,Capacitação,nao,Inexigibilidade,2026-01-15,1800,14125,18188243000160-1-000004/2026
+569,MT,Mirassol d'Oeste,Capacitação,nao,Inexigibilidade,2026-01-19,7995,27637,03755477000175-1-000002/2026
+570,SC,Palhoça,Capacitação,nao,Inexigibilidade,2026-01-19,8140,253469,82892316000108-1-000004/2026
+571,MG,São Tiago,Capacitação,nao,Dispensa,2026-01-19,1800,11559,17749904000117-1-000004/2026
+572,RS,Bento Gonçalves,Capacitação,nao,Inexigibilidade,2026-01-20,17910,127977,87849923000109-1-000016/2026
+573,PR,Luiziana,Capacitação,nao,Inexigibilidade,2026-01-20,12450,6659,80888712000128-1-000001/2026
+574,RS,Boa Vista do Cadeado,Capacitação,nao,Inexigibilidade,2026-01-21,872,2269,04216132000106-1-000148/2025
+575,SC,Joaçaba,Capacitação,nao,Inexigibilidade,2026-01-21,530,31809,84591890000143-1-000001/2026
+576,PR,Juranda,Capacitação,nao,Inexigibilidade,2026-01-21,5600,7899,78196755000109-1-000003/2026
+577,PR,Mamborê,Capacitação,nao,Inexigibilidade,2026-01-21,10760,13551,75776278000154-1-000001/2026
+578,PR,Alto Paraíso,Capacitação,nao,Inexigibilidade,2026-01-22,9960,3067,95640744000187-1-000001/2026
+579,MA,Balsas,Capacitação,nao,Inexigibilidade,2026-01-22,5950,105974,06441430000125-1-000240/2025
+580,PR,Cambará,Capacitação,nao,Inexigibilidade,2026-01-22,8000,23393,75442756000190-1-000008/2026
+581,PR,Céu Azul,Capacitação,nao,Inexigibilidade,2026-01-23,5600,11255,76206473000101-1-000002/2026
+582,BA,Euclides da Cunha,Código Tributário,sim,Inexigibilidade,2026-01-28,110000,64768,13698774000180-1-000135/2024
+583,PR,Mariópolis,Capacitação,nao,Inexigibilidade,2026-01-28,8070,6506,77774669000165-1-000001/2026
+584,BA,Ubaíra,Capacitação,nao,Inexigibilidade,2026-01-28,6000,19142,13910690000168-1-000004/2026
+585,MS,Brasilândia,Capacitação,nao,Inexigibilidade,2026-01-29,7380,11833,15410152000130-1-000002/2026
+586,PR,Alto Paraíso,Capacitação,nao,Inexigibilidade,2026-01-30,8070,3067,95640744000187-1-000004/2026
+587,BA,Eunápolis,Capacitação,nao,Inexigibilidade,2026-01-30,22000,121067,16233439000102-1-000007/2026
+588,RJ,São José do Vale do Rio Preto,Capacitação,nao,Inexigibilidade,2026-02-02,4500,22813,32001836000105-1-000013/2026
+589,RO,Cacaulândia,Capacitação,nao,Inexigibilidade,2026-02-03,5400,4292,63762934000180-1-000002/2026
+590,SC,Guarujá do Sul,Capacitação,nao,Inexigibilidade,2026-02-03,168000,4893,83027045000187-1-000024/2026
+591,PR,Mariópolis,Capacitação,nao,Inexigibilidade,2026-02-03,5380,6506,77774669000165-1-000002/2026
+592,MT,Matupá,Capacitação,nao,Inexigibilidade,2026-02-03,3998,21959,36889921000102-1-000001/2026
+593,PR,Pinhais,Capacitação,nao,Inexigibilidade,2026-02-03,900,131255,95423000000100-1-000035/2026
+594,PR,Assis Chateaubriand,Capacitação,nao,Inexigibilidade,2026-02-04,10360,38357,77878320000173-1-000003/2026
+595,MT,Santa Carmem,Capacitação,nao,Inexigibilidade,2026-02-04,3598,5795,37465283000157-1-000030/2026
+596,PR,Toledo,Capacitação,nao,Inexigibilidade,2026-02-04,2690,160701,77402196000175-1-000004/2026
+597,PR,Castro,Capacitação,nao,Inexigibilidade,2026-02-05,5380,75644,77774685000158-1-000009/2026
+598,MT,Santa Rita do Trivelato,Capacitação,nao,Inexigibilidade,2026-02-05,5097,3536,04205596000117-1-000007/2026
+599,PR,Curitiba,Capacitação,nao,Inexigibilidade,2026-02-09,6570,1830795,77636520000110-1-000007/2026
+600,MG,Extrema,Capacitação,nao,Inexigibilidade,2026-02-09,1300,59336,19038603000100-1-000012/2026
+601,MG,Rodeiro,Capacitação,nao,Inexigibilidade,2026-02-09,3900,9168,26119990000175-1-000004/2026
+602,PR,Entre Rios do Oeste,Capacitação,nao,Inexigibilidade,2026-02-11,8360,4770,95719449000110-1-000035/2026
+603,PR,Imbituva,Capacitação,nao,Inexigibilidade,2026-02-11,8360,30849,76175892000123-1-000013/2026
+604,PR,Jacarezinho,Capacitação,nao,Inexigibilidade,2026-02-11,7170,41493,01510404000198-1-000009/2026
+605,SP,Jaguariúna,Capacitação,nao,Dispensa,2026-02-11,10234.2,62309,46410866000171-1-000160/2026
+606,SP,São José dos Campos,Capacitação,nao,Inexigibilidade,2026-02-12,64000,727078,50448935000103-1-000040/2026
+607,PR,Dois Vizinhos,Capacitação,nao,Inexigibilidade,2026-02-13,6570,47589,76205640000108-1-000209/2026
+608,RN,Equador,Código Tributário,sim,Dispensa,2026-02-13,46800,5461,08086225000114-1-000022/2026
+609,PR,Imbaú,Capacitação,nao,Inexigibilidade,2026-02-13,14630,15068,01613770000172-1-000006/2026
+610,PR,Jacarezinho,Capacitação,nao,Inexigibilidade,2026-02-13,8070,41493,01510404000198-1-000012/2026
+611,BA,Jacobina,Capacitação,nao,Inexigibilidade,2026-02-13,20199.39,86896,14197586000130-1-000025/2026
+612,MT,Mirassol d'Oeste,Capacitação,nao,Inexigibilidade,2026-02-13,7995,27637,03755477000175-1-000011/2026
+613,BA,Amargosa,Capacitação,nao,Inexigibilidade,2026-02-18,7087.5,38585,13825484000150-1-000022/2026
+614,SC,Navegantes,Capacitação,nao,Inexigibilidade,2026-02-19,13388,96046,83102855000150-1-000263/2025
+615,ES,Aracruz,Capacitação,nao,Inexigibilidade,2026-02-20,8970,103363,27142702000166-1-000132/2026
+616,PR,Mamborê,Capacitação,nao,Inexigibilidade,2026-02-20,4180,13551,75368928000122-1-000023/2026
+617,PR,Quarto Centenário,Capacitação,nao,Inexigibilidade,2026-02-20,4380,4127,01619104000141-1-000026/2026
+618,PR,Vera Cruz do Oeste,Capacitação,nao,Inexigibilidade,2026-02-20,4580,8178,78101821000101-1-000010/2026
+619,PR,Boa Ventura de São Roque,Capacitação,nao,Inexigibilidade,2026-02-23,10450,6241,01612906000120-1-000015/2026
+620,PR,Bocaiúva do Sul,Capacitação,nao,Inexigibilidade,2026-02-23,4580,13405,76105592000178-1-000024/2026
+621,PR,Rio Negro,Capacitação,nao,Inexigibilidade,2026-02-23,19900,31951,76002641000147-1-000034/2026
+622,GO,Santa Helena de Goiás,Capacitação,nao,Inexigibilidade,2026-02-23,8100,39601,25040353000146-1-000011/2026
+623,TO,Araguaína,Capacitação,nao,Inexigibilidade,2026-02-24,8750,183024,17380242000150-1-000001/2026
+624,MG,Bambuí,Capacitação,nao,Inexigibilidade,2026-02-24,1300,24203,00259997000107-1-000015/2026
+625,PR,Marechal Cândido Rondon,Capacitação,nao,Inexigibilidade,2026-02-24,8360,58734,76205814000124-1-000044/2026
+626,BA,Morro do Chapéu,Capacitação,nao,Inexigibilidade,2026-02-25,38467.5,35235,13717517000148-1-000017/2026
+627,PR,Apucarana,Capacitação,nao,Inexigibilidade,2026-02-26,5000,134910,78299815000100-1-000012/2026
+628,SP,Jaboticabal,Capacitação,nao,Inexigibilidade,2026-02-26,7130,73473,50387844000105-1-000092/2026
+629,BA,Pojuca,Capacitação,nao,Inexigibilidade,2026-02-26,35437.5,33573,13806237000106-1-000031/2026
+630,MT,Cuiabá,Capacitação,nao,Inexigibilidade,2026-02-27,2100,691875,33710823000160-1-000029/2025
+631,SP,Jundiaí,Capacitação,nao,Inexigibilidade,2026-02-27,3600,463039,14602175000183-1-000036/2026
+632,BA,Mata de São João,Capacitação,nao,Inexigibilidade,2026-02-27,42525,44962,13805528000180-1-000043/2026
+633,RS,Canela,Capacitação,nao,Inexigibilidade,2026-02-28,2796,50715,88585518000185-1-000116/2026
+634,BA,Alagoinhas,Capacitação,nao,Inexigibilidade,2026-03-02,14175,161196,13646005000138-1-000025/2026
+635,MG,Bocaiúva,Capacitação,nao,Inexigibilidade,2026-03-02,5400,49797,66451014000130-1-000010/2026
+636,MG,Nanuque,Capacitação,nao,Inexigibilidade,2026-03-02,4050,35263,21224936000176-1-000008/2026
+637,BA,Alcobaça,Capacitação,nao,Inexigibilidade,2026-03-03,28350,25601,13761721000166-1-000022/2026
+638,RO,Cacaulândia,Capacitação,nao,Inexigibilidade,2026-03-03,11960,4292,63762058000192-1-000016/2026
+639,MG,Congonhas,Capacitação,nao,Inexigibilidade,2026-03-04,2590,55272,21300413000161-1-000005/2026
+640,BA,Dias d'Ávila,Capacitação,nao,Inexigibilidade,2026-03-04,7087.5,75296,13394044000195-1-000023/2026
+641,BA,Itamaraju,Capacitação,nao,Inexigibilidade,2026-03-04,28350,61999,13761697000165-1-000024/2026
+642,SC,Joaçaba,Capacitação,nao,Inexigibilidade,2026-03-04,2220,31809,84591890000143-1-000014/2026
+643,MA,São Luís,Capacitação,nao,Inexigibilidade,2026-03-04,9000,1089215,06307102000130-1-001148/2025
+644,GO,Vila Propício,Capacitação,nao,Dispensa,2026-03-04,6840,6028,01612817000183-1-000908/2025
+645,BA,Campo Formoso,Capacitação,nao,Inexigibilidade,2026-03-06,35437.5,75112,13908702000110-1-000029/2026
+646,TO,Guaraí,Capacitação,nao,Inexigibilidade,2026-03-06,21150,25831,01138817000193-1-000033/2025
+647,SP,Restinga,Capacitação,nao,Inexigibilidade,2026-03-06,74800,6486,45318581000142-1-000028/2026
+648,SC,São Lourenço do Oeste,Capacitação,nao,Dispensa,2026-03-06,1090,26056,83021873000108-1-000088/2026
+649,BA,Iraquara,Capacitação,nao,Inexigibilidade,2026-03-09,15000,24833,13922596000129-1-000014/2026
+650,BA,Iraquara,Capacitação,nao,Inexigibilidade,2026-03-09,35437.5,24833,13922596000129-1-000013/2026
+651,SC,Lajeado Grande,Capacitação,nao,Inexigibilidade,2026-03-09,850,1791,95993077000116-1-000031/2026
+652,RS,São Jerônimo,Capacitação,nao,Inexigibilidade,2026-03-09,2097,21412,88117700000101-1-000074/2026
+653,GO,Aragarças,Consultoria,sim,Dispensa,2026-03-10,65400.06,18601,02125227000199-1-000033/2026
+654,PR,Marmeleiro,Capacitação,nao,Inexigibilidade,2026-03-10,2550,16605,76205665000101-1-000053/2026
+655,RS,Caxias do Sul,Capacitação,nao,Inexigibilidade,2026-03-11,13464.01,479599,88659313000105-1-000043/2026
+656,MT,Cáceres,Capacitação,nao,Inexigibilidade,2026-03-11,1999,91767,03960333000150-1-000017/2026
+657,BA,Iraquara,Capacitação,nao,Inexigibilidade,2026-03-11,,24833,13922596000129-1-000015/2026
+658,SP,Leme,Capacitação,nao,Inexigibilidade,2026-03-11,5380,101537,46362661000168-1-000437/2026
+659,SC,Águas de Chapecó,Capacitação,nao,Inexigibilidade,2026-03-11,1480,6123,82804212000196-1-000084/2026
+660,MT,Confresa,Capacitação,nao,Inexigibilidade,2026-03-12,2350,38460,37465358000108-1-000022/2026
+661,RS,Caxias do Sul,Capacitação,nao,Inexigibilidade,2026-03-13,11940,479599,88830609000139-1-000129/2026
+662,SP,Ipaussu,Capacitação,nao,Dispensa,2026-03-13,1200,13935,44563583000134-1-000083/2026
+663,RO,Ji-Paraná,Capacitação,nao,Inexigibilidade,2026-03-16,5980,140101,04092672000125-1-000122/2026
+664,RO,Cacoal,Capacitação,nao,Inexigibilidade,2026-03-17,6700,98280,04092714000128-1-000044/2026
+665,PR,Cruzeiro do Iguaçu,Capacitação,nao,Inexigibilidade,2026-03-17,4250,4129,95589230000144-1-000050/2026
+666,SP,Santa Fé do Sul,Capacitação,nao,Inexigibilidade,2026-03-17,1956,36288,45138070000149-1-000216/2026
+667,MG,Santa Rita do Sapucaí,Capacitação,nao,Dispensa,2026-03-17,1200,42517,18192898000102-1-000047/2026
+668,MG,Unaí,Capacitação,nao,Inexigibilidade,2026-03-17,9023.4,91320,25838855000117-1-000012/2026
+669,RS,Canela,Capacitação,nao,Inexigibilidade,2026-03-18,1398,50715,88585518000185-1-000156/2026
+670,GO,Águas Lindas de Goiás,Capacitação,nao,Inexigibilidade,2026-03-18,96000,245352,01616520000196-1-000037/2026
+671,SC,Nova Erechim,Capacitação,nao,Dispensa,2026-03-19,,5490,83021840000168-1-000076/2026
+672,TO,Pedro Afonso,Capacitação,nao,Inexigibilidade,2026-03-19,16740,14895,02070589000120-1-000025/2026
+673,PR,Quatro Barras,Capacitação,nao,Inexigibilidade,2026-03-19,10400,25397,02177287000155-1-000015/2026
+674,TO,Araguaína,Capacitação,nao,Inexigibilidade,2026-03-20,18523.5,183024,17380242000150-1-000003/2026
+675,GO,Cidade Ocidental,Capacitação,nao,Inexigibilidade,2026-03-20,16590,101570,36862621000121-1-000030/2026
+676,MG,Itabirito,Capacitação,nao,Inexigibilidade,2026-03-20,2900,56369,18366963000179-1-000022/2026
+677,MG,Porteirinha,Consultoria,sim,Inexigibilidade,2026-03-20,168000,38692,18013326000119-1-000027/2026
+678,ES,Vitória,Capacitação,nao,Inexigibilidade,2026-03-20,1050,343378,27142058000126-1-000119/2026
+679,SP,Iperó,Capacitação,nao,Inexigibilidade,2026-03-23,3129.6,38277,46634085000160-1-000038/2026
+680,SE,Laranjeiras,Capacitação,nao,Inexigibilidade,2026-03-23,2000,24047,13120613000295-1-000030/2026
+681,ES,Vitória,Capacitação,nao,Inexigibilidade,2026-03-23,350,343378,27142058000126-1-000123/2026
+682,ES,Aracruz,Capacitação,nao,Inexigibilidade,2026-03-24,225,103363,27142702000166-1-000153/2026
+683,PA,Novo Progresso,Capacitação,nao,Inexigibilidade,2026-03-24,23000,37054,10221786000120-1-000021/2026
+684,SP,Paranapanema,Capacitação,nao,Dispensa,2026-03-24,4280,19853,46634309000134-1-000048/2026
+685,RS,Picada Café,Capacitação,nao,Inexigibilidade,2026-03-24,494,5473,92871466000180-1-000257/2026
+686,SE,Porto da Folha,Capacitação,nao,Inexigibilidade,2026-03-24,2000,27348,01833866000146-1-000008/2026
+687,SP,Paranapanema,Capacitação,nao,Dispensa,2026-03-25,7960,19853,46634309000134-1-000052/2026
+688,PR,Santa Terezinha de Itaipu,Capacitação,nao,Inexigibilidade,2026-03-25,14950,25300,75425314000135-1-000069/2026
+689,SC,São José,Capacitação,nao,Inexigibilidade,2026-03-25,3900,295658,83708248000139-1-000016/2026
+690,ES,Boa Esperança,Código Tributário,sim,Dispensa,2026-03-26,17592,14054,58673892000171-1-000013/2025
+691,BA,Candeias,Capacitação,nao,Inexigibilidade,2026-03-26,28350,74854,13830336000123-1-000075/2026
+692,RS,São Gabriel,Capacitação,nao,Inexigibilidade,2026-03-26,2576,60090,88768080000170-1-000047/2026
+693,SP,Cajamar,Capacitação,nao,Dispensa,2026-03-27,64200,98365,46523023000181-1-000241/2025
+694,BA,Formosa do Rio Preto,Capacitação,nao,Inexigibilidade,2026-03-27,35437.5,27567,13654454000128-1-000035/2026
+695,RS,Guaporé,Capacitação,nao,Inexigibilidade,2026-03-27,494,26168,87862397000109-1-000211/2026
+696,RS,Mato Queimado,Capacitação,nao,Dispensa,2026-03-27,916,1833,04204318000145-1-000244/2026
+697,PR,Medianeira,Capacitação,nao,Inexigibilidade,2026-03-27,5980,57910,76206481000158-1-000034/2026
+698,SE,Laranjeiras,Capacitação,nao,Inexigibilidade,2026-03-30,3000,24047,13120613000295-1-000035/2026
+699,MG,São João Nepomuceno,Capacitação,nao,Inexigibilidade,2026-03-30,2580,26529,07238867000129-1-000019/2026
+700,RS,Três Passos,Capacitação,nao,Inexigibilidade,2026-03-30,494,26304,87613188000121-1-000084/2026
+701,BA,Araci,Capacitação,nao,Inexigibilidade,2026-04-01,14175,50308,14232086000192-1-000068/2026
+702,PR,Tamarana,Capacitação,nao,Inexigibilidade,2026-04-01,1890,10540,01613167000190-1-000049/2026
+703,PR,Campina Grande do Sul,Capacitação,nao,Inexigibilidade,2026-04-02,11960,50600,76105600000186-1-000091/2026
+704,BA,Dias d'Ávila,Capacitação,nao,Inexigibilidade,2026-04-06,21262.5,75296,13394044000195-1-000035/2026
+705,MG,Brumadinho,Capacitação,nao,Inexigibilidade,2026-04-07,1800,41090,18363929000140-1-000046/2026
+706,RS,Três Passos,Capacitação,nao,Inexigibilidade,2026-04-08,1713,26304,87613188000121-1-000105/2026
+707,BA,Ubaíra,Capacitação,nao,Inexigibilidade,2026-04-08,4800,19142,13910690000168-1-000038/2026
+708,SC,Rio Rufino,Capacitação,nao,Inexigibilidade,2026-04-09,1800,2429,95991071000100-1-000031/2026
+709,PR,Ubiratã,Capacitação,nao,Inexigibilidade,2026-04-09,5394,25732,01784600000150-1-000018/2026
+710,RS,Alvorada,Capacitação,nao,Inexigibilidade,2026-04-10,1398,194062,88000906000157-1-000122/2026
+711,MG,Cambuí,Capacitação,nao,Inexigibilidade,2026-04-10,5960,31066,74195009000131-1-000020/2026
+712,TO,Gurupi,Capacitação,nao,Inexigibilidade,2026-04-10,11160,90209,17527365000171-1-000004/2026
+713,ES,Pancas,Capacitação,nao,Inexigibilidade,2026-04-10,10360,19120,27174150000178-1-000038/2026
+714,PR,São Pedro do Iguaçu,Capacitação,nao,Inexigibilidade,2026-04-10,8970,5730,95583597000150-1-000041/2026
+715,SC,Videira,Capacitação,nao,Inexigibilidade,2026-04-10,2120,59074,83039842000184-1-000085/2026
+716,SP,Arujá,Capacitação,nao,Inexigibilidade,2026-04-14,5980,90273,56901275000150-1-000124/2026
+717,GO,Luziânia,Capacitação,nao,Dispensa,2026-04-14,6380.64,221262,01169416000109-1-000047/2026
+718,PR,Mamborê,Capacitação,nao,Inexigibilidade,2026-04-14,2790,13551,75776278000154-1-000010/2026
+719,SC,São Lourenço do Oeste,Capacitação,nao,Dispensa,2026-04-14,12870,26056,83021873000108-1-000143/2026
+720,SC,Guarujá do Sul,Capacitação,nao,Inexigibilidade,2026-04-15,2400,4893,09024107000144-1-000017/2026
+721,PE,Recife,Capacitação,nao,Inexigibilidade,2026-04-15,17908,1588376,10565000000192-1-000363/2026
+722,PR,Santo Antônio da Platina,Capacitação,nao,Inexigibilidade,2026-04-15,1980,45628,76968627000100-1-000098/2026
+723,PR,Foz do Iguaçu,Capacitação,nao,Inexigibilidade,2026-04-16,17940,297352,76206606000140-1-000166/2026
+724,ES,Ibatiba,Capacitação,nao,Inexigibilidade,2026-04-16,2890,27543,31726797000132-1-000012/2026
+725,RS,Canela,Capacitação,nao,Inexigibilidade,2026-04-17,699,50715,88585518000185-1-000233/2026
+726,RO,Ministro Andreazza,Capacitação,nao,Inexigibilidade,2026-04-17,11960,6519,63762074000185-1-000053/2026
+727,RJ,Pinheiral,Capacitação,nao,Inexigibilidade,2026-04-17,4050,25096,01612981000190-1-000061/2026
+728,RS,Viamão,Capacitação,nao,Inexigibilidade,2026-04-20,1398,231996,88000914000101-1-000067/2026
+729,SP,Campinas,Capacitação,nao,Inexigibilidade,2026-04-22,7960,1187974,49425994000187-1-000027/2026
+730,BA,Ituberá,Capacitação,nao,Inexigibilidade,2026-04-22,5000,22154,14195333000128-1-000051/2026
+731,MG,Ponte Nova,Capacitação,nao,Inexigibilidade,2026-04-22,6000,59638,23804149000129-1-000202/2026
+732,SP,Hortolândia,Capacitação,nao,Dispensa,2026-04-23,12600,248842,67995027000132-1-000126/2026
+733,PE,Ipojuca,Capacitação,nao,Inexigibilidade,2026-04-23,8580,106539,15277172000184-1-000003/2026
+734,SE,Itaporanga d'Ajuda,Capacitação,nao,Inexigibilidade,2026-04-23,7000,36074,00760576000157-1-000013/2026
+735,SP,Araras,Capacitação,nao,Dispensa,2026-04-24,3890,135744,44699908000100-1-000273/2026
+736,RS,Cachoeirinha,Capacitação,nao,Inexigibilidade,2026-04-24,988,141503,87990800000185-1-000094/2026
+737,SE,Propriá,Capacitação,nao,Inexigibilidade,2026-04-24,4000,27213,13001144000104-1-000012/2026
+738,SE,Propriá,Capacitação,nao,Inexigibilidade,2026-04-24,2000,27213,13001144000104-1-000011/2026
+739,BA,Xique-Xique,Capacitação,nao,Inexigibilidade,2026-04-24,21262.5,47019,13880257000127-1-000031/2026
+740,RS,Alvorada,Capacitação,nao,Inexigibilidade,2026-04-27,1887,194062,88000906000157-1-000146/2026
+741,SP,Piraju,Capacitação,nao,Dispensa,2026-04-27,1600,30294,46223699000150-1-001299/2026
+742,SE,Porto da Folha,Capacitação,nao,Inexigibilidade,2026-04-27,12000,27348,01833866000146-1-000012/2026
+743,SC,Chapecó,Capacitação,nao,Inexigibilidade,2026-04-28,30000,282648,83021808000182-1-000186/2026
+744,PB,Soledade,Capacitação,nao,Inexigibilidade,2026-04-28,22500,14409,08919425000100-1-000050/2026
+745,MS,Três Lagoas,Capacitação,nao,Inexigibilidade,2026-04-28,2280,143523,15410145000138-1-000015/2026
+746,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-04-29,2980,33017,27142694000158-1-000145/2026
+747,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-04-29,28310,33017,27142694000158-1-000146/2026
+748,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-04-29,5960,33017,14051123000166-1-000013/2026
+749,SP,Hortolândia,Capacitação,nao,Dispensa,2026-04-29,7650,248842,67995027000132-1-000133/2026
+750,RS,São Gabriel,Capacitação,nao,Inexigibilidade,2026-04-29,1887,60090,88768080000170-1-000102/2026
+751,PI,Teresina,Capacitação,nao,Inexigibilidade,2026-04-29,10200,905692,06554869000164-1-000054/2026
+752,RS,Cachoeirinha,Capacitação,nao,Inexigibilidade,2026-04-30,1780,141503,87990800000185-1-000104/2026
+753,SC,Curitibanos,Capacitação,nao,Inexigibilidade,2026-04-30,3200,41741,78493632000121-1-000036/2026
+754,RS,Campo Bom,Capacitação,nao,Inexigibilidade,2026-05-04,1335,64719,90832619000155-1-000218/2026
+755,MS,Cassilândia,Capacitação,nao,Inexigibilidade,2026-05-04,3996,21565,03334191000116-1-000011/2026
+756,SP,Espírito Santo do Pinhal,Capacitação,nao,Dispensa,2026-05-04,3099.1,40610,45739083000173-1-000486/2026
+757,MG,Monte Belo,Capacitação,nao,Inexigibilidade,2026-05-04,730,13347,18668376000134-1-000047/2026
+758,RS,Nova Boa Vista,Capacitação,nao,Inexigibilidade,2026-05-04,5000,2089,94704061000183-1-000115/2026
+759,GO,São Francisco de Goiás,Capacitação,nao,Dispensa,2026-05-04,999,6507,02468437000180-1-000121/2026
+760,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-05-05,2980,33017,27142694000158-1-000150/2026
+761,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-05-05,4470,33017,27142694000158-1-000151/2026
+762,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-05-05,1490,33017,27142694000158-1-000149/2026
+763,RS,Novo Hamburgo,Capacitação,nao,Inexigibilidade,2026-05-05,2295,235802,09509569000151-1-000047/2026
+764,SP,São Paulo,Capacitação,nao,Inexigibilidade,2026-05-05,1000,11904961,46392072000122-1-000011/2026
+765,MG,Vargem Bonita,Capacitação,nao,Inexigibilidade,2026-05-05,1320,2207,04465727000103-1-000009/2026
+766,RS,Dom Pedrito,Capacitação,nao,Inexigibilidade,2026-05-06,988,38080,87482535000124-1-000681/2026
+767,SP,Iguape,Capacitação,nao,Dispensa,2026-05-06,1680,29891,45550167000164-1-000339/2026
+768,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-05-07,4470,33017,27142694000158-1-000157/2026
+769,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-05-07,1490,33017,27142694000158-1-000156/2026
+770,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-05-07,7450,33017,27142694000158-1-000155/2026
+771,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-05-07,1490,33017,27142694000158-1-000154/2026
+772,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-05-07,2980,33017,27142694000158-1-000153/2026
+773,SP,Mira Estrela,Consultoria,sim,Dispensa,2026-05-07,60000,3209,45116290000171-1-000044/2026
+774,SP,Piraju,Capacitação,nao,Dispensa,2026-05-07,7500,30294,46223699000150-1-001378/2026
+775,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-05-08,2830,33017,31803125000183-1-000021/2026
+776,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-05-08,2980,33017,27142694000158-1-000166/2026
+777,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-05-08,2980,33017,27142694000158-1-000165/2026
+778,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-05-08,2980,33017,27142694000158-1-000164/2026
+779,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-05-08,7450,33017,27142694000158-1-000163/2026
+780,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-05-08,2980,33017,27142694000158-1-000162/2026
+781,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-05-08,4470,33017,27142694000158-1-000161/2026
+782,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-05-08,2980,33017,27142694000158-1-000160/2026
+783,ES,Anchieta,Capacitação,nao,Inexigibilidade,2026-05-08,4470,33017,27142694000158-1-000159/2026
+784,SC,Ibiam,Capacitação,nao,Inexigibilidade,2026-05-08,1790,2061,01612745000174-1-000109/2026
+785,RS,Porto Vera Cruz,Capacitação,nao,Inexigibilidade,2026-05-08,790,1582,91105452000193-1-000184/2026
+786,SP,Jacareí,Capacitação,nao,Dispensa,2026-05-11,9860,250952,46694139000183-1-000433/2026
+787,SC,Joinville,Capacitação,nao,Inexigibilidade,2026-05-11,2550,664541,83545244000187-1-000061/2026
+788,PR,Matelândia,Capacitação,nao,Inexigibilidade,2026-05-11,6870,19223,76206465000165-1-000075/2026
+789,MG,Barão de Cocais,Capacitação,nao,Inexigibilidade,2026-05-12,7590,32264,18317685000160-1-000050/2026
+790,SP,Campinas,Capacitação,nao,Inexigibilidade,2026-05-12,10200,1187974,51885242000140-1-000403/2026
+791,SE,Carira,Capacitação,nao,Inexigibilidade,2026-05-12,2000,20314,32777088000149-1-000006/2026
+792,RS,Montenegro,Capacitação,nao,Inexigibilidade,2026-05-12,11100,66352,90895905000160-1-000088/2026
+793,SC,Urussanga,Capacitação,nao,Inexigibilidade,2026-05-12,1990,21464,82930181000110-1-000179/2026
+794,SC,Concórdia,Capacitação,nao,Inexigibilidade,2026-05-13,5970,87206,83024257000100-1-000268/2026
+795,MG,Curvelo,Capacitação,nao,Inexigibilidade,2026-05-13,5060,84297,17695024000105-1-000042/2026
+796,SC,Ibirama,Capacitação,nao,Inexigibilidade,2026-05-13,1790,20900,83102418000137-1-000122/2026
+797,SP,Jundiaí,Capacitação,nao,Inexigibilidade,2026-05-13,1200,463039,14602175000183-1-000079/2026
+798,SC,Três Barras,Capacitação,nao,Inexigibilidade,2026-05-13,1790,20525,83102400000135-1-000123/2026
+799,RS,Arroio do Sal,Capacitação,nao,Inexigibilidade,2026-05-14,1398,11418,91103093000135-1-000108/2026
+800,RS,Caxias do Sul,Capacitação,nao,Inexigibilidade,2026-05-14,2690,479599,88892393000136-1-000008/2026
+801,RJ,Mesquita,Capacitação,nao,Inexigibilidade,2026-05-14,4500,178830,04132090000125-1-000010/2026
+802,PR,Quatro Barras,Capacitação,nao,Inexigibilidade,2026-05-14,7960,25397,76105568000139-1-000083/2026
+803,SC,Alto Bela Vista,Capacitação,nao,Inexigibilidade,2026-05-15,3580,1847,01614374000160-1-000078/2026
+804,PR,Assis Chateaubriand,Capacitação,nao,Inexigibilidade,2026-05-15,10360,38357,77878320000173-1-000013/2026
+805,PR,Campo Mourão,Capacitação,nao,Inexigibilidade,2026-05-15,4580,104122,75904524000106-1-000163/2026
+806,CE,Itapipoca,Capacitação,nao,Inexigibilidade,2026-05-15,26449.6,138978,07623077000167-1-000051/2026
+807,GO,Rio Verde,Capacitação,nao,Inexigibilidade,2026-05-15,5380,241494,02056729000105-1-000313/2026
+808,SP,Arujá,Capacitação,nao,Dispensa,2026-05-18,2400,90273,56901275000150-1-000181/2026
+809,PR,Curitiba,Capacitação,nao,Inexigibilidade,2026-05-18,9570,1830795,77636520000110-1-000026/2026
+810,SP,São Paulo,Capacitação,nao,Inexigibilidade,2026-05-19,7650,11904961,49269236000117-1-000020/2026
+811,TO,Araguaína,Capacitação,nao,Inexigibilidade,2026-05-21,8970,183024,17380242000150-1-000017/2026
+812,SC,Fraiburgo,Capacitação,nao,Inexigibilidade,2026-05-25,3980,34065,82947979000174-1-000123/2026
+813,PR,Pontal do Paraná,Capacitação,nao,Inexigibilidade,2026-05-25,11950,33131,01636881000102-1-000029/2026
+814,RS,São Leopoldo,Capacitação,nao,Inexigibilidade,2026-05-25,14000,225737,88368386000130-1-000173/2026
+815,PR,Tamarana,Capacitação,nao,Inexigibilidade,2026-05-25,8250,10540,01613167000190-1-000097/2026
+816,CE,Fortaleza,Capacitação,nao,Inexigibilidade,2026-05-26,29800,2578483,07954605000160-1-000682/2026
+817,SP,Jacareí,Capacitação,nao,Dispensa,2026-05-26,9000,250952,46694139000183-1-000497/2026
+818,SC,Camboriú,Capacitação,nao,Inexigibilidade,2026-05-27,330,117324,83102293000145-1-000194/2026
+819,PR,Colorado,Capacitação,nao,Inexigibilidade,2026-05-27,9560,23313,76730928000193-1-000019/2026
+820,MG,Contagem,Capacitação,nao,Inexigibilidade,2026-05-27,28764,651718,18715508000131-1-000063/2026
+821,PR,Jacarezinho,Capacitação,nao,Inexigibilidade,2026-05-27,8070,41493,01510404000198-1-000040/2026
+822,SP,Barueri,Capacitação,nao,Inexigibilidade,2026-05-28,8070,333737,06289000000130-1-000025/2026
+823,SP,Jambeiro,Capacitação,nao,Inexigibilidade,2026-05-28,1497,6611,01639935000185-1-000016/2026
+824,PR,Cantagalo,Capacitação,nao,Inexigibilidade,2026-05-29,2800,10672,78279981000145-1-000064/2026
+825,PR,Campo Mourão,Capacitação,nao,Inexigibilidade,2026-06-01,5580,104122,79869772000114-1-000046/2026
+826,SP,Hortolândia,Capacitação,nao,Inexigibilidade,2026-06-01,25000,248842,68008895000144-1-000034/2026
+827,SP,Américo Brasiliense,Capacitação,nao,Inexigibilidade,2026-06-02,25000,33708,50513589000108-1-000016/2026
+828,MG,Guaxupé,Capacitação,nao,Dispensa,2026-06-02,30501,52744,18663401000197-1-000127/2026
+829,ES,Ibatiba,Capacitação,nao,Inexigibilidade,2026-06-02,13320,27543,27744150000166-1-000080/2026
+830,RS,Canela,Capacitação,nao,Inexigibilidade,2026-06-08,2516,50715,88585518000185-1-000315/2026
+831,PR,Goioerê,Capacitação,nao,Inexigibilidade,2026-06-08,8370,28931,80900764000172-1-000023/2026
+832,PR,Planaltina do Paraná,Capacitação,nao,Inexigibilidade,2026-06-09,5580,4125,01775788000170-1-000011/2026
+833,MA,Balsas,Capacitação,nao,Inexigibilidade,2026-06-10,2000,105974,06441430000125-1-000077/2026
+834,SC,Concórdia,Capacitação,nao,Inexigibilidade,2026-06-10,7160,87206,83024257000100-1-000306/2026
+835,SP,Jacareí,Capacitação,nao,Dispensa,2026-06-10,1500,250952,46694139000183-1-000546/2026
+836,SE,Nossa Senhora da Glória,Capacitação,nao,Inexigibilidade,2026-06-10,17160,43686,13113626000156-1-000080/2026
+837,SP,Piracicaba,Capacitação,nao,Dispensa,2026-06-10,10800,440835,50853555000154-1-000151/2026
+838,SC,Timbé do Sul,Capacitação,nao,Inexigibilidade,2026-06-10,1490,5503,82915232000134-1-000067/2026
+839,SC,Tubarão,Assessoria jurídica,sim,Inexigibilidade,2026-06-10,79992,116725,82928656000133-1-000170/2026
+840,RS,Canguçu,Código Tributário,sim,Inexigibilidade,2026-06-11,56000,50968,88861430000149-1-000607/2026
+841,SC,Riqueza,Capacitação,nao,Dispensa,2026-06-11,1806.6,4828,95988309000148-1-000186/2026
+842,SP,São José do Rio Preto,Capacitação,nao,Inexigibilidade,2026-06-11,21450,504166,51857894000171-1-000023/2026
+843,RS,Caxias do Sul,Capacitação,nao,Inexigibilidade,2026-06-12,11970,479599,88659313000105-1-000100/2026
+844,SC,Urussanga,Capacitação,nao,Inexigibilidade,2026-06-12,1704,21464,82930181000110-1-000221/2026
+845,RJ,Angra dos Reis,Capacitação,nao,Inexigibilidade,2026-06-15,12000,179142,29172467000109-1-000404/2026
+846,SC,Capinzal,Capacitação,nao,Inexigibilidade,2026-06-15,5960,24414,82939406000107-1-000129/2026
+847,SC,Massaranduba,Capacitação,nao,Inexigibilidade,2026-06-15,1418,18122,83102483000162-1-000121/2026
+848,PR,Santa Lúcia,Capacitação,nao,Inexigibilidade,2026-06-15,11160,3638,01491938000114-1-000016/2026
+849,PE,Santa Cruz da Baixa Verde,Assessoria jurídica,sim,Inexigibilidade,2026-06-16,99600,11934,35445485000101-1-000020/2026
+850,MS,Rio Brilhante,Capacitação,nao,Inexigibilidade,2026-06-17,14950,40419,15469471000110-1-000017/2026
+851,PR,São Miguel do Iguaçu,Capacitação,nao,Inexigibilidade,2026-06-17,2500,30416,76206499000150-1-000136/2026
+852,ES,Itapemirim,Capacitação,nao,Inexigibilidade,2026-06-18,5690,44020,31726680000159-1-000011/2026
+853,PR,Campo Mourão,Capacitação,nao,Inexigibilidade,2026-06-19,2790,104122,79869772000114-1-000047/2026
+854,RS,Carazinho,Capacitação,nao,Inexigibilidade,2026-06-19,1398,63670,87613535000116-1-000354/2026
+855,SP,Americana,Capacitação,nao,Inexigibilidade,2026-06-22,7200,247571,45781176000166-1-000532/2026
+856,MG,Boa Esperança,Capacitação,nao,Dispensa,2026-06-22,1800,41443,18239590000175-1-000159/2026
+857,RS,Nova Ramada,Capacitação,nao,Inexigibilidade,2026-06-22,699,2198,01611828000149-1-000107/2026
+858,PR,Campo Mourão,Capacitação,nao,Inexigibilidade,2026-06-23,10000,104122,75904524000106-1-000239/2026
+859,MT,Rondonópolis,Capacitação,nao,Inexigibilidade,2026-06-23,13080,263708,03347101000121-1-000133/2026
+860,ES,Ibatiba,Capacitação,nao,Inexigibilidade,2026-06-25,3320,27543,31726797000132-1-000019/2026
+861,ES,Vila Velha,Capacitação,nao,Inexigibilidade,2026-06-25,11970,506779,27165554000103-1-000301/2026
+862,SE,Porto da Folha,Capacitação,nao,Inexigibilidade,2026-06-26,15000,27348,01833866000146-1-000016/2026
+863,RS,Carazinho,Capacitação,nao,Inexigibilidade,2026-06-29,900,63670,87613535000116-1-000373/2026
+864,PR,Jardim Alegre,Capacitação,nao,Inexigibilidade,2026-06-30,2790,12138,77774628000179-1-000007/2026
+865,PR,Luiziana,Capacitação,nao,Inexigibilidade,2026-06-30,2690,6659,80888712000128-1-000032/2026
+866,PR,Santo Antônio da Platina,Capacitação,nao,Inexigibilidade,2026-06-30,6000,45628,76968627000100-1-000186/2026
+867,RS,Boa Vista do Incra,Capacitação,nao,Inexigibilidade,2026-07-01,5032,2314,04215199000126-1-000144/2026
+868,ES,Cariacica,Capacitação,nao,Inexigibilidade,2026-07-01,18950,376200,27150549000119-1-000162/2026
+869,GO,Mossâmedes,Consultoria,sim,Inexigibilidade,2026-07-01,102000,4626,02267698000131-1-000028/2026
+870,SE,Salgado,Capacitação,nao,Inexigibilidade,2026-07-01,1200,20825,13107453000163-1-000059/2026
+871,SE,Salgado,Capacitação,nao,Inexigibilidade,2026-07-01,1200,20825,13107453000163-1-000058/2026
+872,SE,Salgado,Capacitação,nao,Inexigibilidade,2026-07-01,1200,20825,13107453000163-1-000057/2026
+873,ES,Cachoeiro de Itapemirim,Capacitação,nao,Inexigibilidade,2026-07-02,24150,198342,31723265000141-1-000050/2026
+874,SE,Nossa Senhora do Socorro,Capacitação,nao,Inexigibilidade,2026-07-02,9600,204081,13128814000158-1-000122/2026
+875,SP,Capivari,Capacitação,nao,Dispensa,2026-07-03,1497,51369,44723674000190-1-000549/2026
+876,PR,Mariópolis,Capacitação,nao,Inexigibilidade,2026-07-03,2790,6506,77774669000165-1-000012/2026
+877,RS,Três Passos,Capacitação,nao,Inexigibilidade,2026-07-03,1710,26304,87613188000121-1-000204/2026
+878,RN,Bodó,Capacitação,nao,Inexigibilidade,2026-07-06,14970,2360,01612374000120-1-000070/2026
+879,SP,Campinas,Capacitação,nao,Inexigibilidade,2026-07-06,11970,1187974,49425994000187-1-000041/2026
+880,MG,Boa Esperança,Capacitação,nao,Dispensa,2026-07-07,600,41443,18239590000175-1-000165/2026
+881,PR,Capanema,Capacitação,nao,Inexigibilidade,2026-07-07,7182,21088,75972760000160-1-000157/2026
+882,SC,Guaraciaba,Capacitação,nao,Inexigibilidade,2026-07-07,497,11071,82821216000182-1-000170/2026
+883,MG,Raul Soares,Assessoria jurídica,sim,Inexigibilidade,2026-07-07,75456,23874,18836965000184-1-000067/2026
+884,MG,Rio Casca,Capacitação,nao,Inexigibilidade,2026-07-07,1350,12851,03019715000184-1-000042/2026
+885,SP,Botucatu,Capacitação,nao,Inexigibilidade,2026-07-08,3190,151053,46634101000115-1-000298/2026
+886,RS,Osório,Capacitação,nao,Inexigibilidade,2026-07-08,494,48999,88814181000130-1-000355/2026
+887,RS,Santa Maria,Capacitação,nao,Inexigibilidade,2026-07-08,2590,282395,89250708000104-1-000017/2026
+888,ES,Alfredo Chaves,Assessoria jurídica,sim,Inexigibilidade,2026-07-09,102000,14376,27142686000101-1-000118/2026
+889,MG,Monte Carmelo,Assessoria jurídica,sim,Dispensa,2026-07-09,14500,49500,18593103000178-1-000578/2026
+890,SC,Schroeder,Capacitação,nao,Inexigibilidade,2026-07-09,2800,21710,83539676000185-1-000025/2026
+891,RO,Cacoal,Capacitação,nao,Inexigibilidade,2026-07-10,4050,98280,04092714000128-1-000095/2026
+892,SC,Guaraciaba,Capacitação,nao,Inexigibilidade,2026-07-10,200,11071,82821216000182-1-000174/2026
+893,RN,Riacho da Cruz,Capacitação,nao,Inexigibilidade,2026-07-10,1500,2724,08153454000104-1-000053/2026
+894,MT,Rondonópolis,Capacitação,nao,Inexigibilidade,2026-07-10,9950,263708,03347101000121-1-000143/2026
+895,AL,Maceió,Capacitação,nao,Inexigibilidade,2026-07-11,14576.64,994952,19164089000150-1-000003/2026
+896,PR,Quatro Barras,Capacitação,nao,Inexigibilidade,2026-07-13,3626,25397,02177287000155-1-000034/2026
+897,MT,União do Sul,Capacitação,nao,Inexigibilidade,2026-07-13,7980,3904,01614538000159-1-000039/2026
+898,RS,Campo Bom,Capacitação,nao,Inexigibilidade,2026-07-15,1800,64719,90832619000155-1-000370/2026
+899,RS,Canela,Capacitação,nao,Inexigibilidade,2026-07-15,610,50715,02587506000174-1-000024/2026
+900,SP,Espírito Santo do Pinhal,Capacitação,nao,Dispensa,2026-07-15,3822,40610,45739083000173-1-000824/2026
+901,PR,Rio Negro,Capacitação,nao,Inexigibilidade,2026-07-15,4500,31951,76002641000147-1-000244/2026
+902,RJ,Angra dos Reis,Capacitação,nao,Inexigibilidade,2026-07-16,3990,179142,29172467000109-1-000462/2026
+903,RS,Picada Café,Capacitação,nao,Inexigibilidade,2026-07-16,494,5473,92871466000180-1-000612/2026
+904,RS,Porto Vera Cruz,Capacitação,nao,Inexigibilidade,2026-07-16,494,1582,91105452000193-1-000273/2026
+905,PR,Tamarana,Capacitação,nao,Inexigibilidade,2026-07-16,3200,10540,01613167000190-1-000134/2026
+906,RJ,Cabo Frio,Capacitação,nao,Inexigibilidade,2026-07-17,17160,238438,28549483000105-1-000104/2026
+907,SC,Capinzal,Capacitação,nao,Inexigibilidade,2026-07-17,1500,24414,82939406000107-1-000151/2026
+908,RS,Fagundes Varela,Capacitação,nao,Dispensa,2026-07-17,494,2620,91566893000192-1-000359/2026
+909,SP,Salto,Capacitação,nao,Inexigibilidade,2026-07-17,39890,141111,46634507000106-1-000472/2026
+910,SC,Concórdia,Capacitação,nao,Inexigibilidade,2026-07-20,1815.55,87206,83024257000100-1-000361/2026
+911,PR,Curitiba,Capacitação,nao,Inexigibilidade,2026-07-21,1754.1,1830795,76568930000108-1-000016/2026
+912,SE,Itabaiana,Capacitação,nao,Inexigibilidade,2026-07-21,4800,109250,13104740000110-1-000104/2026
+913,ES,Jerônimo Monteiro,Capacitação,nao,Inexigibilidade,2026-07-21,4640,12108,27165653000187-1-000122/2026
+914,RS,Porto Alegre,Capacitação,nao,Inexigibilidade,2026-07-21,11970,1388794,92963560000160-1-000873/2026
+915,MG,São Tiago,Capacitação,nao,Dispensa,2026-07-21,600,11559,17749904000117-1-000090/2026
+916,RS,Ubiretama,Capacitação,nao,Dispensa,2026-07-21,1398,2025,01611538000103-1-000971/2026
+917,SC,Ibicaré,Capacitação,nao,Inexigibilidade,2026-07-22,1790,3295,82939448000130-1-000164/2026
+918,RJ,Pinheiral,Capacitação,nao,Inexigibilidade,2026-07-22,6120,25096,01612981000190-1-000128/2026
+919,RS,Morrinhos do Sul,Capacitação,nao,Inexigibilidade,2026-07-23,1398,3133,93317980000131-1-000306/2026
+920,RS,Porto Alegre,Capacitação,nao,Inexigibilidade,2026-07-23,6994,1388794,89522437000107-1-000082/2026
+921,RS,Caxias do Sul,Capacitação,nao,Inexigibilidade,2026-07-24,2800,479599,92862234000166-1-000146/2026
+922,PR,Engenheiro Beltrão,Código Tributário,sim,Dispensa,2026-07-24,18000,12347,76950039000131-1-000154/2026
+923,SC,Paraíso,Capacitação,nao,Inexigibilidade,2026-07-24,600,4394,80912009000108-1-000118/2026
+924,GO,Goiânia,Capacitação,nao,Inexigibilidade,2026-07-28,19800,1503256,08948407000157-1-000036/2026
+925,SC,Tunápolis,Capacitação,nao,Inexigibilidade,2026-07-28,600,5081,78486198000152-1-000280/2026
+926,RS,Guaporé,Capacitação,nao,Inexigibilidade,2026-07-29,1398,26168,87862397000109-1-000574/2026
+927,PR,Juranda,Capacitação,nao,Inexigibilidade,2026-07-29,5800,7899,78196755000109-1-000117/2026
+928,SC,São João do Oeste,Capacitação,nao,Inexigibilidade,2026-07-29,800,6467,80911936000103-1-000101/2026
+929,RS,Bento Gonçalves,Capacitação,nao,Inexigibilidade,2026-07-30,2370,127977,87849923000109-1-000480/2026
+930,MG,Ibirité,Consultoria,sim,Inexigibilidade,2026-07-30,336000,179582,18715490000178-1-000091/2026
+931,SC,Barra Bonita,Capacitação,nao,Inexigibilidade,2026-07-31,800,1642,01612527000130-1-000077/2026
+932,SC,Guarujá do Sul,Capacitação,nao,Inexigibilidade,2026-07-31,400,4893,83027045000187-1-000196/2026
+933,PR,Itaguajé,Capacitação,nao,Inexigibilidade,2026-07-31,102000,4530,76970359000153-1-000057/2026
+934,SC,Joaçaba,Capacitação,nao,Inexigibilidade,2026-07-31,2970,31809,84591890000143-1-000054/2026
+935,SC,Santa Helena,Capacitação,nao,Dispensa,2026-07-31,400,2476,80912140000175-1-000119/2026
+936,SC,São José do Cedro,Capacitação,nao,Inexigibilidade,2026-07-31,400,14538,83026781000110-1-000196/2026
+937,SC,São Miguel do Oeste,Capacitação,nao,Inexigibilidade,2026-07-31,1400,47724,82821174000180-1-000343/2026
+938,MG,Capim Branco,Capacitação,nao,Inexigibilidade,2026-08-03,3600,11210,18314617000147-1-000065/2026
+939,MG,Marmelópolis,Capacitação,nao,Inexigibilidade,2026-08-03,1499,3314,11838525000117-1-000026/2026
+940,MG,Barroso,Capacitação,nao,Inexigibilidade,2026-08-05,600,20604,18094755000168-1-000129/2026
+941,SC,Mondaí,Capacitação,nao,Inexigibilidade,2026-08-05,400,10206,83028415000109-1-000108/2026
+942,SC,Princesa,Capacitação,nao,Inexigibilidade,2026-08-05,400,3073,01612836000100-1-000104/2026
+943,MG,Extrema,Capacitação,nao,Inexigibilidade,2026-08-06,1800,59336,19038603000100-1-000093/2026
+944,ES,Pedro Canário,Capacitação,nao,Inexigibilidade,2026-08-06,8924,21923,27559947000193-1-000013/2026
+945,SP,Piratininga,Capacitação,nao,Inexigibilidade,2026-08-06,1200,15657,46137451000176-1-000318/2026
+946,RS,Osório,Capacitação,nao,Inexigibilidade,2026-08-07,3145,48999,88814181000130-1-000392/2026
+947,SE,São Cristóvão,Capacitação,nao,Inexigibilidade,2026-08-07,2400,101213,08029275000160-1-000059/2026
+948,RS,Xangri-lá,Capacitação,nao,Inexigibilidade,2026-08-08,690,16949,94436367000104-1-000085/2026
+949,PR,Lindoeste,Consultoria,sim,Inexigibilidade,2026-08-10,139300,5217,80881915000192-1-000060/2026
+950,SC,São Ludgero,Capacitação,nao,Inexigibilidade,2026-08-10,2800,14444,82926536000105-1-000129/2026
+951,RJ,Arraial do Cabo,Capacitação,nao,Inexigibilidade,2026-08-11,44910,32822,27792373000107-1-000161/2026
+952,PR,Curitiba,Capacitação,nao,Inexigibilidade,2026-08-11,10796.12,1830795,77636520000110-1-000046/2026
+953,MG,Fama,Capacitação,nao,Inexigibilidade,2026-08-11,1099,2676,18243253000151-1-000109/2026
+954,SP,Pindamonhangaba,Capacitação,nao,Inexigibilidade,2026-08-11,1310,172681,53327359000134-1-000068/2026
+955,SP,Registro,Capacitação,nao,Inexigibilidade,2026-08-11,7500,61927,45685872000179-1-000285/2026
+956,MG,Gonçalves,Capacitação,nao,Dispensa,2026-08-12,2580,4922,18025932000154-1-000128/2026
+957,PR,Itaperuçu,Capacitação,nao,Inexigibilidade,2026-08-12,10240,33310,95422846000126-1-000208/2026
+958,MT,Lucas do Rio Verde,Capacitação,nao,Inexigibilidade,2026-08-12,39990,95792,24772246000140-1-000114/2026
+959,PR,Toledo,Capacitação,nao,Inexigibilidade,2026-08-13,52000,160701,76205806000188-1-000182/2026
+960,RJ,Casimiro de Abreu,Capacitação,nao,Inexigibilidade,2026-08-14,70000,48636,29115458000178-1-000112/2026
+961,SC,Joinville,Capacitação,nao,Inexigibilidade,2026-08-14,2700,664541,83169623000110-1-000486/2026
+962,SP,Meridiano,Capacitação,nao,Inexigibilidade,2026-08-14,16840,4721,45116092000108-1-000105/2026
+963,PR,Terra Roxa,Capacitação,nao,Inexigibilidade,2026-08-14,1590,18636,78120219000111-1-000020/2026
+964,RS,Carazinho,Capacitação,nao,Inexigibilidade,2026-08-17,3180,63670,87613535000116-1-000454/2026
+965,RS,Farroupilha,Capacitação,nao,Dispensa,2026-08-17,11940,72552,89848949000150-1-001010/2026
+966,MG,Juatuba,Capacitação,nao,Inexigibilidade,2026-08-17,600,33249,64487614000122-1-000162/2026
+967,RS,Porto Vera Cruz,Capacitação,nao,Inexigibilidade,2026-08-18,1887,1582,91105452000193-1-000316/2026
+968,MG,Três Corações,Capacitação,nao,Inexigibilidade,2026-08-18,2398,78291,25641200000154-1-000100/2026
+969,MG,Borda da Mata,Capacitação,nao,Inexigibilidade,2026-08-19,3780,17837,74068982000190-1-000028/2026
+970,MA,Anajatuba,Capacitação,nao,Inexigibilidade,2026-08-20,2000,26250,06002372000133-1-000084/2026
+971,SC,Balneário Camboriú,Capacitação,nao,Inexigibilidade,2026-08-20,3400,151674,83102285000107-1-000474/2026
+972,MG,Belo Horizonte,Capacitação,nao,Inexigibilidade,2026-08-20,23760,2415872,17316563000196-1-000046/2026
+973,MA,Coelho Neto,Assessoria jurídica,sim,Inexigibilidade,2026-08-20,300000,42841,05281738000198-1-000098/2026
+974,PR,Mandaguaçu,Capacitação,nao,Inexigibilidade,2026-08-20,4380,34521,76285329000108-1-000173/2026
+975,RS,Santo Cristo,Capacitação,nao,Inexigibilidade,2026-08-20,1887,15667,87612818000143-1-000398/2026
+976,MT,Sapezal,Capacitação,nao,Dispensa,2026-08-20,1899,32514,01639708000150-1-000053/2026
+977,SP,Leme,Capacitação,nao,Inexigibilidade,2026-08-21,31900,101537,46362661000168-1-001688/2026
+978,RJ,Macaé,Capacitação,nao,Inexigibilidade,2026-08-21,22455,264439,29115474000160-1-000564/2026
+979,RS,Piratini,Capacitação,nao,Inexigibilidade,2026-08-22,1832,17770,88861448000140-1-000480/2026
+980,PR,Cruzeiro do Oeste,Capacitação,nao,Inexigibilidade,2026-08-24,25110,24859,00949401000192-1-000025/2026
+981,MG,Itabirito,Capacitação,nao,Inexigibilidade,2026-08-24,2370,56369,18366963000179-1-000106/2026
+982,SC,Presidente Getúlio,Capacitação,nao,Inexigibilidade,2026-08-24,2800,21764,83102434000120-1-000142/2026
+983,SC,Braço do Norte,Capacitação,nao,Inexigibilidade,2026-08-25,8400,35985,82926551000145-1-000145/2026
+984,RJ,Cabo Frio,Capacitação,nao,Inexigibilidade,2026-08-25,4990,238438,28549483000105-1-000138/2026
+985,RS,Piratini,Capacitação,nao,Inexigibilidade,2026-08-26,1740,17770,88861448000140-1-000488/2026
+986,GO,Pirenópolis,Capacitação,nao,Inexigibilidade,2026-08-28,29870,28028,01067941000105-1-000048/2026
+987,RS,Santo Cristo,Capacitação,nao,Inexigibilidade,2026-08-29,2796,15667,87612818000143-1-000408/2026
+988,RS,Arroio Grande,Capacitação,nao,Inexigibilidade,2026-08-31,1490,17879,19013550000173-1-000115/2026
+989,PR,Castro,Capacitação,nao,Inexigibilidade,2026-08-31,32228.28,75644,77001311000108-1-000508/2026
+990,RS,Tramandaí,Consultoria,sim,Inexigibilidade,2026-08-31,132000,56430,88771001000180-1-000280/2026
+991,RS,Bento Gonçalves,Capacitação,nao,Inexigibilidade,2026-09-01,494,127977,87849923000109-1-000576/2026
+992,RS,Canguçu,Capacitação,nao,Dispensa,2026-09-01,494,50968,88861430000149-1-000930/2026
+993,RO,Ministro Andreazza,Capacitação,nao,Inexigibilidade,2026-09-02,10760,6519,63762074000185-1-000116/2026
+994,RN,Pau dos Ferros,Capacitação,nao,Inexigibilidade,2026-09-02,3150,32123,08148421000176-1-000152/2026
+995,MA,Penalva,Capacitação,nao,Inexigibilidade,2026-09-02,3000,33496,06179402000181-1-000083/2026
+996,SP,São Simão,Capacitação,nao,Inexigibilidade,2026-09-02,5850,13560,49224009000175-1-000014/2026
+997,PR,Nova Aurora,Capacitação,nao,Inexigibilidade,2026-09-04,4930,14331,76208859000152-1-000111/2026
+998,MA,Raposa,Capacitação,nao,Inexigibilidade,2026-09-04,4750,32156,01612325000198-1-000054/2026
+999,SP,Indaiatuba,Capacitação,nao,Dispensa,2026-09-09,11550,269657,44733608000109-1-000784/2026
+1000,RO,Colorado do Oeste,Capacitação,nao,Inexigibilidade,2026-09-10,18000,16508,04391512000187-1-000092/2026
+1001,ES,Itapemirim,Capacitação,nao,Inexigibilidade,2026-09-10,200,44020,27780220000131-1-000083/2026
+1002,BA,Jequié,Consultoria,sim,Inexigibilidade,2026-09-10,360000,169201,13894878000160-1-000128/2026
+1003,PR,Palotina,Assessoria jurídica,sim,Inexigibilidade,2026-09-10,4900,37039,76208487000164-1-000284/2026
+1004,SP,Pedregulho,Código Tributário,sim,Inexigibilidade,2026-09-10,60000,15737,45318466000178-1-000247/2026
+1005,BA,Canarana,Capacitação,nao,Inexigibilidade,2026-09-11,5386.5,25007,13714464000101-1-000096/2026
+1006,ES,Cariacica,Capacitação,nao,Inexigibilidade,2026-09-11,4990,376200,27150549000119-1-000204/2026
+1007,PE,Jaboatão dos Guararapes,Capacitação,nao,Inexigibilidade,2026-09-11,96000,684293,10377679000196-1-000223/2026
+1008,RO,Jaru,Capacitação,nao,Inexigibilidade,2026-09-11,5000,55682,05705900000158-1-000041/2026
+1009,MG,São Lourenço,Capacitação,nao,Inexigibilidade,2026-09-11,1368,46868,02388661000161-1-000046/2026
+1010,RS,São Martinho da Serra,Capacitação,nao,Inexigibilidade,2026-09-11,6360,2908,09643276000162-1-000021/2026
+1011,RS,Alvorada,Capacitação,nao,Inexigibilidade,2026-09-14,699,194062,88000906000157-1-000357/2026
+1012,RJ,Maricá,Capacitação,nao,Inexigibilidade,2026-09-14,11960,212470,29131075000193-1-000401/2026
+1013,RO,Pimenta Bueno,Capacitação,nao,Inexigibilidade,2026-09-14,7200,39220,84568872000140-1-000034/2026
+1014,RS,Pinhal Grande,Capacitação,nao,Inexigibilidade,2026-09-14,4870,3861,09035829000102-1-000016/2026
+1015,RS,São Francisco de Paula,Capacitação,nao,Inexigibilidade,2026-09-14,699,22388,88756879000147-1-000503/2026
+1016,RS,Canguçu,Capacitação,nao,Dispensa,2026-09-15,699,50968,88861430000149-1-000991/2026
+1017,RS,Capão do Leão,Capacitação,nao,Inexigibilidade,2026-09-15,3180,27416,23888377000124-1-000040/2026
+1018,RJ,Itaperuna,Capacitação,nao,Inexigibilidade,2026-09-15,2495,107297,28916716000152-1-000065/2026
+1019,RJ,Rio de Janeiro,Capacitação,nao,Inexigibilidade,2026-09-15,2690,6730729,42498733000148-1-001867/2026
+1020,MG,Unaí,Capacitação,nao,Inexigibilidade,2026-09-15,8070,91320,25838855000117-1-000059/2026
+1021,RJ,Araruama,Capacitação,nao,Inexigibilidade,2026-09-16,16053.7,137906,28531762000133-1-000090/2026
+1022,RS,Caxias do Sul,Capacitação,nao,Inexigibilidade,2026-09-16,657,479599,92862234000166-1-000186/2026
+1023,RS,Fagundes Varela,Capacitação,nao,Dispensa,2026-09-16,699,2620,91566893000192-1-000472/2026
+1024,RS,Sarandi,Capacitação,nao,Inexigibilidade,2026-09-16,8970,23374,97320030000117-1-000205/2026
+1025,PR,Campina Grande do Sul,Capacitação,nao,Inexigibilidade,2026-09-17,1300,50600,76105600000186-1-000277/2026
+1026,BA,Itacaré,Capacitação,nao,Inexigibilidade,2026-09-17,5386.5,29496,13846902000195-1-000114/2026
+1027,RS,Rio Grande,Capacitação,nao,Inexigibilidade,2026-09-17,15000,198935,88566872000162-1-000512/2026
+1028,SC,Concórdia,Capacitação,nao,Inexigibilidade,2026-09-18,25440,87206,83024257000100-1-000439/2026
+1029,RN,Natal,Capacitação,nao,Inexigibilidade,2026-09-18,12900,784249,08241747000658-1-000012/2026
+1030,MG,Lagoa da Prata,Capacitação,nao,Dispensa,2026-09-21,300,53927,18318618000160-1-000313/2026
+1031,MS,Laguna Carapã,Capacitação,nao,Inexigibilidade,2026-09-21,6300,7037,01989813000119-1-000077/2026
+1032,SP,Presidente Prudente,Capacitação,nao,Inexigibilidade,2026-09-21,2890,234706,67662726000160-1-000043/2026
+1033,RJ,Rio de Janeiro,Capacitação,nao,Inexigibilidade,2026-09-21,20760,6730729,42498733000148-1-001909/2026
+1034,PR,Ponta Grossa,Capacitação,nao,Inexigibilidade,2026-09-22,12900,375632,76175884000187-1-000434/2026
+1035,RS,Sete de Setembro,Capacitação,nao,Inexigibilidade,2026-09-22,1700,1881,01612776000125-1-000564/2026
+1036,SP,Sorocaba,Capacitação,nao,Inexigibilidade,2026-09-22,5320,762172,67366310000103-1-000117/2026
+1037,SC,Barra Velha,Capacitação,nao,Inexigibilidade,2026-09-23,3980,52860,83102830000157-1-000241/2026
+1038,PR,Faxinal,Capacitação,nao,Inexigibilidade,2026-09-23,3915,16596,75771295000107-1-000116/2026
+1039,SP,Monte Mor,Consultoria,sim,Inexigibilidade,2026-09-23,821000,67832,45787652000156-1-000220/2026
+1040,PR,Palotina,Capacitação,nao,Inexigibilidade,2026-09-23,22900,37039,76208487000164-1-000310/2026
+1041,GO,Planaltina,Capacitação,nao,Inexigibilidade,2026-09-23,37000,112304,01740422000166-1-000106/2026
+1042,RS,São Martinho da Serra,Capacitação,nao,Inexigibilidade,2026-09-23,3000,2908,09643276000162-1-000023/2026
+1043,BA,Alagoinhas,Capacitação,nao,Inexigibilidade,2026-09-24,5670,161196,13646005000138-1-000153/2026
+1044,RS,Mato Queimado,Capacitação,nao,Dispensa,2026-09-25,891,1833,04204318000145-1-000744/2026
+1045,SC,Itapiranga,Capacitação,nao,Inexigibilidade,2026-09-26,3980,17268,82821208000136-1-000206/2026
+1046,SC,Balneário Piçarras,Capacitação,nao,Inexigibilidade,2026-09-28,3870,30593,83102335000148-1-000216/2026
+1047,SP,Caieiras,Capacitação,nao,Dispensa,2026-09-28,5600,98549,49762792000120-1-000019/2026
+1048,SC,Imbituba,Capacitação,nao,Inexigibilidade,2026-09-28,1990,57256,79680005000162-1-000045/2026
+1049,MG,Pompéu,Capacitação,nao,Inexigibilidade,2026-09-28,7470,32441,01652208000158-1-000010/2026
+1050,PR,Paula Freitas,Capacitação,nao,Inexigibilidade,2026-09-29,2690,5706,01361051000101-1-000007/2026
+1051,RS,Nova Ramada,Capacitação,nao,Inexigibilidade,2026-09-30,3680,2198,01611828000149-1-000168/2026
+1052,PR,Paula Freitas,Capacitação,nao,Inexigibilidade,2026-09-30,2390,5706,01361051000101-1-000018/2026
+1053,RS,Viamão,Capacitação,nao,Inexigibilidade,2026-09-30,1398,231996,88000914000101-1-000216/2026
+1054,PR,Céu Azul,Capacitação,nao,Inexigibilidade,2026-10-01,8046,11255,76206473000101-1-000216/2026
+1055,SE,Estância,Capacitação,nao,Inexigibilidade,2026-10-01,9712.5,67060,13097050000180-1-000167/2026
+1056,MG,Extrema,Capacitação,nao,Inexigibilidade,2026-10-01,2520,59336,19038603000100-1-000114/2026
+1057,SC,Nova Erechim,Capacitação,nao,Dispensa,2026-10-01,1259.9,5490,83021840000168-1-000240/2026
+1058,SP,São José dos Campos,Capacitação,nao,Inexigibilidade,2026-10-01,8670,727078,50448935000103-1-000198/2026
+1059,RS,Mato Queimado,Capacitação,nao,Dispensa,2026-10-02,1840,1833,04204318000145-1-000770/2026
+1060,PR,Missal,Capacitação,nao,Inexigibilidade,2026-10-02,11160,11423,01579444000196-1-000020/2026
+1061,PR,Missal,Capacitação,nao,Inexigibilidade,2026-10-02,8370,11423,01579444000196-1-000018/2026
+1062,SP,Araras,Capacitação,nao,Dispensa,2026-10-05,3990,135744,44699908000100-1-000735/2026
+1063,GO,Planaltina,Capacitação,nao,Inexigibilidade,2026-10-05,4140,112304,01740422000166-1-000108/2026
+1064,SC,São Lourenço do Oeste,Capacitação,nao,Dispensa,2026-10-05,5700,26056,83021873000108-1-000790/2026
+1065,GO,Uruaçu,Capacitação,nao,Dispensa,2026-10-05,10500,44533,33331596000161-1-000101/2026
+1066,BA,Euclides da Cunha,Capacitação,nao,Inexigibilidade,2026-10-06,2290,64768,13698774000180-1-000196/2026
+1067,SP,São Paulo,Capacitação,nao,Inexigibilidade,2026-10-06,6580,11904961,50176270000126-1-000080/2026
+1068,PR,Alto Paraíso,Capacitação,nao,Inexigibilidade,2026-10-07,14950,3067,95640744000187-1-000033/2026
+1069,RS,Alvorada,Capacitação,nao,Inexigibilidade,2026-10-07,1887,194062,88000906000157-1-000396/2026
+1070,PE,Recife,Capacitação,nao,Inexigibilidade,2026-10-07,8580,1588376,08903189000134-1-000024/2026
+1071,SC,São Bernardino,Capacitação,nao,Inexigibilidade,2026-10-07,950,2715,01612812000150-1-000170/2026
+1072,MG,Unaí,Capacitação,nao,Inexigibilidade,2026-10-07,5476.8,91320,25838855000117-1-000067/2026
+1073,ES,Aracruz,Capacitação,nao,Inexigibilidade,2026-10-08,3870,103363,27142702000166-1-000455/2026
+1074,SC,Blumenau,Capacitação,nao,Inexigibilidade,2026-10-08,3930,385558,83779462000186-1-000112/2026
+1075,SP,Jaguariúna,Capacitação,nao,Inexigibilidade,2026-10-08,7803,62309,51313955000130-1-000020/2026
+1076,SC,Joinville,Capacitação,nao,Inexigibilidade,2026-10-08,10580,664541,83545244000187-1-000124/2026
+1077,SP,Leme,Capacitação,nao,Dispensa,2026-10-08,5160,101537,46362661000168-1-002094/2026
+1078,PR,Prudentópolis,Capacitação,nao,Inexigibilidade,2026-10-08,4700,50946,77003424000134-1-000344/2026
+1079,PR,Santa Terezinha de Itaipu,Capacitação,nao,Inexigibilidade,2026-10-08,7470,25300,75425314000135-1-000227/2026
+1080,PR,Arapongas,Capacitação,nao,Inexigibilidade,2026-10-09,10380,124838,75337089000185-1-000033/2026
+1081,SP,Botucatu,Capacitação,nao,Inexigibilidade,2026-10-09,6380,151053,46634101000115-1-000471/2026
+1082,SP,Sertãozinho,Capacitação,nao,Dispensa,2026-10-09,8400,132176,07750478000188-1-000657/2026
+1083,SP,Américo Brasiliense,Capacitação,nao,Dispensa,2026-10-13,2800,33708,50513589000108-1-000030/2026
+1084,MG,Ipatinga,Capacitação,nao,Dispensa,2026-10-13,15500,235311,19876424000142-1-000136/2026
+1085,SP,Meridiano,Código Tributário,sim,Dispensa,2026-10-13,26200.02,4721,45116092000108-1-000133/2026
+1086,PR,Nova Aurora,Capacitação,nao,Inexigibilidade,2026-10-13,12000,14331,76208859000152-1-000139/2026
+1087,PE,Recife,Capacitação,nao,Inexigibilidade,2026-10-13,2890,1588376,08903189000134-1-000025/2026
+1088,MA,São Luís,Capacitação,nao,Inexigibilidade,2026-10-13,8070,1089215,06307102000130-1-000503/2026
+1089,GO,Aruanã,Capacitação,nao,Inexigibilidade,2026-10-14,3240,8570,01067081000100-1-000520/2025
+1090,MG,Capim Branco,Capacitação,nao,Inexigibilidade,2026-10-14,2400,11210,18314617000147-1-000104/2026
+1091,RS,Caxias do Sul,Capacitação,nao,Inexigibilidade,2026-10-14,13850,479599,88659313000105-1-000169/2026
+1092,SC,Caçador,Capacitação,nao,Inexigibilidade,2026-10-14,1290,76298,00284689000123-1-000163/2026
+1093,RO,Vilhena,Capacitação,nao,Inexigibilidade,2026-10-14,12276,109651,04390977000113-1-000047/2026
+1094,AL,Arapiraca,Capacitação,nao,Inexigibilidade,2026-10-15,26450,243906,12198693000158-1-000219/2026
+1095,RS,Arroio Grande,Capacitação,nao,Inexigibilidade,2026-10-15,3180,17879,19013550000173-1-000145/2026
+1096,SP,Jambeiro,Capacitação,nao,Inexigibilidade,2026-10-15,9990,6611,01639935000185-1-000031/2026
+1097,RS,Jóia,Capacitação,nao,Inexigibilidade,2026-10-15,2980,7294,01656027000108-1-000033/2026
+1098,PR,Palmeira,Capacitação,nao,Inexigibilidade,2026-10-15,7470,34948,77780252000105-1-000081/2026
+1099,SC,Capinzal,Capacitação,nao,Inexigibilidade,2026-10-16,950,24414,78476447000129-1-000030/2026
+1100,SC,Galvão,Capacitação,nao,Inexigibilidade,2026-10-16,2100,3168,83009902000116-1-000053/2026
+1101,SP,Itapevi,Capacitação,nao,Inexigibilidade,2026-10-16,2180,242995,46523031000128-1-000182/2026
+1102,SC,Lajeado Grande,Capacitação,nao,Inexigibilidade,2026-10-16,1900,1791,06122891000135-1-000006/2026
+1103,PR,Santa Terezinha de Itaipu,Capacitação,nao,Inexigibilidade,2026-10-16,2490,25300,75425314000135-1-000242/2026
+1104,PR,Serranópolis do Iguaçu,Capacitação,nao,Inexigibilidade,2026-10-16,5180,5161,01613052000104-1-000150/2026
+1105,SC,São Miguel da Boa Vista,Capacitação,nao,Dispensa,2026-10-16,3150,1777,80912124000182-1-000200/2026
+1106,SC,Vargeão,Capacitação,nao,Inexigibilidade,2026-10-16,1900,3726,04532979000108-1-000015/2026
+1107,PR,Piên,Capacitação,nao,Inexigibilidade,2026-10-19,9960,14409,76002666000140-1-000278/2026
+1108,PA,Redenção,Capacitação,nao,Inexigibilidade,2026-10-19,20930,92694,04144168000121-1-000084/2026
+1109,SC,Tigrinhos,Capacitação,nao,Inexigibilidade,2026-10-19,5500,2535,01566620000155-1-000050/2026
+1110,SC,União do Oeste,Capacitação,nao,Inexigibilidade,2026-10-19,2850,2791,78505591000146-1-000178/2026
+1111,SC,Xavantina,Capacitação,nao,Inexigibilidade,2026-10-19,4200,3583,83009878000115-1-000078/2026
+1112,ES,Baixo Guandu,Capacitação,nao,Inexigibilidade,2026-10-20,11616,32829,28840427000117-1-000042/2026
+1113,MT,Barra do Bugres,Consultoria,sim,Inexigibilidade,2026-10-20,146100.01,29406,03507522000172-1-000050/2026
+1114,MG,Boa Esperança,Capacitação,nao,Dispensa,2026-10-20,4980,41443,18239590000175-1-000227/2026
+1115,MG,Boa Esperança,Capacitação,nao,Dispensa,2026-10-20,4980,41443,18239590000175-1-000226/2026
+1116,MT,Cáceres,Capacitação,nao,Inexigibilidade,2026-10-20,7960,91767,03960333000150-1-000066/2026
+1117,SP,Hortolândia,Capacitação,nao,Dispensa,2026-10-20,680,248842,67995027000132-1-000404/2026
+1118,SP,Mirandópolis,Consultoria,sim,Dispensa,2026-10-20,36000,28754,44438968000170-1-000063/2026
+1119,RJ,Niterói,Capacitação,nao,Inexigibilidade,2026-10-20,145962,516787,28521748000159-1-000247/2026
+1120,PR,Ponta Grossa,Capacitação,nao,Inexigibilidade,2026-10-20,5180,375632,76175884000187-1-000481/2026
+1121,PR,Pontal do Paraná,Capacitação,nao,Inexigibilidade,2026-10-20,5180,33131,01609843000152-1-000606/2026
+1122,PR,Rio Negro,Capacitação,nao,Inexigibilidade,2026-10-20,1500,31951,76002641000147-1-000413/2026
+1123,RS,Tiradentes do Sul,Capacitação,nao,Inexigibilidade,2026-10-20,3180,5188,10249991000102-1-000006/2026
+1124,SC,Xaxim,Capacitação,nao,Inexigibilidade,2026-10-20,950,34485,78501053000183-1-000033/2026
+1125,ES,Aracruz,Capacitação,nao,Inexigibilidade,2026-10-21,800,103363,27108141000189-1-000057/2026
+1126,SC,Jacinto Machado,Capacitação,nao,Inexigibilidade,2026-10-21,3580,10818,82960758000136-1-000337/2026
+1127,RS,Piratini,Capacitação,nao,Inexigibilidade,2026-10-21,916,17770,88861448000140-1-000551/2026
+1128,SC,Presidente Getúlio,Capacitação,nao,Inexigibilidade,2026-10-21,3408.16,21764,83102434000120-1-000178/2026
+1129,RS,Rio Grande,Capacitação,nao,Inexigibilidade,2026-10-21,2630,198935,88566872000162-1-000596/2026
+1130,RJ,Silva Jardim,Capacitação,nao,Inexigibilidade,2026-10-21,7740,22028,28741098000157-1-000140/2026
+1131,RO,Cacoal,Capacitação,nao,Inexigibilidade,2026-10-22,4180,98280,63789432000143-1-000063/2026
+1132,PR,Marechal Cândido Rondon,Capacitação,nao,Inexigibilidade,2026-10-22,14340,58734,76205814000124-1-000296/2026
+1133,MA,São Luís,Capacitação,nao,Inexigibilidade,2026-10-22,18000,1089215,06307102000130-1-000523/2026
+1134,RS,Cachoeira do Sul,Capacitação,nao,Inexigibilidade,2026-10-23,1490,82222,89201180000183-1-000077/2026
+1135,SP,Catanduva,Capacitação,nao,Dispensa,2026-10-23,7971.6,119275,45122603000102-1-000660/2026
+1136,ES,Iúna,Capacitação,nao,Inexigibilidade,2026-10-23,7000,30556,27167394000123-1-000088/2026
+1137,MT,Ipiranga do Norte,Consultoria,sim,Inexigibilidade,2026-10-26,730274.3,8658,07209245000172-1-000091/2026
+1138,RS,Rio Pardo,Capacitação,nao,Inexigibilidade,2026-10-26,4770,35641,05147344000141-1-000026/2026
+1139,SP,São Paulo,Capacitação,nao,Inexigibilidade,2026-10-26,3290,11904961,50176270000126-1-000091/2026
+1140,MT,Cláudia,Capacitação,nao,Inexigibilidade,2026-10-27,9000,9301,01310499000104-1-000137/2026
+1141,SC,Macieira,Capacitação,nao,Inexigibilidade,2026-10-27,1900,1796,95992020000100-1-000040/2026
+1142,SC,Painel,Capacitação,nao,Inexigibilidade,2026-10-27,13740,2216,01608820000123-1-000133/2026
+1143,RO,Teixeirópolis,Capacitação,nao,Inexigibilidade,2026-10-27,3990,4521,84722933000182-1-000075/2026
+1144,RO,Teixeirópolis,Capacitação,nao,Inexigibilidade,2026-10-27,3990,4521,84722933000182-1-000073/2026
+1145,RO,Teixeirópolis,Capacitação,nao,Inexigibilidade,2026-10-27,5980,4521,84722933000182-1-000071/2026
+1146,RO,Teixeirópolis,Consultoria,sim,Inexigibilidade,2026-10-27,2990,4521,84722933000182-1-000070/2026
+1147,SP,Campinas,Capacitação,nao,Inexigibilidade,2026-10-28,42000,1187974,51885242000140-1-000897/2026
+1148,PR,Curitiba,Capacitação,nao,Inexigibilidade,2026-10-28,2890,1830795,77636520000110-1-000065/2026
+1149,SC,Massaranduba,Capacitação,nao,Inexigibilidade,2026-10-28,3870,18122,83102483000162-1-000177/2026
+1150,RJ,Niterói,Capacitação,nao,Inexigibilidade,2026-10-28,14970,516787,28543098000142-1-000051/2026
+1151,RS,Porto Alegre,Capacitação,nao,Inexigibilidade,2026-10-28,10800,1388794,92963560000160-1-001400/2026
+1152,MT,Alta Floresta,Capacitação,nao,Inexigibilidade,2026-10-29,5400,62158,03544865000107-1-000017/2026
+1153,MG,Cordisburgo,Capacitação,nao,Dispensa,2026-10-29,300,7535,18116137000171-1-000187/2026
+1154,SP,Hortolândia,Capacitação,nao,Dispensa,2026-10-29,2970,248842,67995027000132-1-000430/2026
+1155,PR,Luiziana,Capacitação,nao,Inexigibilidade,2026-11-03,5394,6659,80888712000128-1-000047/2026
+1156,MG,Ouro Preto,Capacitação,nao,Inexigibilidade,2026-11-03,,77914,19146752000193-1-000018/2026
+1157,SP,Ourinhos,Capacitação,nao,Inexigibilidade,2026-11-04,10800,106911,53415717000160-1-000077/2026
+1158,MG,Ouro Preto,Capacitação,nao,Inexigibilidade,2026-11-04,900,77914,18295295000136-1-000284/2026
+1159,PR,Cascavel,Capacitação,nao,Inexigibilidade,2026-11-05,2601,368195,76208867000107-1-000631/2026
+1160,MT,Confresa,Capacitação,nao,Inexigibilidade,2026-11-05,2890,38460,37465358000108-1-000070/2026
+1161,MA,São Luís,Capacitação,nao,Inexigibilidade,2026-11-05,33520,1089215,06307102000130-1-000542/2026
+1162,MT,Campo Novo do Parecis,Capacitação,nao,Inexigibilidade,2026-11-06,1800,51722,24734238000109-1-000031/2026
+1163,MT,Cotriguaçu,Capacitação,nao,Inexigibilidade,2026-11-06,5700,10030,37465309000167-1-000088/2026
+1164,MT,Juína,Capacitação,nao,Inexigibilidade,2026-11-06,5400,48396,04709778000125-1-000027/2026
+1165,SC,Taió,Capacitação,nao,Inexigibilidade,2026-11-06,3990,18909,82765488000102-1-000191/2026
+1166,SC,Três Barras,Capacitação,nao,Inexigibilidade,2026-11-06,9960,20525,83528646000173-1-000031/2026
+1167,SC,Videira,Capacitação,nao,Inexigibilidade,2026-11-06,1290,59074,83039842000184-1-000346/2026
+1168,MG,Barroso,Capacitação,nao,Inexigibilidade,2026-11-09,600,20604,18094755000168-1-000173/2026
+1169,PB,Cabedelo,Capacitação,nao,Inexigibilidade,2026-11-09,5380,70734,41216755000105-1-000014/2026
+1170,PR,Campo Largo,Capacitação,nao,Inexigibilidade,2026-11-09,6264,144504,01653199000110-1-000030/2026
+1171,MT,Querência,Capacitação,nao,Inexigibilidade,2026-11-09,4400,31100,03892042000172-1-000056/2026
+1172,SC,Videira,Capacitação,nao,Inexigibilidade,2026-11-09,5380,59074,78511326000170-1-000034/2026
+1173,SP,Leme,Capacitação,nao,Inexigibilidade,2026-11-10,8970,101537,46362661000168-1-002408/2026
+1174,MA,São Luís,Capacitação,nao,Inexigibilidade,2026-11-10,33520,1089215,06307102000130-1-000553/2026
+1175,SP,São Paulo,Capacitação,nao,Inexigibilidade,2026-11-10,9380,11904961,08082743000160-1-000075/2026
+1176,MG,Curvelo,Capacitação,nao,Inexigibilidade,2026-11-11,900,84297,17695024000105-1-000146/2026
+1177,PR,Marechal Cândido Rondon,Capacitação,nao,Inexigibilidade,2026-11-11,10450,58734,76205814000124-1-000310/2026
+1178,MT,Primavera do Leste,Capacitação,nao,Inexigibilidade,2026-11-11,2890,96006,24672727000183-1-000034/2026
+1179,SC,Paraíso,Capacitação,nao,Inexigibilidade,2026-11-12,900,4394,80912009000108-1-000201/2026
+1180,MG,São Brás do Suaçuí,Capacitação,nao,Inexigibilidade,2026-11-12,900,4161,20356754000196-1-000077/2026
+1181,SC,Tunápolis,Capacitação,nao,Inexigibilidade,2026-11-12,1350,5081,78486198000152-1-000367/2026
+1182,ES,Aracruz,Capacitação,nao,Inexigibilidade,2026-11-13,2690,103363,27142702000166-1-000494/2026
+1183,MG,Carmo de Minas,Capacitação,nao,Inexigibilidade,2026-11-13,600,14125,18188243000160-1-000128/2026
+1184,SC,Três Barras,Capacitação,nao,Inexigibilidade,2026-11-13,6570,20525,11828418000108-1-000021/2026
+1185,MG,Curvelo,Capacitação,nao,Inexigibilidade,2026-11-16,900,84297,17695024000105-1-000149/2026
+1186,MG,São Tiago,Capacitação,nao,Dispensa,2026-11-16,600,11559,17749904000117-1-000134/2026
+1187,SC,Guaraciaba,Capacitação,nao,Inexigibilidade,2026-11-17,450,11071,82821216000182-1-000256/2026

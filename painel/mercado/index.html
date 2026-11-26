@@ -1,0 +1,555 @@
+<meta name="dash-one-writer">
+<meta name="dash-form" content="freeform">
+<style>
+.rt { display: grid; gap: var(--cds-gap-xl); font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+.rt h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+.rt h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; text-wrap: balance; }
+.rt h3 { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); margin: 0; }
+.rt p { margin: 0; max-width: 70ch; line-height: 1.5; }
+.rt .muted { color: var(--color-fg-muted); }
+.rt .cap { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.rt .eyebrow { font-size: var(--cds-font-size-caption); letter-spacing: .06em; text-transform: uppercase; color: var(--color-fg-muted); }
+.rt section { display: grid; gap: var(--cds-gap-md); min-width: 0; }
+.rt .head { display: grid; gap: var(--cds-gap-sm); }
+.rt .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: var(--cds-gap-md); }
+.rt .card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: grid; gap: var(--cds-gap-xs); align-content: start; min-width: 0; }
+.rt .big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; line-height: 1.1; }
+.rt .num { font-variant-numeric: tabular-nums; }
+.rt .split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: var(--cds-gap-lg); align-items: start; }
+@media (max-width: 760px) { .rt .split { grid-template-columns: minmax(0, 1fr); } }
+.rt .seg { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); }
+.rt .seg button { font: inherit; font-size: var(--cds-font-size-caption); padding: 6px 12px; border-radius: 999px; border: 1px solid var(--color-border-line); background: var(--color-bg); color: var(--color-fg); cursor: pointer; }
+.rt .seg button[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); border-color: var(--color-fg); }
+.rt .seg button:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+.rt .chart { position: relative; min-height: 220px; min-width: 0; }
+.rt .chart svg { display: block; width: 100%; height: auto; }
+.rt .chart text { font-family: var(--font-anthropic-sans); }
+.rt .tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); box-shadow: var(--cds-shadow-popover); border-radius: var(--cds-radius); padding: 8px 10px; font-size: var(--cds-font-size-caption); line-height: 1.4; min-width: 170px; z-index: 2; }
+.rt .tip b { display: block; font-weight: var(--cds-font-weight-medium); }
+.rt .tablewrap { overflow-x: auto; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); }
+.rt table { border-collapse: collapse; width: 100%; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+.rt th, .rt td { padding: 7px 10px; text-align: right; border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+.rt th:first-child, .rt td:first-child, .rt th:nth-child(2), .rt td:nth-child(2) { text-align: left; }
+.rt thead th { color: var(--color-fg-muted); font-weight: var(--cds-font-weight-medium); background: var(--color-panel); cursor: pointer; user-select: none; }
+.rt thead th[aria-sort] { color: var(--color-fg); }
+.rt tbody tr:last-child td { border-bottom: 0; }
+.rt .bar { display: inline-block; height: 6px; border-radius: 3px; vertical-align: middle; margin-left: 6px; }
+.rt .offer { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: var(--cds-gap-md); }
+.rt .price { font-variant-numeric: tabular-nums; font-size: var(--cds-font-size-heading); }
+.rt .tag { display: inline-block; font-size: var(--cds-font-size-caption); padding: 2px 8px; border-radius: 999px; border: 1px solid var(--color-border-line); color: var(--color-fg-muted); width: fit-content; }
+.rt ul, .rt ol { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; max-width: 72ch; line-height: 1.5; }
+.rt .risk { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--cds-gap-md); }
+.rt .risk .card { border-left: 3px solid var(--color-warn); }
+.rt details summary { cursor: pointer; color: var(--color-fg-muted); }
+.rt details[open] { display: grid; gap: var(--cds-gap-sm); }
+.rt .sep { border: 0; border-top: 1px solid var(--color-border-line); margin: 0; }
+</style>
+
+<div class="rt">
+  <header class="head" id="topo">
+    <div class="eyebrow">Monteiro Advogados · Inteligência de mercado · PNCP</div>
+    <h1>Reforma Tributária nos municípios: onde está o mercado</h1>
+    <p data-read lang="pt-BR"><span data-draw="n" data-source="resumo" data-field="municipios" data-row="0" data-fmt="int" class="dash-skeleton">—</span> municípios já contrataram algo ligado à reforma tributária ou ao Código Tributário desde 2024, de <span data-draw="n" data-source="resumo" data-field="total_br" data-row="0" data-fmt="int" class="dash-skeleton">—</span> no país. Só <span data-draw="n" data-source="resumo" data-field="mun_servicos" data-row="0" data-fmt="int" class="dash-skeleton">—</span> contrataram serviço técnico (consultoria, novo CTM ou assessoria jurídica). Os outros <span data-draw="n" data-source="resumo" data-field="leads" data-row="0" data-fmt="int" class="dash-skeleton">—</span> ficaram só em cursos e são a porta de entrada mais quente.</p>
+  </header>
+
+  <section class="kpis" id="indicadores" aria-label="Indicadores">
+    <div class="card">
+      <span class="cap">Municípios que já contrataram</span>
+      <span class="big" data-draw="n" data-source="resumo" data-field="municipios" data-row="0" data-fmt="int">—</span>
+      <span class="cap"><span data-draw="n" data-source="resumo" data-field="penetracao" data-row="0" data-fmt="pct">—</span> dos municípios do Brasil</span>
+    </div>
+    <div class="card">
+      <span class="cap">Contrataram serviço técnico</span>
+      <span class="big" data-draw="n" data-source="resumo" data-field="mun_servicos" data-row="0" data-fmt="int">—</span>
+      <span class="cap"><span data-draw="n" data-source="resumo" data-field="contr_servicos" data-row="0" data-fmt="int">—</span> contratos de consultoria, CTM e assessoria jurídica</span>
+    </div>
+    <div class="card">
+      <span class="cap">Ticket mediano de serviço</span>
+      <span class="big" data-draw="n" data-source="resumo" data-field="mediana_servicos" data-row="0" data-fmt="brl">—</span>
+      <span class="cap">Metade dos contratos fica entre <span data-draw="n" data-source="resumo" data-field="p25_servicos" data-row="0" data-fmt="brl">—</span> e <span data-draw="n" data-source="resumo" data-field="p75_servicos" data-row="0" data-fmt="brl">—</span></span>
+    </div>
+    <div class="card">
+      <span class="cap">Serviços por inexigibilidade</span>
+      <span class="big" data-draw="n" data-source="resumo" data-field="pct_inex" data-row="0" data-fmt="pct">—</span>
+      <span class="cap">Contratação direta por notória especialização é o caminho dominante</span>
+    </div>
+  </section>
+
+  <section id="estados">
+    <div class="head">
+      <h2>Comparativo entre estados</h2>
+      <p class="muted">Escolha o indicador. O mapa em grade põe cada estado na sua posição aproximada; a barra ao lado ordena do maior para o menor.</p>
+    </div>
+    <div class="seg" role="group" aria-label="Indicador do mapa">
+      <button type="button" data-metric="municipios" aria-pressed="true">Municípios que contrataram</button>
+      <button type="button" data-metric="penetracao" aria-pressed="false">% dos municípios do estado</button>
+      <button type="button" data-metric="media_servicos" aria-pressed="false">Valor médio de serviço</button>
+      <button type="button" data-metric="leads" aria-pressed="false">Leads (só fizeram curso)</button>
+    </div>
+    <div class="split">
+      <div class="chart" id="mapa-uf" data-draw="mapa" data-source="por_uf"></div>
+      <div class="chart" id="barras-uf" data-draw="barras" data-source="por_uf"></div>
+    </div>
+    <div class="tablewrap" id="tabela-uf">
+      <table data-source="por_uf" data-row-key="uf">
+        <thead>
+          <tr>
+            <th data-field="uf" data-sort="uf">UF</th>
+            <th data-field="regiao" data-sort="regiao">Região</th>
+            <th data-field="municipios" data-sort="municipios">Municípios que contrataram</th>
+            <th data-field="total_municipios" data-sort="total_municipios">Municípios (IBGE)</th>
+            <th data-field="penetracao" data-sort="penetracao">% do estado</th>
+            <th data-field="contratacoes" data-sort="contratacoes">Contratações</th>
+            <th data-field="mun_servicos" data-sort="mun_servicos">Com serviço técnico</th>
+            <th data-field="leads" data-sort="leads">Leads</th>
+            <th data-field="media_servicos" data-sort="media_servicos">Valor médio serviço</th>
+            <th data-field="mediana_servicos" data-sort="mediana_servicos">Mediana serviço</th>
+            <th data-field="media_capacitacao" data-sort="media_capacitacao">Valor médio curso</th>
+            <th data-field="valor_total" data-sort="valor_total">Valor total</th>
+          </tr>
+        </thead>
+        <tbody data-draw="tabela"></tbody>
+      </table>
+    </div>
+    <p class="cap">Clique no cabeçalho para ordenar. Valores médios ignoram contratos simbólicos de êxito (abaixo de R$ 100). Médias com poucos contratos oscilam muito: confira a coluna de contratações antes de comparar.</p>
+  </section>
+
+  <section id="tickets">
+    <div class="head">
+      <h2>Quanto cada tipo de contrato vale</h2>
+      <p class="muted">Faixa entre o 1º e o 3º quartil (metade central dos contratos), com a mediana marcada. Escala logarítmica, porque cursos e consultorias diferem em duas ordens de grandeza.</p>
+    </div>
+    <div class="chart" id="faixas" data-draw="faixas" data-source="por_categoria" style="min-height:200px"></div>
+  </section>
+
+  <section id="ritmo">
+    <div class="head">
+      <h2>O mercado está acelerando</h2>
+      <p class="muted">Contratações publicadas por ano (2026 até 26/11). Serviços técnicos passaram de <span data-draw="n" data-source="por_ano" data-field="servicos" data-where="ano=2024" data-fmt="int">—</span> em 2024 para <span data-draw="n" data-source="por_ano" data-field="servicos" data-where="ano=2026" data-fmt="int">—</span> em 2026.</p>
+    </div>
+    <div class="chart" id="anos" data-draw="anos" data-source="por_ano" style="min-height:200px"></div>
+  </section>
+
+  <hr class="sep">
+
+  <section id="modelo">
+    <div class="head">
+      <div class="eyebrow">Modelo de negócio</div>
+      <h2>Monteiro: assessoria tributária municipal para a transição da reforma</h2>
+      <p data-read lang="pt-BR">A EC 132/2023 e a LC 214/2025 substituem o ISS pelo IBS ao longo da transição (testes em 2026, redução do ISS de 2029 a 2032 e extinção em 2033). Todo município precisa revisar o Código Tributário, preparar o fisco para o IBS e proteger a receita própria que sobra (IPTU, ITBI, taxas, contribuições). A procura já existe e cresce, mas a maior parte ainda está em cursos. A tese é entrar como escritório jurídico especializado que entrega o pacote completo: diagnóstico, nova legislação e acompanhamento.</p>
+    </div>
+
+    <h3 id="oferta">Oferta e preço de referência</h3>
+    <div class="offer">
+      <div class="card" id="produto-ctm">
+        <span class="tag">Carro-chefe</span>
+        <h3>Diagnóstico + novo Código Tributário</h3>
+        <p class="muted">Diagnóstico da legislação e da arrecadação, minuta do novo CTM adequado à EC 132/LC 214, regulamentação e defesa do projeto na Câmara.</p>
+        <span class="price"><span data-draw="n" data-source="por_categoria" data-field="p25" data-where="categoria=C%C3%B3digo%20Tribut%C3%A1rio" data-fmt="brl">—</span> a <span data-draw="n" data-source="por_categoria" data-field="p75" data-where="categoria=C%C3%B3digo%20Tribut%C3%A1rio" data-fmt="brl">—</span></span>
+        <span class="cap">Mediana de mercado <span data-draw="n" data-source="por_categoria" data-field="mediana" data-where="categoria=C%C3%B3digo%20Tribut%C3%A1rio" data-fmt="brl">—</span>. Responsável técnica pelo diagnóstico: Liege Pelissari.</span>
+      </div>
+      <div class="card" id="produto-assessoria">
+        <span class="tag">Receita recorrente</span>
+        <h3>Assessoria contínua na transição</h3>
+        <p class="muted">Contrato de 12 meses: pareceres, apoio ao fisco, adequação de rotinas de ISS/IBS, acompanhamento do Comitê Gestor e das normas regulamentares.</p>
+        <span class="price"><span data-draw="n" data-source="por_categoria" data-field="p25" data-where="categoria=Consultoria" data-fmt="brl">—</span> a <span data-draw="n" data-source="por_categoria" data-field="p75" data-where="categoria=Consultoria" data-fmt="brl">—</span></span>
+        <span class="cap">Mediana de mercado <span data-draw="n" data-source="por_categoria" data-field="mediana" data-where="categoria=Consultoria" data-fmt="brl">—</span> por contrato</span>
+      </div>
+      <div class="card" id="produto-juridico">
+        <span class="tag">Complemento</span>
+        <h3>Assessoria jurídica tributária</h3>
+        <p class="muted">Contencioso administrativo, defesa de lançamentos, pareceres sobre ISS na transição e atuação perante o Tribunal de Contas.</p>
+        <span class="price"><span data-draw="n" data-source="por_categoria" data-field="p25" data-where="categoria=Assessoria%20jur%C3%ADdica" data-fmt="brl">—</span> a <span data-draw="n" data-source="por_categoria" data-field="p75" data-where="categoria=Assessoria%20jur%C3%ADdica" data-fmt="brl">—</span></span>
+        <span class="cap">Mediana de mercado <span data-draw="n" data-source="por_categoria" data-field="mediana" data-where="categoria=Assessoria%20jur%C3%ADdica" data-fmt="brl">—</span></span>
+      </div>
+      <div class="card" id="produto-curso">
+        <span class="tag">Porta de entrada</span>
+        <h3>Capacitação in company</h3>
+        <p class="muted">Curso para fiscais, procuradoria e vereadores sobre IBS, CBS e o novo CTM. Barato para o município e abre a conversa sobre o diagnóstico.</p>
+        <span class="price">até <span data-draw="n" data-source="por_categoria" data-field="p75" data-where="categoria=Capacita%C3%A7%C3%A3o" data-fmt="brl">—</span></span>
+        <span class="cap">Mediana de mercado <span data-draw="n" data-source="por_categoria" data-field="mediana" data-where="categoria=Capacita%C3%A7%C3%A3o" data-fmt="brl">—</span> (em geral inscrições individuais)</span>
+      </div>
+    </div>
+
+    <h3 id="alvos">Onde atacar primeiro</h3>
+    <p class="muted">Estados ordenados pelo potencial de leads: municípios que já pagaram curso sobre a reforma, mas ainda não contrataram serviço, multiplicados pelo ticket mediano de serviço no estado (ou o nacional, quando o estado tem menos de 3 contratos).</p>
+    <div class="tablewrap">
+      <table data-source="prioridade" data-row-key="uf">
+        <thead>
+          <tr>
+            <th data-field="uf">UF</th>
+            <th data-field="regiao">Região</th>
+            <th data-field="leads">Leads</th>
+            <th data-field="sem_servico">Municípios sem serviço</th>
+            <th data-field="ticket">Ticket de referência</th>
+            <th data-field="potencial">Potencial dos leads</th>
+          </tr>
+        </thead>
+        <tbody data-draw="prioridade"></tbody>
+      </table>
+    </div>
+
+    <h3 id="canais">Como vender</h3>
+    <ul>
+      <li><b>Contratação direta.</b> A maior parte dos serviços sai por inexigibilidade (Lei 14.133/2021, art. 74, III). O ativo comercial é o dossiê de notória especialização: atestados de prefeituras, publicações, equipe e metodologia própria de diagnóstico.</li>
+      <li><b>Dispensa por valor</b> (art. 75, II) para diagnósticos e cursos menores, que abrem a porta sem processo longo.</li>
+      <li><b>Curso primeiro, contrato depois.</b> Cursos são a compra mais comum. Oferecer capacitação in company e apresentar o diagnóstico ao fim do curso.</li>
+      <li><b>Entidades municipalistas.</b> Associações e confederações de municípios e consórcios intermunicipais aparecem como organizadoras de eventos sobre a reforma. Palestrar nesses eventos dá alcance regional com custo baixo.</li>
+      <li><b>Câmaras municipais.</b> Câmaras compram cursos e votam o novo CTM. Apoio técnico à Câmara reduz atrito na aprovação do projeto.</li>
+    </ul>
+
+    <h3 id="receita">Cenários de receita anual</h3>
+    <p class="muted">Hipóteses de volume definidas para este plano; preços pela mediana de mercado de cada produto (curso in company pelo 3º quartil). Ajuste os volumes à capacidade da equipe.</p>
+    <div class="tablewrap">
+      <table data-source="cenarios" data-row-key="cenario">
+        <thead>
+          <tr>
+            <th data-field="cenario">Cenário</th>
+            <th data-field="ctm">Novo CTM</th>
+            <th data-field="assessoria">Assessorias contínuas</th>
+            <th data-field="juridico">Assessoria jurídica</th>
+            <th data-field="cursos">Cursos in company</th>
+            <th data-field="receita">Receita estimada</th>
+            <th data-field="share">Fatia dos leads</th>
+          </tr>
+        </thead>
+        <tbody data-draw="cenarios"></tbody>
+      </table>
+    </div>
+    <div class="chart" id="cenarios-graf" data-draw="cenariosgraf" data-source="cenarios" style="min-height:150px"></div>
+
+    <h3 id="riscos">Riscos e cuidados</h3>
+    <div class="risk">
+      <div class="card"><h3>Controle externo</h3><p class="muted">Tribunais de Contas questionam inexigibilidade sem singularidade comprovada. O TCE-PR suspendeu cautelarmente um contrato de consultoria tributária em Cascavel/PR. Cada proposta precisa de justificativa de preço com contratos comparáveis do PNCP.</p></div>
+      <div class="card"><h3>Honorários de êxito</h3><p class="muted">Vários contratos aparecem com valor simbólico (R$ 0,20 a R$ 1), típico de remuneração por êxito. É um modelo mais exposto a questionamento; para reforma e CTM, preferir preço fixo por etapa.</p></div>
+      <div class="card"><h3>Concorrência</h3><p class="muted">Consultorias não jurídicas, institutos sem fins lucrativos e universidades (por dispensa) disputam o CTM. O diferencial do escritório é segurança jurídica da nova lei e defesa posterior.</p></div>
+      <div class="card"><h3>Publicidade da advocacia</h3><p class="muted">A prospecção deve seguir o Provimento OAB 205/2021: conteúdo informativo, palestras e publicações, sem captação direta de clientela.</p></div>
+    </div>
+
+    <h3 id="proximos">Próximos 90 dias</h3>
+    <ol>
+      <li>Montar o dossiê de notória especialização e um modelo de proposta com justificativa de preço baseada nesta base do PNCP.</li>
+      <li>Escolher 2 estados da lista de prioridade e mapear os leads de cada um (municípios que só fizeram curso).</li>
+      <li>Fechar um piloto de diagnóstico + CTM para gerar o primeiro atestado de capacidade técnica.</li>
+      <li>Oferecer palestra a uma associação de municípios dos estados escolhidos.</li>
+      <li>Atualizar esta base todo mês para acompanhar novos editais e ajustar preços.</li>
+    </ol>
+  </section>
+
+  <details id="notas">
+    <summary>Como os números foram calculados</summary>
+    <p class="cap">Base: contratações publicadas no PNCP por prefeituras, câmaras e autarquias municipais de 01/01/2024 a 26/11/2026 que citam reforma tributária (EC 132/2023, LC 214/2025, IBS/CBS) ou o Código/legislação tributária municipal, mais o levantamento manual anterior (que inclui consultoria tributária genérica). Classificação por palavras-chave. Exclui software, cadastro imobiliário, serviços bancários, recuperação de créditos e VAF/ICMS.</p>
+    <p class="cap">Serviço técnico = consultoria, Código Tributário e assessoria jurídica. Leads = municípios com pelo menos um curso e nenhum serviço técnico. Valor = total homologado ou, sem homologação, o estimado. Médias e quartis ignoram valores abaixo de R$ 100. Total de municípios por UF segundo o IBGE.</p>
+  </details>
+</div>
+
+<script>
+(function () {
+  const num = (v) => (v === null || v === undefined || v === '' ? null : +v);
+  const CAPAC = 'Capacitação';
+  const NOMES = { municipios: 'Municípios que contrataram', penetracao: '% dos municípios do estado', media_servicos: 'Valor médio de serviço', leads: 'Leads (só fizeram curso)' };
+  window.rtState = window.rtState || { metric: 'municipios', sort: { key: 'municipios', dir: -1 } };
+
+  dash.calc('por_uf', {
+    title: 'Comparativo por estado',
+    description: 'Municípios distintos que contrataram, penetração sobre o total do IBGE, leads e valores médios por UF.',
+    inputs: ['contratacoes', 'ibge_municipios'],
+    fn: (contratacoes, ibge_municipios) => ibge_municipios.map((u) => {
+      const rows = contratacoes.filter((r) => r.uf === u.uf);
+      const srv = rows.filter((r) => r.servico === 'sim');
+      const mun = new Set(rows.map((r) => r.municipio));
+      const munSrv = new Set(srv.map((r) => r.municipio));
+      const vs = srv.map((r) => +r.valor).filter((v) => r_ok(v));
+      const vc = rows.filter((r) => r.servico !== 'sim').map((r) => +r.valor).filter((v) => r_ok(v));
+      const va = rows.map((r) => (r.valor === null || r.valor === '' ? 0 : +r.valor));
+      function r_ok(v) { return Number.isFinite(v) && v >= 100; }
+      const total = +u.total_municipios;
+      return {
+        uf: u.uf, regiao: u.regiao, total_municipios: total,
+        municipios: mun.size, penetracao: total ? mun.size / total : 0,
+        contratacoes: rows.length, contr_servicos: srv.length, mun_servicos: munSrv.size,
+        leads: [...mun].filter((m) => !munSrv.has(m)).length,
+        media_servicos: vs.length ? Math.round(vs.reduce((a, b) => a + b, 0) / vs.length) : null,
+        mediana_servicos: vs.length ? Math.round(d3.median(vs)) : null,
+        media_capacitacao: vc.length ? Math.round(vc.reduce((a, b) => a + b, 0) / vc.length) : null,
+        valor_total: Math.round(va.reduce((a, b) => a + b, 0)),
+      };
+    }),
+  });
+
+  dash.calc('por_categoria', {
+    title: 'Valores por tipo de contrato',
+    description: 'Quantidade, quartis, mediana e média dos valores por categoria (ignora valores abaixo de R$ 100).',
+    inputs: ['contratacoes'],
+    fn: (contratacoes) => ['Código Tributário', 'Consultoria', 'Assessoria jurídica', 'Capacitação'].map((c) => {
+      const v = contratacoes.filter((r) => r.categoria === c).map((r) => +r.valor).filter((x) => Number.isFinite(x) && x >= 100 && r_nonempty(x)).sort(d3.ascending);
+      function r_nonempty(x) { return x !== 0; }
+      return {
+        categoria: c, contratacoes: contratacoes.filter((r) => r.categoria === c).length, com_valor: v.length,
+        p25: Math.round(d3.quantileSorted(v, 0.25)), mediana: Math.round(d3.quantileSorted(v, 0.5)),
+        p75: Math.round(d3.quantileSorted(v, 0.75)), media: Math.round(d3.mean(v)),
+      };
+    }),
+  });
+
+  dash.calc('por_ano', {
+    title: 'Contratações por ano',
+    description: 'Contratações publicadas por ano, separando serviços técnicos de cursos.',
+    inputs: ['contratacoes'],
+    fn: (contratacoes) => ['2024', '2025', '2026'].map((a) => {
+      const r = contratacoes.filter((x) => String(x.ano) === a);
+      return { ano: a, servicos: r.filter((x) => x.servico === 'sim').length, capacitacao: r.filter((x) => x.servico !== 'sim').length };
+    }),
+  });
+
+  dash.calc('resumo', {
+    title: 'Resumo do mercado',
+    description: 'Totais nacionais: municípios que contrataram, penetração, serviços técnicos, leads, ticket e participação da inexigibilidade.',
+    inputs: ['contratacoes', 'ibge_municipios'],
+    fn: (contratacoes, ibge_municipios) => {
+      const key = (r) => r.uf + '|' + r.municipio;
+      const srv = contratacoes.filter((r) => r.servico === 'sim');
+      const mun = new Set(contratacoes.map(key));
+      const munSrv = new Set(srv.map(key));
+      const total = d3.sum(ibge_municipios, (u) => +u.total_municipios);
+      const v = srv.map((r) => +r.valor).filter((x) => Number.isFinite(x) && x >= 100).sort(d3.ascending);
+      return [{
+        municipios: mun.size, total_br: total, penetracao: mun.size / total,
+        mun_servicos: munSrv.size, contr_servicos: srv.length,
+        leads: [...mun].filter((m) => !munSrv.has(m)).length,
+        mediana_servicos: Math.round(d3.quantileSorted(v, 0.5)),
+        p25_servicos: Math.round(d3.quantileSorted(v, 0.25)), p75_servicos: Math.round(d3.quantileSorted(v, 0.75)),
+        pct_inex: srv.filter((r) => r.modalidade === 'Inexigibilidade').length / srv.length,
+      }];
+    },
+  });
+
+  dash.calc('prioridade', {
+    title: 'Prioridade por estado',
+    description: 'Leads de cada UF vezes o ticket mediano de serviço no estado (nacional quando o estado tem menos de 3 contratos com valor).',
+    inputs: ['por_uf', 'resumo'],
+    fn: (por_uf, resumo) => por_uf.filter((u) => u.leads > 0).map((u) => {
+      const ticket = u.contr_servicos >= 3 && u.mediana_servicos ? u.mediana_servicos : resumo[0].mediana_servicos;
+      return { uf: u.uf, regiao: u.regiao, leads: u.leads, sem_servico: u.total_municipios - u.mun_servicos, ticket, potencial: u.leads * ticket };
+    }).sort((a, b) => b.potencial - a.potencial).slice(0, 10),
+  });
+
+  dash.calc('cenarios', {
+    title: 'Cenários de receita anual',
+    description: 'Volumes de contratos por ano (hipóteses do plano) vezes a mediana de mercado de cada produto; curso in company pelo 3º quartil.',
+    inputs: ['por_categoria', 'resumo'],
+    fn: (por_categoria, resumo) => {
+      const p = Object.fromEntries(por_categoria.map((c) => [c.categoria, c]));
+      const volumes = [
+        { cenario: 'Conservador', ctm: 4, assessoria: 3, juridico: 2, cursos: 8 },
+        { cenario: 'Base', ctm: 10, assessoria: 6, juridico: 4, cursos: 15 },
+        { cenario: 'Expansão', ctm: 20, assessoria: 12, juridico: 8, cursos: 30 },
+      ];
+      return volumes.map((v) => {
+        const receita = v.ctm * p['Código Tributário'].mediana + v.assessoria * p['Consultoria'].mediana + v.juridico * p['Assessoria jurídica'].mediana + v.cursos * p['Capacitação'].p75;
+        return { ...v, receita: Math.round(receita), share: (v.ctm + v.assessoria + v.juridico) / resumo[0].leads };
+      });
+    },
+  });
+
+  const fmtInt = d3.format(',.0f');
+  const brl = (v) => {
+    if (v === null || v === undefined || !Number.isFinite(+v)) return '–';
+    v = +v;
+    if (Math.abs(v) >= 1e6) return 'R$ ' + (v / 1e6).toLocaleString('pt-BR', { maximumFractionDigits: 1 }) + ' mi';
+    if (Math.abs(v) >= 1e3) return 'R$ ' + (v / 1e3).toLocaleString('pt-BR', { maximumFractionDigits: 1 }) + ' mil';
+    return 'R$ ' + v.toLocaleString('pt-BR', { maximumFractionDigits: 0 });
+  };
+  const pct = (v) => (v === null || !Number.isFinite(+v) ? '–' : (+v * 100).toLocaleString('pt-BR', { maximumFractionDigits: 1 }) + '%');
+  const int = (v) => (v === null || !Number.isFinite(+v) ? '–' : (+v).toLocaleString('pt-BR'));
+  const FMT = { int, brl, pct };
+  window.rtFmt = FMT;
+
+  function rowOf(el, d) {
+    if (el.dataset.row !== undefined) return d[+el.dataset.row];
+    const w = el.dataset.where;
+    if (!w) return d[0];
+    const [k, val] = w.split('=').map(decodeURIComponent);
+    return d.find((r) => String(r[k]) === val);
+  }
+
+  dash.draw('n', (el) => {
+    const s = dash.data(el.dataset.source);
+    if (s.status !== 'ok' || !s.data || !s.data.length) {
+      if (s.status !== 'loading') el.classList.remove('dash-skeleton');
+      el.textContent = '—'; return;
+    }
+    el.classList.remove('dash-skeleton');
+    const r = rowOf(el, s.data);
+    el.textContent = r ? FMT[el.dataset.fmt || 'int'](r[el.dataset.field]) : '—';
+  });
+
+  function metricFmt(m) { return m === 'penetracao' ? pct : m === 'media_servicos' ? brl : int; }
+
+  function tooltipHtml(tip, u) {
+    tip.replaceChildren();
+    const b = document.createElement('b'); b.textContent = u.uf + ' · ' + u.regiao; tip.append(b);
+    [['Municípios que contrataram', int(u.municipios) + ' de ' + int(u.total_municipios)], ['% do estado', pct(u.penetracao)], ['Com serviço técnico', int(u.mun_servicos)], ['Leads', int(u.leads)], ['Valor médio serviço', brl(u.media_servicos)], ['Contratações', int(u.contratacoes)]]
+      .forEach(([k, v]) => { const d = document.createElement('div'); d.textContent = k + ': ' + v; tip.append(d); });
+  }
+
+  const GRID = { RR: [2, 0], AP: [4, 0], AM: [1, 1], PA: [3, 1], MA: [4, 1], CE: [5, 1], RN: [6, 1], AC: [0, 2], RO: [1, 2], MT: [2, 2], TO: [3, 2], PI: [4, 2], PE: [5, 2], PB: [6, 2], MS: [2, 3], GO: [3, 3], DF: [4, 3], BA: [5, 3], AL: [6, 3], SP: [3, 4], MG: [4, 4], ES: [5, 4], SE: [6, 4], PR: [3, 5], RJ: [4, 5], SC: [3, 6], RS: [3, 7] };
+
+  dash.draw('mapa', (el) => {
+    const s = dash.data('por_uf');
+    if (s.status !== 'ok') { el.textContent = s.status === 'error' ? 'Não foi possível carregar os dados por estado.' : ''; return; }
+    el.replaceChildren();
+    const m = window.rtState.metric, f = metricFmt(m);
+    const W = Math.min(el.clientWidth || 360, 460), cell = W / 7, H = cell * 8;
+    const max = d3.max(s.data, (u) => +u[m] || 0) || 1;
+    const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Mapa em grade dos estados: ' + NOMES[m]);
+    const tip = document.createElement('div'); tip.className = 'tip'; tip.hidden = true; el.append(tip);
+    const g = svg.selectAll('g').data(s.data.filter((u) => GRID[u.uf])).join('g')
+      .attr('transform', (u) => `translate(${GRID[u.uf][0] * cell},${GRID[u.uf][1] * cell})`);
+    g.append('rect').attr('x', 2).attr('y', 2).attr('width', cell - 4).attr('height', cell - 4).attr('rx', 6)
+      .style('fill', dash.colors[0]).style('fill-opacity', (u) => 0.08 + 0.92 * ((+u[m] || 0) / max))
+      .style('stroke', 'var(--color-border-line)');
+    g.append('text').attr('x', cell / 2).attr('y', cell * 0.42).attr('text-anchor', 'middle')
+      .style('font-size', Math.max(10, cell * 0.2) + 'px').style('font-weight', 600)
+      .style('fill', (u) => ((+u[m] || 0) / max > 0.55 ? 'var(--color-bg)' : 'var(--color-fg)')).text((u) => u.uf);
+    g.append('text').attr('x', cell / 2).attr('y', cell * 0.72).attr('text-anchor', 'middle')
+      .style('font-size', Math.max(8, cell * 0.15) + 'px')
+      .style('fill', (u) => ((+u[m] || 0) / max > 0.55 ? 'var(--color-bg)' : 'var(--color-fg-muted)'))
+      .text((u) => (u[m] === null ? '–' : m === 'media_servicos' ? brl(u[m]).replace('R$ ', '') : f(u[m])));
+    g.on('pointermove', (ev, u) => {
+      tooltipHtml(tip, u); tip.hidden = false;
+      const [x, y] = d3.pointer(ev, el);
+      tip.style.left = Math.min(x + 12, el.clientWidth - 190) + 'px'; tip.style.top = (y + 12) + 'px';
+    }).on('pointerleave', () => { tip.hidden = true; });
+  });
+
+  dash.draw('barras', (el) => {
+    const s = dash.data('por_uf');
+    if (s.status !== 'ok') { el.textContent = s.status === 'error' ? 'Não foi possível carregar os dados por estado.' : ''; return; }
+    el.replaceChildren();
+    const m = window.rtState.metric, f = metricFmt(m);
+    const data = s.data.filter((u) => u[m] !== null && +u[m] > 0).sort((a, b) => b[m] - a[m]);
+    const W = el.clientWidth || 360, rowH = 20, top = 22, H = top + data.length * rowH + 4;
+    const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', NOMES[m] + ' por estado, em ordem decrescente');
+    svg.append('text').attr('x', 0).attr('y', 13).style('font-size', '12px').style('fill', 'var(--cds-text-secondary)').text(NOMES[m]);
+    const labelW = 30, valW = 70;
+    const x = d3.scaleLinear().domain([0, d3.max(data, (u) => +u[m])]).range([0, Math.max(40, W - labelW - valW)]);
+    const tip = document.createElement('div'); tip.className = 'tip'; tip.hidden = true; el.append(tip);
+    const g = svg.selectAll('g.r').data(data).join('g').attr('class', 'r').attr('transform', (u, i) => `translate(0,${top + i * rowH})`);
+    g.append('text').attr('x', 0).attr('y', 14).style('font-size', '12px').style('fill', 'var(--color-fg)').text((u) => u.uf);
+    g.append('rect').attr('x', labelW).attr('y', 4).attr('height', 12).attr('rx', 2).attr('width', (u) => Math.max(1, x(+u[m]))).style('fill', dash.colors[0]);
+    g.append('text').attr('x', (u) => labelW + x(+u[m]) + 6).attr('y', 14).style('font-size', '11px').style('fill', 'var(--cds-text-secondary)').text((u) => f(u[m]));
+    g.append('rect').attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH).style('fill', 'transparent')
+      .on('pointermove', (ev, u) => { tooltipHtml(tip, u); tip.hidden = false; const [px, py] = d3.pointer(ev, el); tip.style.left = Math.min(px + 12, el.clientWidth - 190) + 'px'; tip.style.top = (py + 12) + 'px'; })
+      .on('pointerleave', () => { tip.hidden = true; });
+  });
+
+  const COLS = [['uf', (v) => v], ['regiao', (v) => v], ['municipios', int], ['total_municipios', int], ['penetracao', pct], ['contratacoes', int], ['mun_servicos', int], ['leads', int], ['media_servicos', brl], ['mediana_servicos', brl], ['media_capacitacao', brl], ['valor_total', brl]];
+  dash.draw('tabela', (tb) => {
+    const s = dash.data('por_uf');
+    if (s.status !== 'ok') { tb.replaceChildren(); return; }
+    const { key, dir } = window.rtState.sort;
+    const data = s.data.slice().sort((a, b) => {
+      const x = a[key], y = b[key];
+      if (x === null) return 1; if (y === null) return -1;
+      return (typeof x === 'string' ? x.localeCompare(y) : x - y) * dir;
+    });
+    const maxM = d3.max(data, (u) => u.municipios) || 1;
+    tb.replaceChildren(...data.map((u) => {
+      const tr = document.createElement('tr');
+      COLS.forEach(([k, f]) => {
+        const td = document.createElement('td'); td.textContent = f(u[k]);
+        if (k === 'municipios') { const bar = document.createElement('span'); bar.className = 'bar'; bar.style.width = Math.round(40 * u[k] / maxM) + 'px'; bar.style.background = dash.colors[0]; td.append(bar); }
+        tr.append(td);
+      });
+      return tr;
+    }));
+  });
+
+  dash.draw('prioridade', (tb) => {
+    const s = dash.data('prioridade');
+    if (s.status !== 'ok') { tb.replaceChildren(); return; }
+    tb.replaceChildren(...s.data.map((u) => {
+      const tr = document.createElement('tr');
+      [u.uf, u.regiao, int(u.leads), int(u.sem_servico), brl(u.ticket), brl(u.potencial)].forEach((v) => { const td = document.createElement('td'); td.textContent = v; tr.append(td); });
+      return tr;
+    }));
+  });
+
+  dash.draw('cenarios', (tb) => {
+    const s = dash.data('cenarios');
+    if (s.status !== 'ok') { tb.replaceChildren(); return; }
+    tb.replaceChildren(...s.data.map((c) => {
+      const tr = document.createElement('tr');
+      [c.cenario, int(c.ctm), int(c.assessoria), int(c.juridico), int(c.cursos), brl(c.receita), pct(c.share)].forEach((v) => { const td = document.createElement('td'); td.textContent = v; tr.append(td); });
+      return tr;
+    }));
+  });
+
+  dash.draw('cenariosgraf', (el) => {
+    const s = dash.data('cenarios');
+    if (s.status !== 'ok') { el.replaceChildren(); return; }
+    el.replaceChildren();
+    const W = el.clientWidth || 360, rowH = 34, H = s.data.length * rowH + 6, lw = 92, vw = 80;
+    const x = d3.scaleLinear().domain([0, d3.max(s.data, (c) => c.receita)]).range([0, Math.max(40, W - lw - vw)]);
+    const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Receita anual estimada por cenário');
+    const g = svg.selectAll('g').data(s.data).join('g').attr('transform', (c, i) => `translate(0,${i * rowH + 4})`);
+    g.append('text').attr('x', 0).attr('y', 17).style('font-size', '12px').style('fill', 'var(--color-fg)').text((c) => c.cenario);
+    g.append('rect').attr('x', lw).attr('y', 4).attr('height', 18).attr('rx', 3).attr('width', (c) => x(c.receita)).style('fill', (c, i) => dash.colors[i % dash.colors.length]);
+    g.append('text').attr('x', (c) => lw + x(c.receita) + 6).attr('y', 17).style('font-size', '12px').style('fill', 'var(--color-fg)').text((c) => brl(c.receita));
+  });
+
+  dash.draw('faixas', (el) => {
+    const s = dash.data('por_categoria');
+    if (s.status !== 'ok') { el.textContent = s.status === 'error' ? 'Não foi possível carregar os valores.' : ''; return; }
+    el.replaceChildren();
+    const W = el.clientWidth || 360, lw = Math.min(150, W * 0.35), top = 8, rowH = 40, H = top + s.data.length * rowH + 24, right = 16;
+    const x = d3.scaleLog().domain([1000, 500000]).range([lw, W - right]).clamp(true);
+    const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Faixa de valores (1º a 3º quartil) e mediana por tipo de contrato');
+    const ticks = [1000, 5000, 20000, 100000, 500000].filter((t) => W > 420 || t !== 5000);
+    svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', x).attr('x2', x).attr('y1', top).attr('y2', H - 20).style('stroke', 'var(--cds-chart-grid)');
+    svg.append('g').selectAll('text').data(ticks).join('text').attr('x', x).attr('y', H - 6).attr('text-anchor', 'middle').style('font-size', '11px').style('fill', 'var(--cds-text-secondary)').text((t) => brl(t).replace('R$ ', ''));
+    const g = svg.selectAll('g.c').data(s.data).join('g').attr('class', 'c').attr('transform', (c, i) => `translate(0,${top + i * rowH})`);
+    g.append('text').attr('x', 0).attr('y', 21).style('font-size', '12px').style('fill', 'var(--color-fg)').text((c) => c.categoria);
+    g.append('rect').attr('x', (c) => x(c.p25)).attr('y', 10).attr('height', 16).attr('rx', 3).attr('width', (c) => Math.max(2, x(c.p75) - x(c.p25))).style('fill', (c, i) => dash.colors[i % dash.colors.length]).style('fill-opacity', 0.35);
+    g.append('rect').attr('x', (c) => x(c.mediana) - 1.5).attr('y', 6).attr('width', 3).attr('height', 24).style('fill', (c, i) => dash.colors[i % dash.colors.length]);
+    g.append('text').attr('x', (c) => Math.min(x(c.p75) + 6, W - 60)).attr('y', 22).style('font-size', '11px').style('fill', 'var(--cds-text-secondary)').text((c) => brl(c.mediana));
+  });
+
+  dash.draw('anos', (el) => {
+    const s = dash.data('por_ano');
+    if (s.status !== 'ok') { el.textContent = s.status === 'error' ? 'Não foi possível carregar a série anual.' : ''; return; }
+    el.replaceChildren();
+    const W = el.clientWidth || 360, H = 200, m = { t: 24, r: 8, b: 24, l: 8 };
+    const keys = ['servicos', 'capacitacao'], lab = { servicos: 'Serviços técnicos', capacitacao: 'Cursos' };
+    const x0 = d3.scaleBand().domain(s.data.map((d) => d.ano)).range([m.l, W - m.r]).padding(0.25);
+    const x1 = d3.scaleBand().domain(keys).range([0, x0.bandwidth()]).padding(0.08);
+    const y = d3.scaleLinear().domain([0, d3.max(s.data, (d) => Math.max(d.servicos, d.capacitacao))]).nice().range([H - m.b, m.t]);
+    const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Contratações por ano: serviços técnicos e cursos');
+    const lg = svg.append('g');
+    keys.forEach((k, i) => {
+      lg.append('rect').attr('x', m.l + i * 130).attr('y', 4).attr('width', 10).attr('height', 10).style('fill', dash.colors[i]);
+      lg.append('text').attr('x', m.l + i * 130 + 14).attr('y', 13).style('font-size', '12px').style('fill', 'var(--cds-text-secondary)').text(lab[k]);
+    });
+    const g = svg.selectAll('g.a').data(s.data).join('g').attr('class', 'a').attr('transform', (d) => `translate(${x0(d.ano)},0)`);
+    keys.forEach((k, i) => {
+      g.append('rect').attr('x', x1(k)).attr('width', x1.bandwidth()).attr('y', (d) => y(d[k])).attr('height', (d) => y(0) - y(d[k])).style('fill', dash.colors[i]);
+      g.append('text').attr('x', x1(k) + x1.bandwidth() / 2).attr('y', (d) => y(d[k]) - 4).attr('text-anchor', 'middle').style('font-size', '11px').style('fill', 'var(--color-fg)').text((d) => int(d[k]));
+    });
+    svg.append('g').selectAll('text').data(s.data).join('text').attr('x', (d) => x0(d.ano) + x0.bandwidth() / 2).attr('y', H - 6).attr('text-anchor', 'middle').style('font-size', '12px').style('fill', 'var(--cds-text-secondary)').text((d) => d.ano);
+  });
+
+  document.querySelectorAll('.rt .seg button').forEach((b) => b.addEventListener('click', () => {
+    window.rtState.metric = b.dataset.metric;
+    document.querySelectorAll('.rt .seg button').forEach((x) => x.setAttribute('aria-pressed', x === b ? 'true' : 'false'));
+    dash.draw('mapa'); dash.draw('barras');
+  }));
+  document.querySelectorAll('#tabela-uf th[data-sort]').forEach((th) => th.addEventListener('click', () => {
+    const k = th.dataset.sort, st = window.rtState.sort;
+    st.dir = st.key === k ? -st.dir : (k === 'uf' || k === 'regiao' ? 1 : -1); st.key = k;
+    document.querySelectorAll('#tabela-uf th[data-sort]').forEach((x) => x.removeAttribute('aria-sort'));
+    th.setAttribute('aria-sort', st.dir > 0 ? 'ascending' : 'descending');
+    dash.draw('tabela');
+  }));
+})();
+</script>
