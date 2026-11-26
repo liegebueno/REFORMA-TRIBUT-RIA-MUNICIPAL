@@ -10,6 +10,7 @@ Repositório privado. Contém dados de precificação e propostas comerciais: n�
 |---|---|
 | `dados/` | Planilha do levantamento (versão atual e a original de 21/09/2026) e as bases em CSV usadas nos painéis |
 | `painel/` | Código das páginas publicadas no Claude (painel de mercado e Informativo de Valores) |
+| `visualizar/` | Os dois painéis em arquivos .html independentes, para abrir no navegador |
 | `propostas/` | Propostas timbradas de Reforma Tributária (Rosário do Ivaí/PR e modelo para consórcio), minutas originais e o timbre |
 | `scripts/` | Scripts Python usados para coletar, filtrar e gerar os arquivos |
 
@@ -28,6 +29,13 @@ Contratações tributárias genéricas, sem menção à reforma, foram excluída
 - Informativo de Valores: https://claude.ai/artifact/E8g9VD6QUGf9roNXGhtKwo
 
 Os arquivos em `painel/` são o código dessas páginas. Eles rodam dentro do tipo "Data" dos artefatos do Claude (usam a API `dash` e `d3` fornecidas pela página) e não abrem sozinhos no navegador.
+
+### Versões para abrir no computador (`visualizar/`)
+
+- `visualizar/painel_mercado.html`: painel de mercado e modelo de negócio.
+- `visualizar/informativo_de_valores.html`: Informativo de Valores.
+
+Cada arquivo traz os dados e a biblioteca de gráficos embutidos: baixe e abra com dois cliques em qualquer navegador, mesmo sem internet. Os dados são os de 26/11/2026. Para gerar de novo, use `scripts/visualizar/montar.py` (o adaptador `shim.js` reproduz a API dos painéis do Claude).
 
 ## Propostas
 
